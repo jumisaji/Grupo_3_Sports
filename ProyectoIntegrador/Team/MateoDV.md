@@ -1,3 +1,3 @@
 Nombre: Mateo Della Vedova País: Argentina Profesión: Estudiante Edad: 18 cel: 2241539112
 
-Soy estudiante, entusiasta de aprender a facilitar las cosas y de comprender la simpleza de lo complejo. Me encanta la naturaleza en todas sus formas y en mis tiempos libres acostumbro apreciar una de las cosas que más me gustan, la música. 
+Soy estudiante, entusiasta de aprender a facilitar las cosas y de comprender la simpleza de lo complejo. Me encanta la naturaleza en todas sus formas y en mis tiempos libres acostumbro apreciar una de las cosas que más me gustan, la música...
