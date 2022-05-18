@@ -10,7 +10,7 @@ esta pagina que tomamos como referente nos brindo la idea de el home. tiene un h
 
 https://www.safetti.com/:
 
-de esta pagina robamos la idea de  el logo el login y el carrito dentro del primer flayer principal
+de esta pagina robamos la idea de  el logo, el login y el carrito dentro del primer flayer principal
 
 
 https://www.bikeclub.com.ar/:}
