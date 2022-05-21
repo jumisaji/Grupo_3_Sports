@@ -1,7 +1,7 @@
 
 1.	¿Qué producto o servicio brindamos?
 
-Indumentaria, equipos, bicicletas y accesorios deportivos de ciclismo. 
+Bicicletas de diferentes modalidades.
 
 2.	 ¿Qué audiencia es nuestro objetivo?
 
@@ -9,7 +9,7 @@ Hombres y mujeres de mediana edad, entre 18 y 45 años, con gustos por el deport
 
 3.	 ¿Cómo ajustamos nuestra oferta a nuestro público objetivo?
 
-Definiendo un perfil claro de nuestro público, conociendo sus gustos, pasatiempos e intereses. Así mismo tratar de interpretar su manera de ver el mundo, su cultura y el todo de lenguaje con el cual se comunican. Captación de atención por medio de contenido de valor (de interés e informativos). Presentar ofertas y productos innovadores con precios competitivos. Plataforma de autoservicio, que agiliza compras con muy pocos clicks. Diseño responsivo de nuestra plataforma, un sistema ágil de procesamiento de pagos y pedidos.  Fidelización por medio de dos membresías y puntos canjeables.
+Definiendo un perfil claro de nuestro público, conociendo sus gustos, pasatiempos e intereses. Así mismo tratar de interpretar su manera de ver el mundo, su cultura y el todo de lenguaje con el cual se comunican. Captación de atención por medio de contenido de valor (de interés e informativos). Presentar ofertas y productos innovadores con precios competitivos. Plataforma de autoservicio, que agiliza compras con muy pocos clicks. Diseño responsivo de nuestra plataforma, un sistema ágil de procesamiento de pagos y pedidos.  Fidelización por medio de membresías y puntos canjeables.
 
 
 ************* SOBRE NUESTRA TEMÁTICA 
@@ -17,7 +17,7 @@ Definiendo un perfil claro de nuestro público, conociendo sus gustos, pasatiemp
 
 1.	 Breve descripción de nuestra oferta de productos y/o servicios
 
-Ofrecemos todo tipo de calzado y ropa especializada para deportistas de media-alta intensidad, con materiales cómodos transpirables y duraderos, protecciones, accesorios, cascos, maletas, botellas de agua, bicicletas de modalidad todo terreno, de ruta, BMX. Diseños modernos, exclusivos y elegantes, con variedad de colores y estilos para cada gusto. 
+Ofrecemos todo tipo de bicicletas de modalidad todo terreno, de ruta, BMX. Diseños modernos, exclusivos y elegantes, con variedad de colores y estilos para cada gusto. 
 
 2.	Breve descripción de nuestro público esperado
 
@@ -27,5 +27,5 @@ Andrés es un joven 21 años, profesional en ingeniería de sistemas, vive con s
 
 3.	 Descripción de nuestro team.
 
-Somos un grupo multidisciplinar apasionados por la vida saludable, las prácticas deportivas, la alta calidad y el excelente servicio. Asimismo tenemos conocimientos en diferentes áreas, y experiencias de vida que contribuyen a ofrecer un servicio humano y productos innovadores con excelente calidad. GREAT TEAM!!
+Somos un grupo multidisciplinar apasionados por la vida saludable, las prácticas deportivas, la alta calidad y el excelente servicio. Asimismo tenemos conocimientos en diferentes áreas, y experiencias de vida que contribuyen a ofrecer un servicio humano y productos innovadores con excelente calidad. GREAT TEAM!! (Ver carpeta del proyecto TEAM)
 
