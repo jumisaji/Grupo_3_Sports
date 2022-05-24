@@ -27,5 +27,5 @@ Andrés es un joven 21 años, profesional en ingeniería de sistemas, vive con s
 
 3.	 Descripción de nuestro team.
 
-Somos un grupo multidisciplinar apasionados por la vida saludable, las prácticas deportivas, la alta calidad y el excelente servicio. Asimismo tenemos conocimientos en diferentes áreas, y experiencias de vida que contribuyen a ofrecer un servicio humano y productos innovadores con excelente calidad. GREAT TEAM!! (Ver carpeta del proyecto TEAM)
+Somos un grupo multidisciplinar apasionados por la vida saludable, las prácticas deportivas, la alta calidad y el excelente servicio. Asimismo tenemos conocimientos en diferentes áreas, y experiencias de vida que contribuyen a ofrecer un servicio humano y productos innovadores con excelente calidad. GREAT TEAM!! (Ver carpeta del proyecto TEAM para ver presentación de los miembros de nuestro equipo)
 
