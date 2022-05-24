@@ -10,7 +10,7 @@ Esta página que tomamos como referente nos brindó la idea del home. Tiene un h
 
 https://www.safetti.com/:
 
-De esta página nos inspiramos para basar las ideas del logo, el login y el carrito dentro del primer flayer principal.
+De esta página nos inspiramos para basar las ideas del logo, el login y el carrito dentro del primer flayer principal. Nos gustó la idea del registro.
 
 
 https://www.bikeclub.com.ar/:
@@ -25,5 +25,5 @@ Aunque la parte de detalle del producto fue mérito nuestro. cssport.com.ar nos 
 
 https://www.bicimarket.com/es/:
 
-La parte del login y el registro del usuario la sacamos de esta página gracias a que no pide muchas cosas y esta muy bien organizado.
+La parte del login y el registro del usuario tuvimos en cuentag esta página gracias a que no pide muchas cosas y esta muy bien organizado.
 
