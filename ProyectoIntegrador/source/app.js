@@ -11,5 +11,7 @@ const public = path.resolve(__dirname, '../public');
 server.use(express.static(public));
 
 server.get('/', (req,res) => res.sendFile(path.resolve(__dirname, '../views/home.html')))
+server.get('/ruta', (req,res) => res.sendFile(path.resolve(__dirname, '../views/ruta.html')))
+server.get('/bmx', (req,res) => res.sendFile(path.resolve(__dirname, '../views/bmx.html')))
 
 server.get('/', (req,res) => res.send('Bienvenid@ a Go Bike'));
