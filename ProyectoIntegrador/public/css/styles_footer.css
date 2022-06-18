@@ -1,0 +1,80 @@
+/* **************   ESTILOS EN FOOTER Y ELEMENTOS QUE LO COMPONEN   ************** */
+footer{
+    background-color: #0BA8A8;
+    font-family: kalam;
+    color: #070B80;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#secfooter p{
+    font-size: 14px;
+}
+
+#secfooter .fas{
+    color: #070B80;
+    font-size: 1.5rem;
+    margin: 3px;
+}
+
+#secfooter b{
+font-size: 16px;
+}
+
+#logo2 img{
+    width: 250px;
+    margin: 29px 1rem 10px 12px;
+    justify-content: flex-start;
+}
+
+#secfooter{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+#credit, #diamond, #security{
+    margin: 3px;
+    padding: 2px;
+}
+
+.novedad{
+    margin: 5px 15px; 
+    padding: 3px;
+}
+
+.redesFooter {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+margin: 3px;
+padding: 3px;
+align-items: center;
+}
+
+.redesFooter a{
+    justify-content: center;
+    width: 2rem;
+    color: #070B80;
+    font-size: 21px;
+}
+
+#derechosAutor{
+    display: flex;
+    justify-content: flex-start;
+    margin: 29px 15px 2px 15px;
+    padding-top: 12px;
+    font-size: 21px;
+    color: #9D1B6F;
+}
+
+
+
+
+
