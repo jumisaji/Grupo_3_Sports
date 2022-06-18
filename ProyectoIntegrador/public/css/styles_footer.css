@@ -28,14 +28,13 @@ font-size: 16px;
 
 #logo2 img{
     width: 250px;
-    margin: 29px 1rem 10px 12px;
-    justify-content: flex-start;
+    margin: 10px 1rem 10px 12px;
 }
 
 #secfooter{
 display: flex;
 flex-flow: row wrap;
-justify-content: space-between;
+justify-content: center;/**/
 align-items: center;
 }
 
@@ -45,7 +44,7 @@ align-items: center;
 }
 
 .novedad{
-    margin: 5px 15px; 
+    margin: 30px 15px; 
     padding: 3px;
 }
 

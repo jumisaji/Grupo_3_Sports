@@ -1,9 +1,10 @@
 /* **************                   MEDIA QUERIES                   ************** */
 
 
-/*   TABLET   */
+/*  ********* TABLET *********  */
 
 @media screen and (min-width: 700px){
+    /* Header Tablet */
     header{
         font-size: 14px;
     }
@@ -41,13 +42,19 @@
 
     #tuCuenta, #canasta{
         font-size: 25px;
+    }
+     /* Footer Tablet */
+     #logo2 img{
+        margin: 10px 100px;
+    }
 
-        }
+     #derechosAutor{
+        margin: 29px 100px 2px 100px;
+    }
 
-}
-
-/*   DESKTOP   */
+/*  ********* DESKTOP *********  */
 @media screen and (min-width:980px){
+    /* Header Desktop */
     header{
         font-size: 15px;
         justify-content: space-between;
@@ -76,7 +83,6 @@
     justify-content: center;
     align-content: center;
 }
-
     #barraBuscar{
         width: 13rem;
     }
@@ -99,6 +105,11 @@
 
     #canasta{
         margin-right:30px ;
+        }
+        /* Footer Desktop */
+        #derechosAutor .fas{
+            color: red;
+
         }
 
 }
