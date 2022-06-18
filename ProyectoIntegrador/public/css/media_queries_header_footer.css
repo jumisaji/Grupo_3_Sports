@@ -1,0 +1,104 @@
+/* **************                   MEDIA QUERIES                   ************** */
+
+
+/*   TABLET   */
+
+@media screen and (min-width: 700px){
+    header{
+        font-size: 14px;
+    }
+
+    .encabezado{
+        justify-content: space-between;  
+    }
+
+    #opciones1{
+        order: 0;
+        justify-content: center;
+        width: 80%;
+    }
+
+    #opciones1 a{
+        width: 15vw;
+        height: 3rem;
+        align-self: center;
+        align-items: center;
+    }
+
+    #barraBuscar{
+        width: 13rem;
+    }
+
+    #lupa{       
+        margin: 6px;
+        padding: 3px;
+    }
+
+    #opciones2 a{
+        margin: 6px;
+        padding: 3px;
+    }
+
+    #tuCuenta, #canasta{
+        font-size: 25px;
+
+        }
+
+}
+
+/*   DESKTOP   */
+@media screen and (min-width:980px){
+    header{
+        font-size: 15px;
+        justify-content: space-between;
+    }
+
+    .encabezado{
+        display: flex;
+    }
+
+    #logo img{
+        justify-content: flex-start;
+    }
+
+    #opciones1{
+        justify-content: space-evenly;
+        width: 48vw;
+        margin: 1px;
+        padding: 3px;
+    }
+
+    #opciones1 a{
+        width: 9.3vw;
+    }
+
+    #buscar{
+    justify-content: center;
+    align-content: center;
+}
+
+    #barraBuscar{
+        width: 13rem;
+    }
+
+    #lupa{       
+        margin: 6px;
+        padding: 3px;
+    }
+    #opciones2{
+        width: auto;
+    }
+
+    #opciones2 a{
+        margin: 6px;
+        padding: 3px;
+    }
+    #tuCuenta, #canasta{
+        font-size: 30px;
+        }
+
+    #canasta{
+        margin-right:30px ;
+        }
+
+}

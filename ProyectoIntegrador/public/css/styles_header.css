@@ -12,20 +12,21 @@
 header{
     background-color:#070B80;
     font-family: kalam;
-    font-size: 14px;
-    padding: 15px;
+    font-size: 11px;
+    padding: 11px;
     width: 100%;
     text-align: center;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .encabezado{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around; /**/  
+    justify-content: space-around;  
+    width: 100%;
 }
 
 #logo img{
@@ -37,19 +38,22 @@ header{
 #opciones1{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
+    order: 4;
+    width: 90%;
 }
 
 #opciones1 a{
     background-color: white;
     color:#070B80;
     border-radius: 8px;
-    margin: 6px 15px;
-    padding: 3px;
+    margin: 5px 8px;
+    padding: 2px 25px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    width: 5rem;
+    justify-content: center;
+    width: 12vw;
+    align-self: center;
 }
 
 #buscar{
@@ -58,14 +62,15 @@ header{
     flex-flow: row wrap;
     justify-content: center;
     position: relative;  
+    align-content: center;
 }
 
 #barraBuscar{
     border-radius: 3px;
     margin: 6px;
     padding: 3px;
-    width: 12rem;
-    height: 1.5rem;
+    width: 30vw;
+    height: 2rem;
 }
 
 #lupa{
@@ -74,27 +79,29 @@ header{
     padding: 3px;
     position: absolute;
     right: -3px;
-    height: 1.5rem;
+    height: 2rem;
     background-color: #c0c0c0;
     color: #070B80;
     font-size: 16px;
 }
+
 #opciones2{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    align-content: center; 
+    justify-content: center;
+    width: 20%
 }
 
 #opciones2 a{
-    margin: 6px;
-    padding: 3px;
-    
+    margin: 5px;
+    padding: 2px;
 }
 
 #tuCuenta, #canasta{
 color: white;
 background-color: #070B80;
-font-size: 25px;
+font-size: 20px;
 }
 
 
