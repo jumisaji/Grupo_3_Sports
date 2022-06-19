@@ -1,0 +1,28 @@
+*{border: none;
+margin: none;
+padding: none;
+outline: none;
+box-sizing: border-box;}
+
+
+main {display: flex;
+width: 80vw;
+background-color:rgb(192, 192, 192) ;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;}
+#carrito1{display: flex;
+    
+align-items: baseline;}
+
+h1{width: 35vw;
+    align-self: flex-start;
+    
+color: rgb(7, 11, 128);
+text-align: center;
+font-size: 38px;
+font-family: 'Kalam', cursiva;}
+
+.logocarrito{width: 5vw;
+height: 3rem;}

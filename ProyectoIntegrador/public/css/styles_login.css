@@ -10,7 +10,7 @@
 main {
     display: flex;
     width: 70vw;
-    
+
     background-color: rgb(192, 192, 192);
     margin-left: auto;
     margin-right: auto;
@@ -21,18 +21,22 @@ main {
 
 
 }
-h2{width: 20vw;
-font-size: 25px;
-text-align: center;
 
-margin-top: 2rem;
-color: rgb(7, 11, 128);
-font-family: 'Roboto', sans-serif;;}
+h2 {
+    width: 20vw;
+    font-size: 25px;
+    text-align: center;
+
+    margin-top: 2rem;
+    color: rgb(7, 11, 128);
+    font-family: 'Roboto', sans-serif;
+    ;
+}
 
 .logo_login {
     width: 18vw;
     height: 7rem;
-  text-align: center;
+    text-align: center;
     margin-top: 1rem;
 
 
@@ -59,30 +63,44 @@ font-family: 'Roboto', sans-serif;;}
     color: rgb(7, 11, 128);
     border-radius: 40rem;
     font-size: 2rem;
-   
+
 
 
 
 
 }
-.login2{display: flex;
-justify-content: center;
-margin-left: auto;
-margin-right: auto;}
-.iconosredes{font-size: 50px;
+
+.login2 {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconosredes {
+    font-size: 50px;
     margin-left: 2rem;
     text-align: center;
-    
-color: rgb(7, 11, 128);}
-.cajaiconos{
-margin-top: 2rem;}
-.nuevoregistro{width: 16vw;
 
-background-color:rgb(11, 168, 168) ;
-margin-bottom: 2rem;
+    color: rgb(7, 11, 128);
+}
 
-margin-top: 2rem;
-font-size: 2rem ;
-font-family: 'Kalam', cursiva;
-padding: 10px;}
-.enlacenuevoregistro{color:rgb(7, 11, 128) ;}
+.cajaiconos {
+    margin-top: 2rem;
+}
+
+.nuevoregistro {
+    width: 16vw;
+
+    background-color: rgb(11, 168, 168);
+    margin-bottom: 2rem;
+
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Kalam', cursiva;
+    padding: 10px;
+}
+
+.enlacenuevoregistro {
+    color: rgb(7, 11, 128);
+}
