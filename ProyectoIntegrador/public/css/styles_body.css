@@ -1,0 +1,21 @@
+body{
+    font-family: raleway;
+    font-size: 90px;
+    color: #070B80;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-self: flex-end;
+    justify-content: center;
+}
+.whapp{
+    display: flex;
+    justify-content:flex-end;
+    margin: 10px;
+    padding: 5px 20px;
+}
+
+#chat{
+    color: #070B80;
+}
+
