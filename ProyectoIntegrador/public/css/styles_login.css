@@ -1,0 +1,88 @@
+* {
+    border: none;
+    margin: none;
+    padding: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+main {
+    display: flex;
+    width: 70vw;
+    
+    background-color: rgb(192, 192, 192);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    justify-content: center;
+
+
+
+
+}
+h2{width: 20vw;
+font-size: 25px;
+text-align: center;
+
+margin-top: 2rem;
+color: rgb(7, 11, 128);
+font-family: 'Roboto', sans-serif;;}
+
+.logo_login {
+    width: 18vw;
+    height: 7rem;
+  text-align: center;
+    margin-top: 1rem;
+
+
+
+}
+
+.ingresotexto {
+    width: 30vw;
+    height: 4rem;
+    color: rgb(192, 192, 192);
+    font-family: 'Kalam', cursiva;
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boton-ingreso {
+    width: 15vw;
+    margin-top: 2rem;
+    height: 4rem;
+    font-family: 'Kalam', cursiva;
+    background-color: rgb(11, 168, 168);
+    color: rgb(7, 11, 128);
+    border-radius: 40rem;
+    font-size: 2rem;
+   
+
+
+
+
+}
+.login2{display: flex;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;}
+.iconosredes{font-size: 50px;
+    margin-left: 2rem;
+    text-align: center;
+    
+color: rgb(7, 11, 128);}
+.cajaiconos{
+margin-top: 2rem;}
+.nuevoregistro{width: 16vw;
+
+background-color:rgb(11, 168, 168) ;
+margin-bottom: 2rem;
+
+margin-top: 2rem;
+font-size: 2rem ;
+font-family: 'Kalam', cursiva;
+padding: 10px;}
+.enlacenuevoregistro{color:rgb(7, 11, 128) ;}
