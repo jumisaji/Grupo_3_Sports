@@ -25,8 +25,10 @@
 
     <link rel="stylesheet" href="./css/styles_header.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
     <link rel="stylesheet" href="./css/styles_footer.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
+    <link rel="stylesheet" href="./css/styles_main.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
+    <link rel="stylesheet" href="./css/styles_body.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
     <link rel="stylesheet" href="./css/media_queries_header_y_footer.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
-    <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento css que contiene los estilos de login
+    <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento CSS que contiene estilos de login -->
 
 
 </head>
@@ -65,9 +67,7 @@
     </header>
     <main>
         <section id="login">
-           
-
-
+            
             <div>
                 <img class="logo_login" src="/images/logo_go_bike_cart_y log.png" alt="logo gobike">
                 <form action="login.html" method="get"></form>
@@ -82,17 +82,15 @@
                     <button class="boton-ingreso" type="submit" name="login">Ingreso</button>
                 </p>
             </div>
-        
-        
             
             <h2>Ingresa con tus redes</h2>
-       <div class="cajaiconos">
-       <a class="iconosredes" href=""><i class="fa-brands fa-facebook-square"></i></a>
-       <a class="iconosredes" href=""><i class="fa-brands fa-instagram"></i></a>
-       <a class="iconosredes" href=""><i class="fa-brands fa-google"></i></a>
-    </div>
-       <button class="nuevoregistro"><a class="enlacenuevoregistro" href="">Nuevo Registro</a> </button>
-    </section>
+             <div class="cajaiconos">
+                <a class="iconosredes" href=""><i class="fa-brands fa-facebook-square"></i></a>
+                <a class="iconosredes" href=""><i class="fa-brands fa-instagram"></i></a>
+                <a class="iconosredes" href=""><i class="fa-brands fa-google"></i></a>
+            </div>
+            <button class="nuevoregistro"><a class="enlacenuevoregistro" href="">Nuevo Registro</a> </button>
+        </section>
 
 
     
@@ -110,11 +108,8 @@
     <footer>
         <section id="secfooter">
 
-            <nav class="goBike2">
-                <!--LOGO FOOTER-->
-                <a href="/">
-                    <figure id="logo2"><img src="/images/logo-gobike-horizontal.png" alt="Logo Lineal GoBike"></figure>
-                </a>
+            <nav class="goBike2"><!--LOGO FOOTER-->
+                <a href="/"><figure id="logo2"><img src= "/images/logo-gobike-horizontal.png" alt ="Logo Lineal GoBike"></figure></a>
             </nav>
             <section class="opfooter">
                 <article class="pagotarjeta">
@@ -123,15 +118,14 @@
                     </section>
                     <p> Con Go Bike Card, puedes pagar desde la comodidad de tu hogar. ¡Y siempre es seguro!</p>
                 </article>
-
+            
                 <article class="puntos">
                     <section id="diamond">
                         <a href="/"><i class="fas fa-gem"></i></a><b>Cliente Diamante</b>
                     </section>
-                    <p> Solo por estar registrad@ en Go Bike, acumula puntos con tus compras y recibe grandes
-                        beneficios.</p>
+                    <p> Solo por estar registrad@ en Go Bike, acumula puntos con tus compras y recibe grandes beneficios.</p>
                 </article>
-
+                
                 <article class="protegido">
                     <section id="security">
                         <a href="/"><i class="fas fa-user-shield"></i></a><b>Compras Seguras</b>
@@ -139,31 +133,30 @@
                     <p> Go Bike proteje tus compras, conoce nuestra política de reembolso. </p>
                 </article>
             </section>
+
             <section class="opfooter2">
-
-                <article class="novedad">
-                    <section id="suscrito">
-                        <h4> MANTENTE ENTERADO </h4>
-                        <p>Suscríbete para conocer más sobre nuestros productos y promociones exclusivas</p>
-                        <span>
-                            <a href="/">
-                                <b>SUSCRÍBETE A NUESTRA LISTA DE CORREO <i class="fas fa-envelope-open-text"></i></b>
-                            </a>
-                        </span>
-                    </section>
-                </article>
-                <section class="redesPie">
-                    <nav class="redesFooter">
-                        <a href="/"><i class="fa-brands fa-facebook-square"></i></a>
-                        <a href="/"><i class="fa-brands fa-instagram"></i></a>
-                    </nav>
+            <article class="novedad">
+                <section id="suscrito">
+                    <h4> MANTENTE ENTERADO </h4>
+                    <p>Suscríbete para conocer más sobre nuestros productos y promociones exclusivas</p>
+                    <span>
+                        <a href="/">
+                            <b>SUSCRÍBETE A NUESTRA LISTA DE CORREO <i class="fas fa-envelope-open-text"></i></b>
+                        </a>
+                    </span>
                 </section>
+            </article>
+            <section class="redesPie">
+                <nav class="redesFooter">
+                    <a href = "/"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href = "/"><i class="fa-brands fa-instagram"></i></a>
+                </nav>
             </section>
-
-            <p id="derechosAutor"><i>Copyright © 2022 Made by GoBike ... <i class="fas fa-biking"></i>...</i></p>
+        </section>
+        
+        <p id="derechosAutor"><i>Copyright © 2022 Made by GoBike ... <i class="fas fa-biking"></i>...</i></p>
 
         </section>
     </footer>
 </body>
-
 </html>
