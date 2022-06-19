@@ -54,7 +54,7 @@
 }
 
 /*  ********* DESKTOP *********  */
-@media screen and (min-width:980px){
+@media screen and (min-width:992px){
     /* Header Desktop */
     header{
         font-size: 15px;
@@ -86,7 +86,7 @@
     }
 
     #barraBuscar{
-        width: 13rem;
+        width: 12.5rem;
     }
 
     #lupa{       
@@ -95,6 +95,9 @@
     }
     #opciones2{
         width: auto;
+        margin-right:21px;
+        margin-left:17px;
+
     }
 
     #opciones2 a{
@@ -105,9 +108,6 @@
         font-size: 30px;
         }
 
-    #canasta{
-        margin-right:30px ;
-        }
         /* Footer Desktop */
         #secfooter{
             justify-content: space-between;/**/
