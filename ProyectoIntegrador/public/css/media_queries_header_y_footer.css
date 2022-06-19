@@ -109,8 +109,40 @@
         margin-right:30px ;
         }
         /* Footer Desktop */
-        #derechosAutor .fas{
-            color: red;
+        #secfooter{
+            justify-content: space-between;/**/
+            }
+
+        #logo2 img{
+            padding: 1px;
+            margin: 1px;
+            margin-left: 3px;
+            width: 25vw;
+            justify-content: flex-start;
+     
+        }
+
+        .opfooter{
+            display: flex;
+            flex-flow: row wrap;
+            width: 25vw;
+            align-self: center;
+            margin-left: 40px;
+            padding-top: 10px;
+        }
+
+        .opfooter2{
+            width: 25vw;
+            align-self: flex-start;
+        }
+
+        #derechosAutor{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            margin: auto;
+            padding: 50px 25% 5px 25%;
+
         }
 
     }
