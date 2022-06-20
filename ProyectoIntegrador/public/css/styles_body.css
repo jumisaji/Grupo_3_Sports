@@ -18,7 +18,8 @@ body{
     padding: 5px 20px;
 }
 
-#chat{
+#chat i{
     color: #070B80;
+    transition: all .5s;
 }
 
