@@ -12,6 +12,13 @@ footer{
     text-align: center;
 }
 
+#seccfooter{
+    Display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 #secfooter p{
     font-size: 14px;
 }
@@ -49,6 +56,10 @@ footer{
     justify-content: center;
     margin: 10px;
     padding: 3px;
+}
+
+.opfooter2 b{
+    color:  #070B80;
 }
 
 .novedad{
