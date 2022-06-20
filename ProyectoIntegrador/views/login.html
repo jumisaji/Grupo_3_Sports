@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./css/styles_body.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
     <link rel="stylesheet" href="./css/media_queries_header_y_footer.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
     <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento CSS que contiene estilos de login -->
+    <link rel="stylesheet" href="./css/logintablet.css">
 
 
 </head>
@@ -65,10 +66,10 @@
             </nav>
         </section>
     </header>
-    <main>
+    <main class="seccionlogin">
         <section id="login">
             
-            <div>
+            <nav>
                 <img class="logo_login" src="/images/logo_go_bike_cart_y log.png" alt="logo gobike">
                 <form action="login.html" method="get"></form>
                 <p>
@@ -78,10 +79,13 @@
                 <p>
                     <input class="ingresotexto" type="password" name="contraseña" placeholder="Contraseña" required>
                 </p>
+                <nav><h4>¿olvidaste tu contraseña?</h4></nav>
                 <p>
                     <button class="boton-ingreso" type="submit" name="login">Ingreso</button>
                 </p>
-            </div>
+           </nav>
+           </section>
+           <section class="login2">
             
             <h2>Ingresa con tus redes</h2>
              <div class="cajaiconos">
@@ -90,7 +94,7 @@
                 <a class="iconosredes" href=""><i class="fa-brands fa-google"></i></a>
             </div>
             <button class="nuevoregistro"><a class="enlacenuevoregistro" href="">Nuevo Registro</a> </button></section>
-
+        </section>
 
     
 

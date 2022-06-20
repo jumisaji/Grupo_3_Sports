@@ -7,10 +7,9 @@
 }
 
 
-main {
+.seccionlogin {
     display: flex;
     width: 70vw;
-
     background-color: rgb(192, 192, 192);
     margin-left: auto;
     margin-right: auto;
@@ -23,19 +22,20 @@ main {
 }
 
 h2 {
-    width: 20vw;
-    font-size: 25px;
+    width: 61vw;
+    font-size: 15px;
     text-align: center;
 
-    margin-top: 2rem;
+
+    margin-top: 1rem;
     color: rgb(7, 11, 128);
     font-family: 'Roboto', sans-serif;
     ;
 }
 
 .logo_login {
-    width: 18vw;
-    height: 7rem;
+    width: 45vw;
+    height: 20%;
     text-align: center;
     margin-top: 1rem;
 
@@ -44,25 +44,33 @@ h2 {
 }
 
 .ingresotexto {
-    width: 30vw;
-    height: 4rem;
+    width: 40vw;
+    height: 2rem;
     color: rgb(192, 192, 192);
     font-family: 'Kalam', cursiva;
-    margin-top: 2rem;
-    font-size: 2rem;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-top: 1rem;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h4 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    font-size: 8px;
+    margin-right: 40px;
 }
 
 .boton-ingreso {
-    width: 15vw;
+    width: 30vw;
     margin-top: 2rem;
-    height: 4rem;
+    height: 2rem;
     font-family: 'Kalam', cursiva;
     background-color: rgb(11, 168, 168);
     color: rgb(7, 11, 128);
     border-radius: 40rem;
-    font-size: 2rem;
+    font-size: 1rem;
 
 
 
@@ -71,15 +79,16 @@ h2 {
 }
 
 .login2 {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    border-top: 1px solid rgb(7, 11, 128);
+    width: 90%;
+    margin-top: 1rem;
 }
 
+
+
 .iconosredes {
-    font-size: 50px;
-    margin-left: 2rem;
+    font-size: 20px;
+    margin-left: 1rem;
     text-align: center;
 
     color: rgb(7, 11, 128);
@@ -90,13 +99,14 @@ h2 {
 }
 
 .nuevoregistro {
-    width: 16vw;
+    width: 45vw;
 
     background-color: rgb(11, 168, 168);
     margin-bottom: 2rem;
+    border-radius: 40rem;
 
     margin-top: 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: 'Kalam', cursiva;
     padding: 10px;
 }
