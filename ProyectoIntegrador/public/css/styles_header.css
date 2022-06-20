@@ -83,6 +83,9 @@ header{
     background-color: #c0c0c0;
     color: #070B80;
     font-size: 16px;
+    transition: all .3s;
+    transform: rotate(0deg);
+
 }
 
 #opciones2{
@@ -103,6 +106,7 @@ header{
     color: white;
     background-color: #070B80;
     font-size: 20px;
+    transition: all .3s;
 }
 
 

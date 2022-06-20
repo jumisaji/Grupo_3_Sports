@@ -1,10 +1,7 @@
 /* ********** ANIMACIONES Y TRANSICIONES ********** */
 /* BODY */
-#chat:hover{
+#chat .fab:hover{
     color: #0BA8A8;
-    box-shadow: 0px 0px 3px 0px rgb(100, 100, 100);
-
-
 }
 
 /* HEADER */
@@ -12,8 +9,20 @@
     color: white;
     background-color: #0BA8A8;
     box-shadow: 0px 0px 8px 0px rgb(255, 255, 255);
-
 }
+
+#lupa:hover{
+    color: white;
+    background-color: #0BA8A8;
+    transform: rotate(-360deg);
+}
+
+#tuCuenta:hover, #canasta:hover{
+    color:#0BA8A8;
+}
+
+
+
 /* FOOTER*/
 /* MAIN HOME */
 /* MAIN BIKES */
