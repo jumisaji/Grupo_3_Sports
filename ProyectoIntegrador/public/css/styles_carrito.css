@@ -5,7 +5,7 @@ outline: none;
 box-sizing: border-box;}
 
 
-main {display: flex;
+.seccioncarrito {display: flex;
 width: 80vw;
 background-color:rgb(192, 192, 192) ;
 margin-top: 20px;
