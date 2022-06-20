@@ -1,1 +1,2 @@
-https://app.clickup.com/25743289/v/s/49687327
+LINK TAREAS SEGUNDO SPRINT
+https://app.clickup.com/25743289/v/li/193604538
