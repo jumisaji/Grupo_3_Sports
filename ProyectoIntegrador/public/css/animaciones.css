@@ -20,10 +20,18 @@
 #tuCuenta:hover, #canasta:hover{
     color:#0BA8A8;
 }
-
-
-
 /* FOOTER*/
+#secfooter .fas:hover{
+    color: #9D1B6F;
+}
+
+#derechosAutor .fas:hover{
+    color: white;
+}
+
+.redesFooter a:hover{
+    color: white;
+}
 /* MAIN HOME */
 /* MAIN BIKES */
 /* MAIN FORMULARIO LOGIN */
