@@ -96,12 +96,13 @@ header{
 #opciones2 a{
     margin: 5px;
     padding: 2px;
+    transition: all .3s;
 }
 
 #tuCuenta, #canasta{
-color: white;
-background-color: #070B80;
-font-size: 20px;
+    color: white;
+    background-color: #070B80;
+    font-size: 20px;
 }
 
 
