@@ -21,7 +21,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: gray;
+    background: rgba(7, 11, 128,.21);
+    border-radius: 5px;
 }
 #logo_register{
  width: 20vw;
@@ -30,6 +31,7 @@
 #textoregistro{
     width: 70vw;
     justify-content: space-around;
+    padding-bottom: 20px;
 }
 .ingresotexto1 {
     width: 30vw;
