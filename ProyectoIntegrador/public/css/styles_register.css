@@ -27,6 +27,7 @@
 #logo_register{
  width: 20vw;
  justify-content: space-around;
+ padding-top: 15px;
 }
 #textoregistro{
     width: 70vw;
