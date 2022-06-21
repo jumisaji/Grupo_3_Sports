@@ -1,0 +1,59 @@
+/* **************                   MEDIA QUERIES   MAIN          ************** */
+
+
+/*  ********* TABLET *********  */
+
+@media screen and (min-width: 700px){
+    /* MAIN Tablet */
+
+    .bikeof {
+        width: 40%;
+        margin: 15px;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .heart1{
+        font-size: 5vw;
+        right:2vw;
+    }
+
+    .bike {
+        width: 40%;
+        margin: 15px;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .heart2{
+        font-size: 5vw;
+        right:2vw;
+    }
+    
+   
+}
+
+/*  ********* DESKTOP *********  */
+@media screen and (min-width:992px){
+    /* MAIN Desktop */
+    .bikeof {
+        width: 20%;
+        margin: 12px;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .heart1{
+        font-size: 3vw;
+        right:1vw;
+    }
+
+    .bike {
+        width: 20%;
+        margin: 12px;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .heart2{
+        font-size: 3vw;
+        right:1vw;
+    }
+   
+}

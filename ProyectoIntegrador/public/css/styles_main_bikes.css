@@ -1,5 +1,6 @@
 .bike img{
     width: 77%;
+
 }
 
 .bicicletas h2{
@@ -8,7 +9,7 @@
 }
 #ruta, #bmx,#mtb, #urban{
     margin: 10px;
-    padding: 5px;
+    padding: 20px;
     
 }
 
@@ -36,7 +37,7 @@
  .heart2{
     text-align: center;
     color: #c0c0c0;
-    font-size: 4vw;
+    font-size: 6.5vw;
     display: flex;
     padding: 10px;
     width: 3vh;
@@ -44,7 +45,7 @@
     justify-content: center;
     position: absolute;
     top: 2px;
-    right:2vw;
+    right:1.5vw;
     transform: rotate(0deg);
     transition: all .3s;
  }

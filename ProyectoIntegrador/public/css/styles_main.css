@@ -13,7 +13,7 @@ main{
 
 #offers{
     margin: 10px;
-    padding: 5px;
+    padding: 20px;
 }
 
 .bikeof img{
@@ -44,15 +44,15 @@ main{
  .heart1{
     text-align: center;
     color: #9D1B6F;
-    font-size: 4vw;
+    font-size: 6.5vw;
     display: flex;
     padding: 10px;
     width: 3vh;
     height: 3vh;
     justify-content: center;
     position: absolute;
-    top: 2px;
-    right:2vw;
+    top: 1px;
+    right:1.5vw;
     transform: rotate(0deg);
     transition: all .3s;
  }
