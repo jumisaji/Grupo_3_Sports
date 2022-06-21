@@ -29,78 +29,76 @@
     <link rel="stylesheet" href="./css/styles_body.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
     <link rel="stylesheet" href="./css/media_queries_header_y_footer.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
     <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento CSS que contiene estilos de login -->
-
+    
     <link rel="stylesheet" href="./css/animaciones.css"> <!--Llamo documento CSS que contiene anamaciones y transiciones -->
+
 
 
 </head>
 
 <!--    **************************************************   BODY   ****************************************************    -->
-
 <body>
-    <!--          HEADER          -->
-    <header>
-        <section class="encabezado">
-            <nav class="goBike">
-                <!--LOGO HEADER-->
-                <a href="/">
-                    <figure id="logo"><img src="/images/logo-gobike-cabecera.png" alt="Logo GoBike"></figure>
-                </a>
+    <!--          HEADER          --> 
+    <header>  
+         <section class="encabezado">
+            <nav class="goBike"><!--LOGO HEADER-->
+                <a href="/"><figure id="logo"><img src= "/images/logo-gobike-cabecera.png" alt ="Logo GoBike"></figure></a>
             </nav>
-            <nav id="opciones1">
-                <!--Botones con opciones en el header-->
-                <a href="/ruta"><b> Bicicletas de Ruta </b></a>
-                <a href="/bmx"><b> Bicicletas BMX </b></a>
-                <a href="/mtb"><b> Bicicletas MBT </b></a>
-                <a href="/urban"><b> Bicicletas Urbanas </b></a>
+            <nav id="opciones1"><!--Botones con opciones en el header-->
+                <a href = "/ruta"><b> Bicicletas de Ruta </b></a>
+                <a href = "/bmx"><b> Bicicletas BMX </b></a>
+                <a href = "/mtb"><b> Bicicletas MBT </b></a>
+                <a href = "/urban"><b> Bicicletas Urbanas </b></a>
             </nav>
-            <form id="buscar">
-                <!--barra de búsqueda-->
-                <input type="search" id="barraBuscar" name="Barra de busqueda"
-                    placeholder=" Buscar productos, marcas...">
+            <form id="buscar"> <!--barra de búsqueda-->
+                <input  type="search" id="barraBuscar" name="Barra de busqueda" placeholder=" Buscar productos, marcas..."> 
                 <a href="/"><button type="button" id="lupa"><i class="fa-solid fa-magnifying-glass"></i></button></a>
             </form>
-            <nav id="opciones2">
-                <!--botones con iconos para login y carrito de compras-->
-                <a href="/"><button type="acceso" id="tuCuenta"><i class="fas fa-user"></i></button></a>
-                <a href="/"><button type="acceso" id="canasta"><i class="fas fa-shopping-cart"></i></button></a>
+            <nav id="opciones2"><!--botones con iconos para login y carrito de compras-->
+                <a href = "/login"><button type="acceso" id="tuCuenta"><i class="fas fa-user"></i></button></a>
+                <a href = "/carrito"><button type="acceso" id="canasta"><i class="fas fa-shopping-cart"></i></button></a>
             </nav>
         </section>
     </header>
-    <main>
-        <section id="login">
-            
+     <!--       MAIN       -->
+     <main>         
+        <!--SECCIÓN REGISTRO FORMULARIO-->
+        <section>
             <div>
                 <img class="logo_login" src="/images/logo_go_bike_cart_y log.png" alt="logo gobike">
-                <form action="login.html" method="get"></form>
-                <p>
-                    <input class="ingresotexto" type="text" name="usuario" placeholder="Nombre de usuario o correo"
-                        required>
-                </p>
-                <p>
-                    <input class="ingresotexto" type="password" name="contraseña" placeholder="Contraseña" required>
-                </p>
-                <p>
-                    <button class="boton-ingreso" type="submit" name="login">Ingreso</button>
-                </p>
+                <p>Registro</p>
             </div>
-            
-            <h2>Ingresa con tus redes</h2>
-             <div class="cajaiconos">
-                <a class="iconosredes" href=""><i class="fa-brands fa-facebook-square"></i></a>
-                <a class="iconosredes" href=""><i class="fa-brands fa-instagram"></i></a>
-                <a class="iconosredes" href=""><i class="fa-brands fa-google"></i></a>
+            <div>
+                <form action="formulario-register.html" method="get">
+                    <p>
+                        <input type="text" name="form1" placeholder="">
+                        <input type="text" name="form2" placeholder="">
+                    </p>
+                    <p>
+                        <input type="text" name="form3" placeholder="">
+                    </p>
+                    <p>
+                        <input type="text" name="form4" placeholder="">
+                        <input type="text" name="form5" placeholder="">
+                    </p>
+                    <p>
+                        <input type="text" name="form6" placeholder="">
+                        <input type="text" name="form7" placeholder="">
+                    </p>
+                    <p>
+                        <label for="fechadenacimiento">Fecha de nacimiento</label>
+                        <input type="date" name="fecha" value="1999-12-10">
+                    </p>
+                    <p>
+                        <input type="checkbox" name="checkbox1" value="Terminos/condiciones 1">
+                        <input type="checkbox" name="checkbox2" value="Terminos/condiciones 2">
+                    </p>
+                    <p>
+                        <button type="submit" name="registrar">Registrar</button>
+                    </p>
+                </form>
             </div>
-            <button class="nuevoregistro"><a href="/register">Nuevo Registro</a></button>
         </section>
-
-    </main>
-
-    <nav class="whapp">
-        <a href="/" id="chat">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-    </nav>
     <!--     FOOTER o pie de página    -->
     <footer>
         <section id="secfooter">
