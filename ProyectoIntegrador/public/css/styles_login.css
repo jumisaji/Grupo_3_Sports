@@ -6,31 +6,25 @@
     box-sizing: border-box;
 }
 
-
 .seccionlogin {
     display: flex;
     width: 70vw;
     background-color: rgb(192, 192, 192);
+    box-shadow: 0px 0px 8px 0px rgba(7, 11, 128,.8);
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
     justify-content: center;
-
-
-
-
+    border-radius: 5px;
 }
 
 h2 {
     width: 61vw;
     font-size: 15px;
     text-align: center;
-
-
     margin-top: 1rem;
     color: rgb(7, 11, 128);
     font-family: 'Roboto', sans-serif;
-    ;
 }
 
 .logo_login {
@@ -38,17 +32,15 @@ h2 {
     height: 20%;
     text-align: center;
     margin-top: 1rem;
-
-
-
 }
 
 .ingresotexto {
-    width: 40vw;
+    width: 30vw;
     height: 2rem;
     color: rgb(192, 192, 192);
     font-family: 'Kalam', cursiva;
     margin-top: 1rem;
+    border-radius: 5px;
     font-size: 15px;
     padding-left: 5px;
     padding-right: 5px;
@@ -58,24 +50,20 @@ h4 {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 10px;
-    font-size: 8px;
+    font-size: 10px;
     margin-right: 40px;
+    color: rgb(7, 11, 128);
 }
 
 .boton-ingreso {
-    width: 30vw;
+    width: 15vw;
     margin-top: 2rem;
-    height: 2rem;
+    height: 2.5rem;
     font-family: 'Kalam', cursiva;
     background-color: rgb(11, 168, 168);
     color: rgb(7, 11, 128);
     border-radius: 40rem;
     font-size: 1rem;
-
-
-
-
-
 }
 
 .login2 {
@@ -83,8 +71,6 @@ h4 {
     width: 90%;
     margin-top: 1rem;
 }
-
-
 
 .iconosredes {
     font-size: 20px;
@@ -99,12 +85,10 @@ h4 {
 }
 
 .nuevoregistro {
-    width: 45vw;
-
+    width: 20vw;
     background-color: rgb(11, 168, 168);
     margin-bottom: 2rem;
     border-radius: 40rem;
-
     margin-top: 2rem;
     font-size: 1rem;
     font-family: 'Kalam', cursiva;
