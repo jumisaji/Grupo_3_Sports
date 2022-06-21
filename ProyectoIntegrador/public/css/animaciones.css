@@ -18,7 +18,7 @@
 }
 
 #tuCuenta:hover, #canasta:hover{
-    color:#0BA8A8;
+    color:rgba(11, 168, 168,1);
 }
 /* FOOTER*/
 #secfooter .fas:hover{

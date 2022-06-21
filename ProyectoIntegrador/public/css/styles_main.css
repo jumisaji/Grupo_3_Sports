@@ -8,4 +8,56 @@ main{
     justify-content: center;
     padding: 15px;
     margin-bottom: 20px;
+    text-align: center;
 }
+
+#offers{
+    margin: 10px;
+    padding: 5px;
+}
+
+.bikeof img{
+    width: 80%;
+}
+
+.bikeof{
+    box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
+    text-align: center;
+    display: inline-block;
+    background-color:white;
+    border: #070B80 solid 1px;
+    width: 70%;
+    margin-bottom: 10px;
+    transition: all .5s;
+    border-radius: 5px;
+    position: relative;
+
+}
+.ganga{  
+    padding: 15px;
+    border-top: #070B80 solid 1px;
+    display: flex;
+    flex-flow:  column wrap;
+    justify-content: space-between;
+ } 
+
+ .heart1{
+    text-align: center;
+    color: #9D1B6F;
+    font-size: 4vw;
+    display: flex;
+    /*background-color:rgba(7, 11, 128,.05);*/
+    padding: 10px;
+    width: 3vh;
+    height: 3vh;
+    justify-content: center;
+    position: absolute;
+    top: 2px;
+    right:2vw;
+    transform: rotate(0deg);
+    transition: all .3s;
+ }
+ .descuento{
+    font-size: 20px;
+    color: #9D1B6F;
+ }
