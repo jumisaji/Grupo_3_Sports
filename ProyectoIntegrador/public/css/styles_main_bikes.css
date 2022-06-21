@@ -1,5 +1,15 @@
-.bikeof img{
+.bike img{
     width: 77%;
+}
+
+.bicicletas h2{
+    margin: 10px;
+    padding: 5px;
+}
+#ruta, #bmx,#mtb, #urban{
+    margin: 10px;
+    padding: 5px;
+    
 }
 
 .bike{
@@ -7,10 +17,39 @@
     text-align: center;
     display: inline-block;
     background-color:white;
-    border: #070B80 solid 1px;
+    border: rgba(7, 11, 128,.5) solid 1px;
     width: 70%;
     margin-bottom: 10px;
     transition: all .5s;
     border-radius: 5px;
     position: relative;
 }
+
+.descripcion{  
+    padding: 15px;
+    border-top: rgba(7, 11, 128,.5)solid 1px;
+    display: flex;
+    flex-flow:  column wrap;
+    justify-content: space-between;
+ } 
+
+ .heart2{
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 4vw;
+    display: flex;
+    padding: 10px;
+    width: 3vh;
+    height: 3vh;
+    justify-content: center;
+    position: absolute;
+    top: 2px;
+    right:2vw;
+    transform: rotate(0deg);
+    transition: all .3s;
+ }
+ .descuento{
+    font-family:  'Roboto bold';
+    font-size: 20px;
+    color: #9D1B6F;
+ }
