@@ -1,0 +1,78 @@
+* {
+    border: none;
+    margin: none;
+    padding: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.seccionregister {
+    display: flex;
+    width: 70vw;
+    background-color: rgb(192, 192, 192);
+    box-shadow: 0px 0px 8px 0px rgba(7, 11, 128,.8);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    justify-content: center;
+    border-radius: 5px;
+}
+#cabecera_register{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: gray;
+}
+#logo_register{
+ width: 20vw;
+ justify-content: space-around;
+}
+#textoregistro{
+    width: 70vw;
+    justify-content: space-around;
+}
+.ingresotexto1 {
+    width: 30vw;
+    height: 2rem;
+    color: rgb(192, 192, 192);
+    font-family: 'Kalam', cursiva;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ingresotexto2 {
+    width: 60vw;
+    height: 2rem;
+    color: rgb(192, 192, 192);
+    font-family: 'Kalam', cursiva;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ingresotexto_date {
+    width: 50vw;
+    height: 2rem;
+    color: rgb(192, 192, 192);
+    font-family: 'Kalam', cursiva;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#terminos{
+    padding: 10px;
+}
+.boton-registrar{
+    width: 15vw;
+    margin-top: 2rem;
+    height: 2.5rem;
+    font-family: 'Kalam', cursiva;
+    background-color: rgb(11, 168, 168);
+    color: rgb(7, 11, 128);
+    border-radius: 40rem;
+    font-size: 1rem;
+}

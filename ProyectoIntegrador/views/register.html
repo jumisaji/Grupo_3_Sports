@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./css/styles_main_bikes.css"> <!--Llamo documento CSS que contiene los estilos de main categorias de bikes -->
     <link rel="stylesheet" href="./css/styles_body.css"> <!--Llamo documento CSS que contiene los estilos de body y sus elementos -->
     <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento CSS que contiene estilos de login -->
+    <link rel="stylesheet" href="./css/styles_register.css">
     
     
     <link rel="stylesheet" href="./css/media_queries_header_y_footer.css"> <!--Llamo documento CSS que contiene los estilos de media queries de header y footer -->
@@ -69,41 +70,46 @@
      <!--       MAIN       -->
      <main>         
         <!--SECCIÓN REGISTRO FORMULARIO-->
-        <section>
-            <div>
-                <img class="logo_login" src="/images/logo_go_bike_cart_y log.png" alt="logo gobike">
-                <p>Registro</p>
-            </div>
-            <div>
-                <form action="/register.html" method="get">
+        <section class="seccionregister">
+            <nav>
+                <nav id="cabecera_register">
+                    <img id="logo_register" src="/images/logo_go_bike_cart_y log.png" alt="logo gobike">
+                    <p id="textoregistro">Registro</p>
+                </nav>
+                <form action="/register.html" method="get"></form>
                     <p>
-                        <input type="text" name="form1" placeholder="">
-                        <input type="text" name="form2" placeholder="">
+                        <input class="ingresotexto1" type="text" name="form1" placeholder="">
+                        <input class="ingresotexto1" type="text" name="form2" placeholder="">
                     </p>
                     <p>
-                        <input type="text" name="form3" placeholder="">
+                        <input class="ingresotexto2" type="text" name="form3" placeholder="">
                     </p>
                     <p>
-                        <input type="text" name="form4" placeholder="">
-                        <input type="text" name="form5" placeholder="">
+                        <input class="ingresotexto1" type="text" name="form4" placeholder="">
+                        <input class="ingresotexto1" type="text" name="form5" placeholder="">
                     </p>
                     <p>
-                        <input type="text" name="form6" placeholder="">
-                        <input type="text" name="form7" placeholder="">
+                        <input  class="ingresotexto1" type="text" name="form6" placeholder="">
+                        <input  class="ingresotexto1" type="text" name="form7" placeholder="">
                     </p>
                     <p>
-                        <label for="fechadenacimiento">Fecha de nacimiento</label>
-                        <input type="date" name="fecha" value="1999-12-10">
+                        <p><h2>Fecha de Nacimiento</h2></p>
+                        <input class="ingresotexto_date" type="date" name="fecha" value="1999-12-10">
+                    </p>
+                    <p id="terminos">
+                        <div>
+                            <input type="checkbox" name="checkbox1" value="Terminos/condiciones 1">
+                            <label for="checkbox1">Terminos/condiciones 1</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="checkbox2" value="Terminos/condiciones 2">
+                            <label for="checkbox1">Terminos/condiciones 2</label>
+                        </div>
                     </p>
                     <p>
-                        <input type="checkbox" name="checkbox1" value="Terminos/condiciones 1">
-                        <input type="checkbox" name="checkbox2" value="Terminos/condiciones 2">
+                        <button class="boton-registrar" type="submit" name="registrar">Registrar</button>
                     </p>
-                    <p>
-                        <button type="submit" name="registrar">Registrar</button>
-                    </p>
-                </form>
-            </div>
+            </nav>
         </section>
     <!--     FOOTER o pie de página    -->
     <footer>
