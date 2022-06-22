@@ -49,6 +49,11 @@
     transform: rotate(0deg);
     transition: all .3s;
  }
+
+ .descripcion {
+    color: rgba(7, 11, 128,1);
+ }
+
  .descuento{
     font-family:  'Roboto bold';
     font-size: 20px;

@@ -77,34 +77,33 @@
     </header>
     <main class="seccionlogin">
         <section id="login">
-            
             <nav>
                 <img class="logo_login" src="/images/logo_go_bike_cart_y log.png" alt="logo gobike">
-                <form action="login.html" method="get"></form>
-                <p>
-                    <input class="ingresotexto" type="text" name="usuario" placeholder="Nombre de usuario o correo"
-                        required>
-                </p>
-                <p>
-                    <input class="ingresotexto" type="password" name="contraseña" placeholder="Contraseña" required>
-                </p>
-                <nav><a href="/"><h4>¿olvidaste tu contraseña?</h4></a></nav>
-                <p>
-                    <button class="boton-ingreso" type="submit" name="login">Ingreso</button>
-                </p>
-           </nav>
-           </section>
-           <section class="login2">
-            
-            <h2>Ingresa con tus redes</h2>
-             <div class="cajaiconos">
-                <a class="iconosredes" href=""><i class="fa-brands fa-facebook-square"></i></a>
-                <a class="iconosredes" href=""><i class="fa-brands fa-instagram"></i></a>
-                <a class="iconosredes" href=""><i class="fa-brands fa-google"></i></a>
-            </div>
-            <button class="nuevoregistro"><a class="enlacenuevoregistro" href="/register">Nuevo Registro</a> </button></section>
-        </section>
-
+                <form action="login.html" method="get">
+                    <fieldset>
+                        <p>
+                        <input class="ingresotexto" type="text" name="usuario" placeholder="Nombre de usuario o correo" minlength="4" required>
+                    </p>
+                    <p>
+                        <input class="ingresotexto" type="password" name="contraseña" placeholder="Contraseña"  minlength="4" required>
+                    </p>
+                    <nav><a href="/"><h4>¿olvidaste tu contraseña?</h4></a></nav>
+                    <p>
+                        <a href="/"><button class="boton-ingreso" type="submit" name="login" id="botonLogIngreso">Ingreso</button></a>
+                    </p>
+                </nav>
+            </section>
+            <section class="login2"> 
+                <h2>Ingresa con tus redes</h2>
+                <div class="cajaiconos">
+                    <a class="iconosredes" href="/"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a class="iconosredes" href="/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="iconosredes" href="/"><i class="fa-brands fa-google"></i></a>
+                </div>
+                <button class="nuevoregistro" type="button"><a class="enlacenuevoregistro" href="/register" id="botonLogNewReg">Nuevo Registro</a> </button></section>
+            </section>
+        </fieldset>
+    </form>
 
     </main>
 
