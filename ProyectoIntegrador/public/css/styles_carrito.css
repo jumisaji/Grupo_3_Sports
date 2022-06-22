@@ -47,7 +47,9 @@ flex-direction: column;
     margin-right: auto;
     margin-top: 1rem;
     width: 50vw;
-    height: 80% ;}
+    height: 80% ;
+    border-radius: 8px;
+}
     .cajadearticulos h5{font-size: 10px;
     margin-left: 1rem;}
 .descripcion{display:flex;

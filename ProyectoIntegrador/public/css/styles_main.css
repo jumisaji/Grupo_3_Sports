@@ -31,6 +31,7 @@ main{
     transition: all .5s;
     border-radius: 5px;
     position: relative;
+    transition: all .5s;
 }
 
 .ganga{  
@@ -39,6 +40,7 @@ main{
     display: flex;
     flex-flow:  column wrap;
     justify-content: space-between;
+    color: blue;
  } 
 
  .heart1{
@@ -52,7 +54,7 @@ main{
     justify-content: center;
     position: absolute;
     top: 1px;
-    right:1.5vw;
+    right:2vw;
     transform: rotate(0deg);
     transition: all .3s;
  }
@@ -63,6 +65,6 @@ main{
     color: #9D1B6F;
  }
 
- .precioff{
+ .precioff, .referencia{
     display: none;
  }
