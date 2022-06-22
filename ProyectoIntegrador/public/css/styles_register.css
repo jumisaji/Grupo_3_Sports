@@ -71,7 +71,7 @@
     padding: 10px;
 }
 .boton-registrar{
-    width: 15vw;
+    width: 20vw;
     margin-top: 2rem;
     height: 2.5rem;
     font-family: 'Kalam', cursiva;
@@ -80,4 +80,7 @@
     border-radius: 40rem;
     font-size: 1rem;
     margin-bottom: 2rem;
+}
+#botonReg{
+    transition: all .5s;
 }

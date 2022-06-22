@@ -33,8 +33,30 @@
     color: white;
 }
 /* MAIN HOME */
+.bikeof:hover { 
+    box-shadow: 3px 3px 20px 0px rgba(7, 11,128,.85);
+}
 /* MAIN BIKES */
+.heart2:hover{
+    color: #9D1B6F;
+    transform: rotate(-360deg);
+}
+
+.bike:hover { 
+    box-shadow: 5px 5px 20px 0px rgba(7, 11,128,.85);
+}
 /* MAIN FORMULARIO LOGIN */
+#botonLogIngreso:hover, #botonLogNewReg:hover{
+    color: white;
+    background-color: rgba(7, 11,128,1);
+    box-shadow: 4px 4px 20px 0px rgba(7, 11,128,.5);
+}
+
 /* MAIN FORMULARIO REGISTER */
+#botonReg:hover{
+    color: white;
+    background-color: rgba(7, 11,128,1);
+    box-shadow: 4px 4px 20px 0px rgba(7, 11,128,.5);
+}
 /* MAIN CARRITO DE COMPRAS */
 /* MAIN DETALLE DE PRODUCTO */

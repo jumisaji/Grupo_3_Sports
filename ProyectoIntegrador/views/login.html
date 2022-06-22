@@ -42,9 +42,7 @@
 
 
 </head>
-
 <!--    **************************************************   BODY   ****************************************************    -->
-
 <body>
     <!--          HEADER          -->
     <header>
@@ -59,13 +57,12 @@
                 <!--Botones con opciones en el header-->
                 <a href="/ruta"><b> Bicicletas de Ruta </b></a>
                 <a href="/bmx"><b> Bicicletas BMX </b></a>
-                <a href="/mtb"><b> Bicicletas MBT </b></a>
+                <a href = "/mtb"><b> Bicicletas MTB </b></a>
                 <a href="/urban"><b> Bicicletas Urbanas </b></a>
             </nav>
             <form id="buscar">
                 <!--barra de búsqueda-->
-                <input type="search" id="barraBuscar" name="Barra de busqueda"
-                    placeholder=" Buscar productos, marcas...">
+                <input type="search" id="barraBuscar" name="Barra de busqueda" placeholder=" Buscar productos, marcas...">
                 <a href="/"><button type="button" id="lupa"><i class="fa-solid fa-magnifying-glass"></i></button></a>
             </form>
             <nav id="opciones2">
@@ -81,32 +78,32 @@
                 <img class="logo_login" src="/images/logo_go_bike_cart_y log.png" alt="logo gobike">
                 <form action="login.html" method="get">
                     <fieldset>
-                        <p>
-                        <input class="ingresotexto" type="text" name="usuario" placeholder="Nombre de usuario o correo" minlength="4" required>
-                    </p>
-                    <p>
-                        <input class="ingresotexto" type="password" name="contraseña" placeholder="Contraseña"  minlength="4" required>
-                    </p>
-                    <nav><a href="/"><h4>¿olvidaste tu contraseña?</h4></a></nav>
-                    <p>
-                        <a href="/"><button class="boton-ingreso" type="submit" name="login" id="botonLogIngreso">Ingreso</button></a>
-                    </p>
-                </nav>
-            </section>
-            <section class="login2"> 
-                <h2>Ingresa con tus redes</h2>
-                <div class="cajaiconos">
-                    <a class="iconosredes" href="/"><i class="fa-brands fa-facebook-square"></i></a>
-                    <a class="iconosredes" href="/"><i class="fa-brands fa-instagram"></i></a>
-                    <a class="iconosredes" href="/"><i class="fa-brands fa-google"></i></a>
-                </div>
-                <button class="nuevoregistro" type="button"><a class="enlacenuevoregistro" href="/register" id="botonLogNewReg">Nuevo Registro</a> </button></section>
-            </section>
-        </fieldset>
-    </form>
-
+                        <nav>
+                            <p>
+                                <input class="ingresotexto" type="text" name="usuario" placeholder="Nombre de usuario o correo" minlength="4" required>
+                            </p>
+                            <p>
+                                <input class="ingresotexto" type="password" name="contraseña" placeholder="Contraseña"  minlength="4" required>
+                            </p>
+                            <nav><a href="/"><h4>¿olvidaste tu contraseña?</h4></a></nav>
+                            <p>
+                                <a href="/"><button class="boton-ingreso" type="submit" name="login" id="botonLogIngreso">Ingreso</button></a>
+                            </p>
+                        </nav>
+                    </fieldset>
+                </form>
+            </nav>
+        </section>
+        <section class="login2">
+            <h2>Ingresa con tus redes</h2>
+            <nav class="cajaiconos">
+                <a class="iconosredes" href="/"><i class="fa-brands fa-facebook-square"></i></a>
+                <a class="iconosredes" href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a class="iconosredes" href="/"><i class="fa-brands fa-google"></i></a>
+            </nav>
+            <a class="enlacenuevoregistro" href="/register" ><button class="nuevoregistro" type="button" id="botonLogNewReg">Nuevo Registro</button></a>
+        </section>
     </main>
-
     <nav class="whapp">
         <a href="/" id="chat">
             <i class="fab fa-whatsapp"></i>

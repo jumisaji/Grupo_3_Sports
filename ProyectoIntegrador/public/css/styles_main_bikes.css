@@ -24,6 +24,7 @@
     transition: all .5s;
     border-radius: 5px;
     position: relative;
+    transition: all .5s;
 }
 
 .descripcion{  
@@ -47,7 +48,7 @@
     top: 2px;
     right: 2vw;
     transform: rotate(0deg);
-    transition: all .3s;
+    transition: all .2s;
  }
 
  .descripcion {
