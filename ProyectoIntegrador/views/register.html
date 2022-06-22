@@ -68,7 +68,7 @@
         </section>
     </header>
      <!--       MAIN       -->
-     <main>         
+     <main>
         <!--SECCIÓN REGISTRO FORMULARIO-->
         <section class="seccionregister">
             <nav>
@@ -76,41 +76,47 @@
                     <img id="logo_register" src="/images/logo_go_bike_cart_y log.png" alt="logo gobike">
                     <p id="textoregistro">Registro</p>
                 </nav>
-                <form action="/register.html" method="get"></form>
-                    <p>
-                        <input class="ingresotexto1" type="text" name="form1" placeholder="Nombres">
-                        <input class="ingresotexto1" type="text" name="form2" placeholder="Apellidos">
-                    </p>
-                    <p>
-                        <input class="ingresotexto2" type="text" name="form3" placeholder="Email / Correo Electronico">
-                    </p>
-                    <p>
-                        <input class="ingresotexto1" type="text" name="form4" placeholder="Documento de Identidad">
-                        <input class="ingresotexto1" type="text" name="form5" placeholder="Celular">
-                    </p>
-                    <p>
-                        <input  class="ingresotexto1" type="text" name="form6" placeholder="Genero">
-                        <input  class="ingresotexto1" type="text" name="form7" placeholder="Pais">
-                    </p>
-                    <p>
-                        <p><h2>Fecha de Nacimiento</h2></p>
-                        <input class="ingresotexto_date" type="date" name="fecha" value="1999-12-10">
-                    </p>
-                    <p id="terminos">
-                        <div>
-                            <input type="checkbox" name="checkbox1" value="Terminos/condiciones 1">
-                            <label for="checkbox1">Terminos/condiciones 1</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="checkbox2" value="Terminos/condiciones 2">
-                            <label for="checkbox1">Terminos/condiciones 2</label>
-                        </div>
-                    </p>
-                    <p>
-                        <button class="boton-registrar" type="submit" name="registrar">Registrar</button>
-                    </p>
+                <form action="/register.html" method="get">
+                    <fieldset>
+                        <p>
+                            <input class="ingresotexto1" type="text" name="form1" placeholder="Nombres" required>
+                            <input class="ingresotexto1" type="text" name="form2" placeholder="Apellidos" required>
+                        </p>
+                        <p>
+                            <input class="ingresotexto2" type="text" name="form3" placeholder="Email / Correo Electrónico" required>
+                        </p>
+                        <p>
+                            <input class="ingresotexto1" type="text" name="form4" placeholder="Documento de Identidad" required>
+                            <input class="ingresotexto1" type="text" name="form5" placeholder="Celular" required>
+                        </p>
+                        <p>
+                            <input  class="ingresotexto1" type="text" name="form6" placeholder="Género" required>
+                            <input  class="ingresotexto1" type="text" name="form7" placeholder="País" required>
+                        </p>
+                        <p>
+                            <p><h2>Fecha de Nacimiento</h2></p>
+                            <input class="ingresotexto_date" type="date" name="fecha" value="1999-12-10">
+                        </p>
+                        <p id="terminos">
+                            <div>
+                                <input type="checkbox" name="checkbox1" value="Terminos/condiciones 1">
+                                <label for="checkbox1">Términos/condiciones 1</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="checkbox2" value="Terminos/condiciones 2">
+                                <label for="checkbox1">Términos/condiciones 2</label>
+                            </div>
+                        </p>
+                        <p>
+                            <button class="boton-registrar" type="submit" name="registrar" id="botonReg">Registrar</button>
+                        </p>
+                    </fieldset>
+                </form>
             </nav>
         </section>
+    
+
+
     <!--     FOOTER o pie de página    -->
     <footer>
         <section id="secfooter">
