@@ -1,48 +1,55 @@
-*{border: none;
-margin: none;
-padding: none;
-outline: none;
-box-sizing: border-box;}
-
-
-.seccioncarrito {display: flex;
-width: 80vw;
-background-color:rgb(192, 192, 192) ;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: auto;
-margin-right: auto;}
-#carrito1{display: flex;
-    
-align-items: baseline;}
-#carrito2{display: flex;
-flex-direction: column;
-
+.seccioncarrito {
+    display: flex;
+    width: 80vw;
+    background-color:rgb(192, 192, 192) ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(7, 11, 128,.8);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#tituloCarrito{width: 40vw;
+#carrito1{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+#carrito2{
+    display: flex;
+    flex-direction: column;
+}
+
+#tituloCarrito{
+    width: 40vw;
     align-self: flex-start;
-color: rgb(7, 11, 128);
-text-align: center;
-font-size: 15px;
-font-family: 'Kalam', cursiva;}
+    color: rgb(7, 11, 128);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Kalam', cursiva;
+}
 
-.logocarrito{width: 20vw;
-height: 2rem}
+.logocarrito{
+    width: 20vw;
+    height: 2rem;
+}
 
-.cajadearticulos{display: flex;
+.cajadearticulos{
+    display: flex;
     margin-top: 2rem;
-    border: 1px solid rgb(7, 11, 128) ;
+    border: 1px solid rgba(7, 11, 128,.4) ;
+    box-shadow: 0px 0px 7px 0px rgba(7, 11, 128,.8);
     border-radius: 1rem;
     padding:8px;
     justify-content: center;
-
     width: 70vw;
-background-color:rgb(175, 177, 211);
-
-flex-direction: column;
+    background-color:rgba(7, 11, 128,.21);
+    flex-direction: column;
  }
- .imagenescarrito{border: 1px solid rgb(157, 27, 11) ;
+
+ .imagenescarrito{
+    border: 1px solid rgb(157, 27, 11) ;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -50,26 +57,43 @@ flex-direction: column;
     height: 80% ;
     border-radius: 8px;
 }
-    .cajadearticulos h5{font-size: 10px;
-    margin-left: 1rem;}
-.descripcion{display:flex;
-flex-direction: column;
-border-top: 1px solid rgb(7, 11, 128) ;
-margin-top: 12px;
-}
-.descrip{font-size: 15px;
-    
-font-family:'Kalam', cursiva;
-}
-.cantidad{background-color:rgb(11, 168, 168);
-color:rgb(157, 27, 11) ;
-border-radius: 1rem;
-border: solid 1px black; }
 
-.opcion{color:rgb(157, 27, 11) ;}
-.borrar{color:rgb(157, 27, 11) ;
-font-family: 'Kalam', cursiva; ;
-font-size: 22px;
-margin-top: 5px;}
-.producto{font-family: 'Kalam', cursiva;
-font-size: 1rem;}
+.cajadearticulos h5{
+    font-size: 10px;
+    margin-left: 1rem;
+}
+
+.descripcion{
+    display:flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(7, 11, 128) ;
+    margin-top: 12px;
+}
+
+.descrip{
+    font-size: 15px;
+    font-family:'Kalam', cursiva;
+}
+
+.cantidad{
+    background-color:rgb(11, 168, 168);
+    color:rgb(157, 27, 11) ;
+    border-radius: 1rem;
+    border: solid 1px black; 
+}
+
+.opcion{
+    color:rgb(157, 27, 11) ;
+}
+
+.borrar{
+    color:rgb(157, 27, 11) ;
+    font-family: 'Kalam', cursiva; ;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.producto{
+    font-family: 'Kalam', cursiva;
+    font-size: 1rem;
+}
