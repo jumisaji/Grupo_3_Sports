@@ -77,34 +77,38 @@
                 <form action="/register.html" method="get">
                     <fieldset>
                         <p>
-                            <input class="ingresotexto1" type="text" name="form1" placeholder="Nombres" required>
-                            <input class="ingresotexto1" type="text" name="form2" placeholder="Apellidos" required>
+                            <input class="ingresotexto1" type="text" name="form1" placeholder="Nombres" minlength="4" required>
+                            <input class="ingresotexto1" type="text" name="form2" placeholder="Apellidos"minlength="4"  required>
                         </p>
                         <p>
-                            <input class="ingresotexto2" type="text" name="form3" placeholder="Email / Correo Electrónico" required>
+                            <input class="ingresotexto2" type="email" name="form3" placeholder="Email / Correo Electrónico" required>
                         </p>
                         <p>
-                            <input class="ingresotexto1" type="text" name="form4" placeholder="Documento de Identidad" required>
-                            <input class="ingresotexto1" type="text" name="form5" placeholder="Celular" required>
+                            <input class="ingresotexto1" type="number" name="form4" placeholder="Documento de Identidad" minlength="4" required>
+                            <input class="ingresotexto1" type="tel" name="form5" placeholder="Celular" minlength="" required>
                         </p>
                         <p>
                             <input  class="ingresotexto1" type="text" name="form6" placeholder="Género" required>
                             <input  class="ingresotexto1" type="text" name="form7" placeholder="País" required>
                         </p>
                         <p>
-                            <p><h2>Fecha de Nacimiento</h2></p>
+                            <input  class="ingresotexto1" type="password" name="form8" placeholder="Contraseña" minlength="4" required>
+                            <input  class="ingresotexto1" type="password" name="form9" placeholder="Confirma Contraseña" minlength="4" required>
+                        </p>
+                        <p>
+                            <p id="fechaReg"><b>Fecha de Nacimiento</b></p>
                             <input class="ingresotexto_date" type="date" name="fecha" value="1999-12-10">
                         </p>
-                        <p id="terminos">
-                            <div>
+                        <fieldset id="terminos">
+                            <fieldset class="term1">
                                 <input type="checkbox" name="checkbox1" value="Términos/condiciones 1">
-                                <label for="checkbox1">Términos/condiciones 1</label>
-                            </div>
-                            <div>
+                                <label for="checkbox1">Acepto los términos de uso y políticas de privacidad</label>
+                            </fieldset>
+                            <fieldset class="term2">
                                 <input type="checkbox" name="checkbox2" value="Términos/condiciones 2">
-                                <label for="checkbox1">Términos/condiciones 2</label>
-                            </div>
-                        </p>
+                                <label for="checkbox1">Deseo recibir notificaciones de ofertas a mi correo</label>
+                            </fieldset>
+                        </fieldset>
                         <p>
                             <a href="/"><button class="boton-registrar" type="submit" name="registrar" id="botonReg">Registrar</button></a>
                         </p>

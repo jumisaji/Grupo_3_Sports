@@ -38,7 +38,7 @@
     width: 30vw;
     height: 2rem;
     color: rgb(192, 192, 192);
-    font-family: 'Kalam', cursiva;
+    font-family: 'raleway', cursiva;
     margin-top: 1rem;
     border-radius: 5px;
     font-size: 15px;
@@ -49,27 +49,36 @@
     width: 60vw;
     height: 2rem;
     color: rgb(192, 192, 192);
-    font-family: 'Kalam', cursiva;
+    font-family: 'raleway', cursiva;
     margin-top: 1rem;
     border-radius: 5px;
     font-size: 15px;
     padding-left: 5px;
     padding-right: 5px;
 }
+
+#fechaReg{
+    margin: 15px 3px 3px 3px;
+    padding: 2px;
+}
+
 .ingresotexto_date {
     width: 50vw;
     height: 2rem;
     color: rgb(192, 192, 192);
-    font-family: 'Kalam', cursiva;
+    font-family: 'raleway', cursiva;
     margin-top: 1rem;
     border-radius: 5px;
     font-size: 15px;
     padding-left: 5px;
     padding-right: 5px;
 }
+
 #terminos{
     padding: 10px;
+    margin: 5px;
 }
+
 .boton-registrar{
     width: 20vw;
     margin-top: 2rem;
