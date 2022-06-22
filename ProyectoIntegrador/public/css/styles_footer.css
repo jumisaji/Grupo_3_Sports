@@ -63,8 +63,15 @@ footer{
     color:  #070B80;
 }
 
+
+#suscrito h4{
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
 .novedad{
-    margin: 30px 15px; 
+    margin: 15px; 
     padding: 3px;
 }
 
