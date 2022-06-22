@@ -31,14 +31,16 @@ main{
     transition: all .5s;
     border-radius: 5px;
     position: relative;
-
+    transition: all .5s;
 }
+
 .ganga{  
     padding: 15px;
     border-top: rgba(11, 168, 168,.4) solid 1px;
     display: flex;
     flex-flow:  column wrap;
     justify-content: space-between;
+    color: blue;
  } 
 
  .heart1{
@@ -52,12 +54,17 @@ main{
     justify-content: center;
     position: absolute;
     top: 1px;
-    right:1.5vw;
+    right:2vw;
     transform: rotate(0deg);
     transition: all .3s;
  }
+
  .descuentazo{
     font-family:  'Roboto bold';
     font-size: 24px;
     color: #9D1B6F;
+ }
+
+ .precioff, .referencia{
+    display: none;
  }

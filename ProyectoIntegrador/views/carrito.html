@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Etiqueta para configurar media queries-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Etiqueta para configurar media queries-->
 
     <title>Go Bike</title>
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
-    <!--LINK para acceder a iconos-->
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" /> <!--LINK para acceder a iconos-->
+    
     <!-- LINKS  FUENTES DE LA MARCA-->
     <!--Kalam-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,12 +17,12 @@
     <!--Raleway-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Raleway:wght@300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
     <!--Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="./css/styles_header.css">
     <!--Llamo documento en CSS que contiene los estilos definidos -->
@@ -40,6 +37,8 @@
     <link rel="stylesheet" href="./css/styles_login.css">
     <!--Llamo documento CSS que contiene estilos de login -->
     <link rel="stylesheet" href="./css/styles_carrito.css">
+    <link rel="stylesheet" href="./css/styles_register.css">
+    <link rel="stylesheet" href="./css/styles_producto.css">
 
 
     <link rel="stylesheet" href="./css/media_queries_header_y_footer.css">
@@ -48,6 +47,7 @@
     <!--Llamo documento CSS que contiene los estilos de media queries de formulario login -->
     <link rel="stylesheet" href="./css/media_queries_main_home_y_bikes.css">
     <!--Llamo documento CSS que contiene los estilos de media queries de main home y main bikes -->
+    <link rel="stylesheet" href="./css/media_queries_form_producto.css">
 
 
 
@@ -55,6 +55,22 @@
     <!--Llamo documento CSS que contiene anamaciones y transiciones -->
 
 
+    <link rel="stylesheet" href="./css/styles_header.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
+    <link rel="stylesheet" href="./css/styles_footer.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
+    <link rel="stylesheet" href="./css/styles_main.css"> <!--Llamo documento CSS que contiene los estilos de main home ofertas -->
+    <link rel="stylesheet" href="./css/styles_main_bikes.css"> <!--Llamo documento CSS que contiene los estilos de main categorias de bikes -->
+    <link rel="stylesheet" href="./css/styles_body.css"> <!--Llamo documento CSS que contiene los estilos de body y sus elementos -->
+    <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento CSS que contiene estilos de formulario login -->
+    <link rel="stylesheet" href="./css/styles_carrito.css"> <!--Llamo documento CSS que contiene estilos de Carrito de compras -->
+    <link rel="stylesheet" href="./css/styles_register.css"> <!--Llamo documento CSS que contiene estilos de formulario register -->
+    <link rel="stylesheet" href="./css/styles_productoDetalle.css"> <!--Llamo documento CSS que contiene estilos de detalle de Producto -->
+   
+    <link rel="stylesheet" href="./css/media_queries_header_y_footer.css"> <!--Llamo documento CSS que contiene los estilos de media queries de header y footer -->
+    <link rel="stylesheet" href="./css/media_queries_formularios.css"> <!--Llamo documento CSS que contiene los estilos de media queries de formulario login -->
+    <link rel="stylesheet" href="./css/media_queries_main_home_y_bikes.css"> <!--Llamo documento CSS que contiene los estilos de media queries de main home y main bikes -->
+
+
+    <link rel="stylesheet" href="./css/animaciones.css"> <!--Llamo documento CSS que contiene anamaciones y transiciones -->
 
 </head>
 
@@ -74,7 +90,7 @@
                 <!--Botones con opciones en el header-->
                 <a href="/ruta"><b> Bicicletas de Ruta </b></a>
                 <a href="/bmx"><b> Bicicletas BMX </b></a>
-                <a href="/mtb"><b> Bicicletas MBT </b></a>
+                <a href = "/mtb"><b> Bicicletas MTB </b></a>
                 <a href="/urban"><b> Bicicletas Urbanas </b></a>
             </nav>
             <form id="buscar">
@@ -100,7 +116,7 @@
 
             <article class="cajadearticulos">
                 <div class="producto">producto</div>
-                <img class=" imagenescarrito" src="/images/urbanas_bicicleta_1.jpg" alt="imagen bicicleta">
+                <img class=" imagenescarrito" src="/images/urbana-1.png" alt="imagen bicicleta">
                 <section class="descripcion">
                     <nav class="descrip">rodado modelo</nav>
                     <nav class="descrip">%OFF $12345</nav>
@@ -121,7 +137,7 @@
             </article>
             <article class="cajadearticulos">
                 <div class="producto">producto</div>
-                <img class=" imagenescarrito" src="/images/mountain_bicicleta_1.jfif" alt="imagen bicicleta">
+                <img class=" imagenescarrito" src="/images/mtb-1.png" alt="imagen bicicleta">
                 <section class="descripcion">
                     <nav class="descrip">rodado modelo</nav>
                     <nav class="descrip">%OFF $12345</nav>
@@ -143,7 +159,7 @@
             </article>
             <article class="cajadearticulos">
                 <div class="producto">producto</div>
-                <img class=" imagenescarrito" src="/images/ruta_bicicleta_2.jfif" alt="imagen bicicleta">
+                <img class=" imagenescarrito" src="/images/ruta-2.png" alt="imagen bicicleta">
                 <section class="descripcion">
                     <nav class="descrip">rodado modelo</nav>
                     <nav class="descrip">%OFF $12345</nav>

@@ -1,10 +1,10 @@
 /* **************                   MEDIA QUERIES   MAIN          ************** */
 
-
+/*  **************************  */
 /*  ********* TABLET *********  */
-
+/*  **************************  */
 @media screen and (min-width: 700px){
-    /* MAIN Tablet */
+    /* MAIN HOME Tablet */
 
     .bikeof {
         width: 40%;
@@ -16,7 +16,7 @@
         font-size: 5vw;
         right:2vw;
     }
-
+    /* MAIN BIKE Tablet */
     .bike {
         width: 40%;
         margin: 15px;
@@ -28,12 +28,13 @@
         right:2vw;
     }
     
-   
 }
-
+/*  ***************************  */
 /*  ********* DESKTOP *********  */
+/*  ***************************  */
+
 @media screen and (min-width:992px){
-    /* MAIN Desktop */
+    /* MAIN HOME Desktop */
     .bikeof {
         width: 20%;
         margin: 12px;
@@ -44,7 +45,12 @@
         font-size: 2.5vw;
         right:1vw;
     }
+    .precioff{
+        display: flex;
+        justify-content: center;
+    }
 
+        /* MAIN BIKE Desktop */
     .bike {
         width: 20%;
         margin: 12px;

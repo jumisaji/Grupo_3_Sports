@@ -24,7 +24,7 @@ h2 {
     text-align: center;
     margin-top: 1rem;
     color: rgb(7, 11, 128);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'raleway', sans-serif;
 }
 
 .logo_login {
@@ -38,7 +38,7 @@ h2 {
     width: 30vw;
     height: 2rem;
     color: rgb(192, 192, 192);
-    font-family: 'Kalam', cursiva;
+    font-family: 'raleway', cursiva;
     margin-top: 1rem;
     border-radius: 5px;
     font-size: 15px;
@@ -46,13 +46,14 @@ h2 {
     padding-right: 5px;
 }
 
-h4 {
+#forgotPass{
     display: flex;
     flex-direction: row-reverse;
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 11px;
     margin-right: 40px;
     color: rgb(7, 11, 128);
+    transition: all .3s;
 }
 
 .boton-ingreso {
@@ -76,8 +77,8 @@ h4 {
     font-size: 20px;
     margin-left: 1rem;
     text-align: center;
-
     color: rgb(7, 11, 128);
+    transition: all .3s;
 }
 
 .cajaiconos {
@@ -97,4 +98,8 @@ h4 {
 
 .enlacenuevoregistro {
     color: rgb(7, 11, 128);
+}
+
+#botonLogIngreso, #botonLogNewReg{
+    transition: all .5s;
 }

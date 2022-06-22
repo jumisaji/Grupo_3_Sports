@@ -24,6 +24,7 @@
     transition: all .5s;
     border-radius: 5px;
     position: relative;
+    transition: all .5s;
 }
 
 .descripcion{  
@@ -45,10 +46,15 @@
     justify-content: center;
     position: absolute;
     top: 2px;
-    right:1.5vw;
+    right: 2vw;
     transform: rotate(0deg);
-    transition: all .3s;
+    transition: all .2s;
  }
+
+ .descripcion {
+    color: rgba(7, 11, 128,1);
+ }
+
  .descuento{
     font-family:  'Roboto bold';
     font-size: 20px;

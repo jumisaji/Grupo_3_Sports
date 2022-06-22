@@ -28,17 +28,17 @@
     <link rel="stylesheet" href="./css/styles_main.css"> <!--Llamo documento CSS que contiene los estilos de main home ofertas -->
     <link rel="stylesheet" href="./css/styles_main_bikes.css"> <!--Llamo documento CSS que contiene los estilos de main categorias de bikes -->
     <link rel="stylesheet" href="./css/styles_body.css"> <!--Llamo documento CSS que contiene los estilos de body y sus elementos -->
-    <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento CSS que contiene estilos de login -->
-    
-    
+    <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento CSS que contiene estilos de formulario login -->
+    <link rel="stylesheet" href="./css/styles_carrito.css"> <!--Llamo documento CSS que contiene estilos de Carrito de compras -->
+    <link rel="stylesheet" href="./css/styles_register.css"> <!--Llamo documento CSS que contiene estilos de formulario register -->
+    <link rel="stylesheet" href="./css/styles_productoDetalle.css"> <!--Llamo documento CSS que contiene estilos de detalle de Producto -->
+   
     <link rel="stylesheet" href="./css/media_queries_header_y_footer.css"> <!--Llamo documento CSS que contiene los estilos de media queries de header y footer -->
-    <link rel="stylesheet" href="./css/media_queries_form_login.css"> <!--Llamo documento CSS que contiene los estilos de media queries de formulario login -->
+    <link rel="stylesheet" href="./css/media_queries_formularios.css"> <!--Llamo documento CSS que contiene los estilos de media queries de formulario login -->
     <link rel="stylesheet" href="./css/media_queries_main_home_y_bikes.css"> <!--Llamo documento CSS que contiene los estilos de media queries de main home y main bikes -->
+    <link rel="stylesheet" href="./css/media_queries_form_producto.css">
 
-    
     <link rel="stylesheet" href="./css/animaciones.css"> <!--Llamo documento CSS que contiene anamaciones y transiciones -->
-
-
 
 </head>
 
@@ -53,7 +53,7 @@
             <nav id="opciones1"><!--Botones con opciones en el header-->
                 <a href = "/ruta"><b> Bicicletas de Ruta </b></a>
                 <a href = "/bmx"><b> Bicicletas BMX </b></a>
-                <a href = "/mtb"><b> Bicicletas MBT </b></a>
+                <a href = "/mtb"><b> Bicicletas MTB </b></a>
                 <a href = "/urban"><b> Bicicletas Urbanas </b></a>
             </nav>
             <form id="buscar"> <!--barra de búsqueda-->
@@ -67,20 +67,57 @@
         </section>
     </header>
      <!--       MAIN       -->
-     <main>         
+    <main>         
         <!--SECCIÓN DETALLE DEL PRODUCTO-->
-        <section>
+    <section class="contenedor-padre">
+        <section class="contenedor-detalle-producto-1">
             <article>
-                <form>
-                    <input type="text" id="espaciodetexto" placeholder="espaciodetexto">
+                <form action="/productoDetalle.html" method="get">
+                    <input class="ingresotexto0" type="text" id="espaciodetexto" placeholder="espaciodetexto">
                 </form>
-                <i class="fa-solid fa-heart"></i>
-                <figure>
-                    <img src="/" alt="Bicicleta seleccionada">
-                </figure>
+                <i class="fa-solid fa-heart heart3"></i>
+                <div>
+                    <img src="/images/bmx_bicicleta_1.webp" alt="Bicicleta seleccionada">
+                </div>       
             </article>
-
         </section>
+        <section class="contenedor-detalle-producto-2">
+            <article class="detalle-del-poducto-2-1">
+                <div>
+                    <form action="/productoDetalle.html" method="get">
+                        <p>
+                            <input class="ingresotexto1" type="text" id="nombredepoducto" placeholder="(Nombre del producto)">
+                            </p>
+                            <p>
+                            <input class="ingresotexto2" type="text" id="detalledelproducto" placeholder="(Detalle del producto)">
+                        </p>
+                    </form>
+                </div>
+            </article>
+            <article class="detalle-del-poducto-2-2">
+                    <input class="ingresotexto3" type="text" id="texto" placeholder="(texto)">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
+                    </p>
+            </article>
+            <article class="detalle-del-poducto-2-3">
+                <div id="divgregaralcarrito">
+                    <input class="ingresotexto4" type="text" id="texto1" placeholder="(texto)">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
+                    </p>
+                    <button class="boton-carrito" type="submit" name="agregaralarrito">Agregar al carrito</button>
+                </div>
+                <div>
+                    <input type="text" id="texto1" placeholder="(texto)">
+                    <input type="text" id="texto1" placeholder="(texto)">
+                </div>
+            </article>
+        </section>
+    </section>
     </main>
     <nav class="whapp">
         <a href="/" id="chat">
