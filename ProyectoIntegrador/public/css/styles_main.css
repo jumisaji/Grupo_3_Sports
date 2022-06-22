@@ -1,5 +1,4 @@
 main{
-    font-family: raleway;
     font-size: 16px;
     color: #070B80;
     text-align: center;
@@ -14,6 +13,7 @@ main{
 #offers{
     margin: 10px;
     padding: 20px;
+  
 }
 
 .bikeof img{
@@ -23,6 +23,7 @@ main{
 .bikeof{
     box-shadow: 0px 0px 10px 0px rgba(11, 168, 168,.8);
     text-align: center;
+    font-family: relaway;
     display: inline-block;
     background-color:white;
     border: rgba(11, 168, 168,.4) solid 1px;
