@@ -18,6 +18,7 @@ server.get('/urban', (req,res) => res.sendFile(path.resolve(__dirname, '../views
 server.get('/login', (req,res) => res.sendFile(path.resolve(__dirname, '../views/login.html')))
 server.get('/carrito', (req,res) => res.sendFile(path.resolve(__dirname, '../views/carrito.html')))
 server.get('/register', (req,res) => res.sendFile(path.resolve(__dirname, '../views/register.html')))
+server.get('/producto', (req,res) => res.sendFile(path.resolve(__dirname, '../views/producto.html')))
 
 
 server.get('/', (req,res) => res.send('Bienvenid@ a Go Bike'));

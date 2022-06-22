@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="./css/styles_body.css"> <!--Llamo documento CSS que contiene los estilos de body y sus elementos -->
     <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento CSS que contiene estilos de login -->
     <link rel="stylesheet" href="./css/styles_register.css">
+    <link rel="stylesheet" href="./css/styles_producto.css">
     
     
     <link rel="stylesheet" href="./css/media_queries_header_y_footer.css"> <!--Llamo documento CSS que contiene los estilos de media queries de header y footer -->
@@ -71,16 +72,49 @@
      <main>         
         <!--SECCIÓN DETALLE DEL PRODUCTO-->
         <section>
-            <article>
-                <form>
+            <section class="detalle-del-poducto-1">
+                <form action="/producto.html" method="get">
                     <input type="text" id="espaciodetexto" placeholder="espaciodetexto">
                 </form>
                 <i class="fa-solid fa-heart"></i>
-                <figure>
-                    <img src="/" alt="Bicicleta seleccionada">
-                </figure>
-            </article>
-
+                <div>
+                    <img id="productoimg0" src="/images/bmx_bicicleta_1.webp" alt="Bicicleta seleccionada">
+                </div>       
+            </section>
+            <section class="detalle-del-poducto-2">
+                <article>
+                    <form action="/producto.html" method="get">
+                        <p>
+                            <input type="text" id="nombredepoducto" placeholder="(Nombre del producto)">
+                        </p>
+                        <p>
+                            <input type="text" id="detalledelproducto" placeholder="(Detalle del producto)">
+                        </p>
+                    </form>
+                </article>
+                <article>
+                    <input type="text" id="texto" placeholder="(texto)">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
+                    </p>
+                </article>
+                <article>
+                    <div>
+                        <input type="text" id="texto1" placeholder="(texto)">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
+                        </p>
+                        <button class="boton-carrito" type="submit" name="agregaralarrito">Agregar al carrito</button>
+                    </div>
+                    <div>
+                        <input type="text" id="texto1" placeholder="(texto)">
+                        <input type="text" id="texto1" placeholder="(texto)">
+                    </div>
+                </article>
+            </section>
         </section>
     </main>
     <nav class="whapp">
