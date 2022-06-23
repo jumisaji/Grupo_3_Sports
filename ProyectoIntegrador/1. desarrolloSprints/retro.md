@@ -10,3 +10,9 @@ RETROSPECTIVA DEL PRIMER SPRINT
 4. HACER MENOS
 5. DEJAR DE HACER
 
+Mateo:
+1. Una forma organizada de archivar errores.
+2. Análisis a páginas ajenas, para nuestra imaginación.
+3. Trabajo en equipo y comunicación.
+4. Pensamientos de angustia.
+5. Dejar de hacer las cosas sin tiempo de ventaja. 
