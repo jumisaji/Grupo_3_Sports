@@ -26,8 +26,6 @@
         width: 60vw;
         height: 70vh;
         background: #ebebeb;
-       
-    
     }
     .ingresotexto0{
         width: 70%;
@@ -100,8 +98,29 @@
         padding-left: 5px;
         padding-right: 5px;
     }
-    #divgregaralcarrito{
-    
+    .ingresotexto5{
+        width: 25vw;
+        height: 0.7rem;
+        color: rgb(192, 192, 192);
+        font-family: 'Kalam', cursiva;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .ingresotexto6{
+        width: 25vw;
+        height: 0.7rem;
+        color: rgb(192, 192, 192);
+        font-family: 'Kalam', cursiva;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .detalle-del-poducto-2-1{
       margin-bottom: 20px;
@@ -135,7 +154,7 @@
         font-weight: bold;
         font-family: 'Kalam', cursiva;
     }
-    .boton-carrito{
+    .boton-canasta{
         width: 15vw;
         margin-top: 2rem;
         height: 2.5rem;
@@ -182,12 +201,10 @@
     }
     .contenedor-detalle-producto-2{
         margin-left: 40px;
-        flex-direction: column;
+        flex-direction: row;
         width: 60vw;
         height: 70vh;
         background: #ebebeb;
-       
-    
     }
     .ingresotexto0{
         width: 70%;
@@ -260,8 +277,29 @@
         padding-left: 5px;
         padding-right: 5px;
     }
-    #divgregaralcarrito{
-    
+    .ingresotexto5{
+        width: 25vw;
+        height: 0.7rem;
+        color: rgb(192, 192, 192);
+        font-family: 'Kalam', cursiva;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .ingresotexto6{
+        width: 25vw;
+        height: 0.7rem;
+        color: rgb(192, 192, 192);
+        font-family: 'Kalam', cursiva;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .detalle-del-poducto-2-1{
       margin-bottom: 20px;
@@ -274,6 +312,8 @@
        height: 25vh;
     }
     .detalle-del-poducto-2-3{
+        display: row;
+        justify-content: flex-end;
         margin-top: 10px;
         background: #C0C0C0;
         box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
@@ -295,7 +335,7 @@
         font-weight: bold;
         font-family: 'Kalam', cursiva;
     }
-    .boton-carrito{
+    .boton-canasta{
         width: 15vw;
         margin-top: 2rem;
         height: 2.5rem;
