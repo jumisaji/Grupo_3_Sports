@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Etiqueta para configurar media queries-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Etiqueta para configurar media queries-->
 
     <title>Go Bike</title>
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" /> <!--LINK para acceder a iconos-->
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+    <!--LINK para acceder a iconos-->
+
     <!-- LINKS  FUENTES DE LA MARCA-->
     <!--Kalam-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,32 +20,47 @@
     <!--Raleway-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
     <!--Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/styles_header.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
-    <link rel="stylesheet" href="./css/styles_footer.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
-    <link rel="stylesheet" href="./css/styles_main.css"> <!--Llamo documento CSS que contiene los estilos de main home ofertas -->
-    <link rel="stylesheet" href="./css/styles_main_bikes.css"> <!--Llamo documento CSS que contiene los estilos de main categorias de bikes -->
-    <link rel="stylesheet" href="./css/styles_body.css"> <!--Llamo documento CSS que contiene los estilos de body y sus elementos -->
-    <link rel="stylesheet" href="./css/styles_login.css"> <!--Llamo documento CSS que contiene estilos de formulario login -->
-    <link rel="stylesheet" href="./css/styles_carrito.css"> <!--Llamo documento CSS que contiene estilos de Carrito de compras -->
-    <link rel="stylesheet" href="./css/styles_register.css"> <!--Llamo documento CSS que contiene estilos de formulario register -->
-    <link rel="stylesheet" href="./css/styles_productoDetalle.css"> <!--Llamo documento CSS que contiene estilos de detalle de Producto -->
-   
-    <link rel="stylesheet" href="./css/media_queries_header_y_footer.css"> <!--Llamo documento CSS que contiene los estilos de media queries de header y footer -->
-    <link rel="stylesheet" href="./css/media_queries_formularios.css"> <!--Llamo documento CSS que contiene los estilos de media queries de formulario login -->
-    <link rel="stylesheet" href="./css/media_queries_main_home_y_bikes.css"> <!--Llamo documento CSS que contiene los estilos de media queries de main home y main bikes -->
+    <link rel="stylesheet" href="./css/styles_header.css">
+    <!--Llamo documento en CSS que contiene los estilos definidos -->
+    <link rel="stylesheet" href="./css/styles_footer.css">
+    <!--Llamo documento en CSS que contiene los estilos definidos -->
+    <link rel="stylesheet" href="./css/styles_main.css">
+    <!--Llamo documento CSS que contiene los estilos de main home ofertas -->
+    <link rel="stylesheet" href="./css/styles_main_bikes.css">
+    <!--Llamo documento CSS que contiene los estilos de main categorias de bikes -->
+    <link rel="stylesheet" href="./css/styles_body.css">
+    <!--Llamo documento CSS que contiene los estilos de body y sus elementos -->
+    <link rel="stylesheet" href="./css/styles_login.css">
+    <!--Llamo documento CSS que contiene estilos de formulario login -->
+    <link rel="stylesheet" href="./css/styles_carrito.css">
+    <!--Llamo documento CSS que contiene estilos de Carrito de compras -->
+    <link rel="stylesheet" href="./css/styles_register.css">
+    <!--Llamo documento CSS que contiene estilos de formulario register -->
+    <link rel="stylesheet" href="./css/styles_productoDetalle.css">
+    <!--Llamo documento CSS que contiene estilos de detalle de Producto -->
+
+    <link rel="stylesheet" href="./css/media_queries_header_y_footer.css">
+    <!--Llamo documento CSS que contiene los estilos de media queries de header y footer -->
+    <link rel="stylesheet" href="./css/media_queries_formularios.css">
+    <!--Llamo documento CSS que contiene los estilos de media queries de formulario login -->
+    <link rel="stylesheet" href="./css/media_queries_main_home_y_bikes.css">
+    <!--Llamo documento CSS que contiene los estilos de media queries de main home y main bikes -->
     <link rel="stylesheet" href="./css/media_queries_form_producto.css">
 
-    <link rel="stylesheet" href="./css/animaciones.css"> <!--Llamo documento CSS que contiene anamaciones y transiciones -->
+    <link rel="stylesheet" href="./css/animaciones.css">
+    <!--Llamo documento CSS que contiene anamaciones y transiciones -->
 
 </head>
 
 <!--    **************************************************   BODY   ****************************************************    -->
+
 <body>
     <!--          HEADER          -->
     <header>
@@ -57,18 +75,19 @@
                 <!--Botones con opciones en el header-->
                 <a href="/ruta"><b> Bicicletas de Ruta </b></a>
                 <a href="/bmx"><b> Bicicletas BMX </b></a>
-                <a href = "/mtb"><b> Bicicletas MTB </b></a>
+                <a href="/mtb"><b> Bicicletas MTB </b></a>
                 <a href="/urban"><b> Bicicletas Urbanas </b></a>
             </nav>
             <form id="buscar">
                 <!--barra de búsqueda-->
-                <input type="search" id="barraBuscar" name="Barra de busqueda" placeholder=" Buscar productos, marcas...">
+                <input type="search" id="barraBuscar" name="Barra de busqueda"
+                    placeholder=" Buscar productos, marcas...">
                 <a href="/"><button type="button" id="lupa"><i class="fa-solid fa-magnifying-glass"></i></button></a>
             </form>
             <nav id="opciones2">
                 <!--botones con iconos para login y carrito de compras-->
-                <a href = "/login"><button type="acceso" id="tuCuenta"><i class="fas fa-user"></i></button></a>
-                <a href = "/carrito"><button type="acceso" id="canasta"><i class="fas fa-shopping-cart"></i></button></a>
+                <a href="/login"><button type="acceso" id="tuCuenta"><i class="fas fa-user"></i></button></a>
+                <a href="/carrito"><button type="acceso" id="canasta"><i class="fas fa-shopping-cart"></i></button></a>
             </nav>
         </section>
     </header>
@@ -80,14 +99,19 @@
                     <fieldset>
                         <fieldset>
                             <p>
-                                <input class="ingresotexto" type="text" name="usuario" placeholder="Nombre de usuario o correo" minlength="4" required>
+                                <input class="ingresotexto" type="text" name="usuario"
+                                    placeholder="Nombre de usuario o correo" minlength="4" required>
                             </p>
                             <p>
-                                <input class="ingresotexto" type="password" name="contraseña" placeholder="Contraseña"  minlength="4" required>
+                                <input class="ingresotexto" type="password" name="contraseña" placeholder="Contraseña"
+                                    minlength="4" required>
                             </p>
-                            <nav><a href="/"><h4 id="forgotPass">¿olvidaste tu contraseña?</h4></a></nav>
+                            <nav><a href="/">
+                                    <h4 id="forgotPass">¿olvidaste tu contraseña?</h4>
+                                </a></nav>
                             <p>
-                                <a href="/"><button class="boton-ingreso" type="submit" name="login" id="botonLogIngreso">Ingreso</button></a>
+                                <a href="/"><button class="boton-ingreso" type="submit" name="login"
+                                        id="botonLogIngreso">Ingreso</button></a>
                             </p>
                         </fieldset>
                     </fieldset>
@@ -101,7 +125,8 @@
                 <a class="iconosredes" href="/"><i class="fa-brands fa-instagram"></i></a>
                 <a class="iconosredes" href="/"><i class="fa-brands fa-google"></i></a>
             </nav>
-            <a class="enlacenuevoregistro" href="/register" ><button class="nuevoregistro" type="button" id="botonLogNewReg">Nuevo Registro</button></a>
+            <a class="enlacenuevoregistro" href="/register"><button class="nuevoregistro" type="button"
+                    id="botonLogNewReg">Nuevo Registro</button></a>
         </fieldset>
     </main>
     <nav class="whapp">
@@ -113,8 +138,11 @@
     <footer>
         <section id="secfooter">
 
-            <nav class="goBike2"><!--LOGO FOOTER-->
-                <a href="/"><figure id="logo2"><img src= "/images/logo-gobike-horizontal.png" alt ="Logo Lineal GoBike"></figure></a>
+            <nav class="goBike2">
+                <!--LOGO FOOTER-->
+                <a href="/">
+                    <figure id="logo2"><img src="/images/logo-gobike-horizontal.png" alt="Logo Lineal GoBike"></figure>
+                </a>
             </nav>
             <section class="opfooter">
                 <article class="pagotarjeta">
@@ -123,14 +151,15 @@
                     </section>
                     <p> Con Go Bike Card, puedes pagar desde la comodidad de tu hogar. ¡Y siempre es seguro!</p>
                 </article>
-            
+
                 <article class="puntos">
                     <section id="diamond">
                         <a href="/"><i class="fas fa-gem"></i></a><b>Cliente Diamante</b>
                     </section>
-                    <p> Solo por estar registrad@ en Go Bike, acumula puntos con tus compras y recibe grandes beneficios.</p>
+                    <p> Solo por estar registrad@ en Go Bike, acumula puntos con tus compras y recibe grandes
+                        beneficios.</p>
                 </article>
-                
+
                 <article class="protegido">
                     <section id="security">
                         <a href="/"><i class="fas fa-user-shield"></i></a><b>Compras Seguras</b>
@@ -140,28 +169,29 @@
             </section>
 
             <section class="opfooter2">
-            <article class="novedad">
-                <section id="suscrito">
-                    <h4> MANTENTE ENTERADO </h4>
-                    <p>Suscríbete para conocer más sobre nuestros productos y promociones exclusivas</p>
-                    <span>
-                        <a href="/">
-                            <b>SUSCRÍBETE A NUESTRA LISTA DE CORREO <i class="fas fa-envelope-open-text"></i></b>
-                        </a>
-                    </span>
+                <article class="novedad">
+                    <section id="suscrito">
+                        <h4> MANTENTE ENTERADO </h4>
+                        <p>Suscríbete para conocer más sobre nuestros productos y promociones exclusivas</p>
+                        <span>
+                            <a href="/">
+                                <b>SUSCRÍBETE A NUESTRA LISTA DE CORREO <i class="fas fa-envelope-open-text"></i></b>
+                            </a>
+                        </span>
+                    </section>
+                </article>
+                <section class="redesPie">
+                    <nav class="redesFooter">
+                        <a href="/"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </nav>
                 </section>
-            </article>
-            <section class="redesPie">
-                <nav class="redesFooter">
-                    <a href = "/"><i class="fa-brands fa-facebook-square"></i></a>
-                    <a href = ""><i class="fa-brands fa-instagram"></i></a>
-                </nav>
             </section>
-        </section>
-        
-        <p id="derechosAutor"><i>Copyright © 2022 Made by GoBike ... <i class="fas fa-biking"></i>...</i></p>
+
+            <p id="derechosAutor"><i>Copyright © 2022 Made by GoBike ... <i class="fas fa-biking"></i>...</i></p>
 
         </section>
     </footer>
 </body>
+
 </html>
