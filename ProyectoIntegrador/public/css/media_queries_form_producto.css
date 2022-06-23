@@ -1,320 +1,57 @@
 @media screen and (min-width: 700px){
-    main{
-        background: #E5E5E5;
-    }
-    .contenedor-padre{
-        display: flex;
-        flex-direction: row;
-        box-sizing: border-box;
-    }
-    .contenedor-detalle-producto-1{
-        box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
-        border-radius: 5px;
-        flex-direction: row;
-        width: 30vw;
-        height: 55vh;
-        background: #C0C0C0;
-        justify-content: flex-start;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        margin-top: 100px;
-    }
-    .contenedor-detalle-producto-2{
-        margin-left: 40px;
-        flex-direction: column;
-        width: 60vw;
-        height: 70vh;
-        background: #ebebeb;
-       
-    
-    }
-    .ingresotexto0{
-        width: 70%;
-        height: 2rem;
-        color: #A0A0A0;
-        font-family: 'Kalam', cursiva;
-        margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
     .heart3{
-        text-align: center;
-        color:#9D1B6F;
-        font-size: 2.5vw;
-        display: flex;
-        padding: 10px;
-        width: 3vh;
-        height: 3vh;
-        justify-content: center;
-        position: absolute;
-        top: 2px;
-        right: 1vw;
+        font-size: 5vw;
+        right: 2vw;
     }
-    .ingresotexto1{
-        width: 40vw;
-        height: 2rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 2.5rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
+
+ 
+    .stars{
+        font-size: 1.7rem;
     }
-    .ingresotexto2{
-        width: 35vw;
-        height: 1.5rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 1rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .ingresotexto3{
-        width: 30vw;
-        height: 1rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .ingresotexto4{
-        width: 25vw;
-        height: 0.7rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    #divgregaralcarrito{
     
+    .star1, .star2, .star3, .star4, .star5{
+        font-size: 1.2rem;
     }
-    .detalle-del-poducto-2-1{
-      margin-bottom: 20px;
-    }
-    .detalle-del-poducto-2-2{
-       margin-top: 20px;
-       background: #C0C0C0;
-       box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
-       border-radius: 5px;
-       height: 25vh;
-    }
-    .detalle-del-poducto-2-3{
-        margin-top: 10px;
-        background: #C0C0C0;
-        box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
-        border-radius: 5px;
-        margin-bottom: 40px;
-    }
-    .contenedor-detalle-producto-1 img{
-    width: 77%;
-    height: 30vh;
-    text-align: center;
-    }
-    .detalle-del-poducto-2-2 p{
-        color:#5C5C5C;
-        font-weight: bold;
-        font-family: 'Kalam', cursiva;
-    }
-    .detalle-del-poducto-2-3 p{
-        color:#5C5C5C;
-        font-weight: bold;
-        font-family: 'Kalam', cursiva;
-    }
-    .boton-carrito{
-        width: 15vw;
-        margin-top: 2rem;
+
+    .boton-canasta{
         height: 2.5rem;
-        font-family: 'Kalam', cursiva;
-        background-color: rgb(11, 168, 168);
-        color: rgb(7, 11, 128);
-        border-radius: 40rem;
         font-size: 1rem;
-        margin-bottom: 2rem;
     }
-    #nombredeproducto{
-        width: 70vw;
-        height: 2rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 1rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
+
+
+   
 }
 @media screen and (min-width:992px){
-    main{
-        background: #E5E5E5;
-    }
     .contenedor-padre{
         display: flex;
         flex-direction: row;
-        box-sizing: border-box;
-    }
-    .contenedor-detalle-producto-1{
-        box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
-        border-radius: 5px;
-        flex-direction: row;
-        width: 30vw;
-        height: 55vh;
-        background: #C0C0C0;
-        justify-content: flex-start;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        margin-top: 100px;
-    }
-    .contenedor-detalle-producto-2{
-        margin-left: 40px;
-        flex-direction: column;
-        width: 60vw;
-        height: 70vh;
-        background: #ebebeb;
-       
-    
     }
     .ingresotexto0{
-        width: 70%;
-        height: 2rem;
-        color: #A0A0A0;
-        font-family: 'Kalam', cursiva;
-        margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 52px 5px;
     }
     .heart3{
-        text-align: center;
-        color:#9D1B6F;
         font-size: 2.5vw;
-        display: flex;
-        padding: 10px;
-        width: 3vh;
-        height: 3vh;
-        justify-content: center;
-        position: absolute;
-        top: 2px;
         right: 1vw;
     }
-    .ingresotexto1{
+
+    .contenedor-detalle-producto-1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding: 20px;
+        width: 45vw;
+    }
+
+    .contenedor-detalle-producto-2{
         width: 40vw;
-        height: 2rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 2.5rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
     }
-    .ingresotexto2{
-        width: 35vw;
-        height: 1.5rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 1rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .ingresotexto3{
-        width: 30vw;
-        height: 1rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .ingresotexto4{
-        width: 25vw;
-        height: 0.7rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    #divgregaralcarrito{
-    
-    }
-    .detalle-del-poducto-2-1{
-      margin-bottom: 20px;
-    }
-    .detalle-del-poducto-2-2{
-       margin-top: 20px;
-       background: #C0C0C0;
-       box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
-       border-radius: 5px;
-       height: 25vh;
-    }
-    .detalle-del-poducto-2-3{
-        margin-top: 10px;
-        background: #C0C0C0;
-        box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
-        border-radius: 5px;
-        margin-bottom: 40px;
-    }
-    .contenedor-detalle-producto-1 img{
-    width: 77%;
-    height: 30vh;
-    text-align: center;
-    }
-    .detalle-del-poducto-2-2 p{
-        color:#5C5C5C;
-        font-weight: bold;
-        font-family: 'Kalam', cursiva;
-    }
-    .detalle-del-poducto-2-3 p{
-        color:#5C5C5C;
-        font-weight: bold;
-        font-family: 'Kalam', cursiva;
-    }
-    .boton-carrito{
-        width: 15vw;
-        margin-top: 2rem;
-        height: 2.5rem;
-        font-family: 'Kalam', cursiva;
-        background-color: rgb(11, 168, 168);
-        color: rgb(7, 11, 128);
-        border-radius: 40rem;
-        font-size: 1rem;
-        margin-bottom: 2rem;
-    }
-    #nombredeproducto{
-        width: 70vw;
-        height: 2rem;
-        color: rgb(192, 192, 192);
-        font-family: 'Kalam', cursiva;
-        margin-top: 1rem;
-        border-radius: 5px;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
+
+     .detalle-del-poducto-2-3{
+        width: 38.5vw;
+        margin: 10px;
+     }
+  
 }

@@ -1,77 +1,199 @@
-*{border: none;
-margin: none;
-padding: none;
-outline: none;
-box-sizing: border-box;}
+.seccioncarrito {
+    display: flex;
+    width: 80vw;
 
-
-.seccioncarrito {display: flex;
-width: 80vw;
-background-color:rgb(192, 192, 192) ;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: auto;
-margin-right: auto;}
-#carrito1{display: flex;
-    
-align-items: baseline;}
-#carrito2{display: flex;
-flex-direction: column;
-
+    background-color: rgb(192, 192, 192);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(7, 11, 128, .8);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
 }
 
-h1{width: 40vw;
+#carrito1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+#carrito2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#titulocarrito{
+    width: 50%;
+    height: 100%;
     align-self: flex-start;
-color: rgb(7, 11, 128);
-text-align: center;
-font-size: 15px;
-font-family: 'Kalam', cursiva;}
+    color: rgb(7, 11, 128);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Kalam', cursiva;
+}
 
-.logocarrito{width: 20vw;
-height: 2rem}
+.logocarrito {
+    width: 50%;
+    height: 100%;
+}
 
-.cajadearticulos{display: flex;
+.cajadearticulos {
+    display: flex;
     margin-top: 2rem;
-    border: 1px solid rgb(157, 27, 11) ;
+    border: 1px solid rgba(7, 11, 128, .4);
+    box-shadow: 0px 0px 7px 0px rgba(7, 11, 128, .8);
     border-radius: 1rem;
-    padding:8px;
-    justify-content: center;
+    padding: 8px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: rgba(104, 106, 172, 0.21);
+    flex-direction: column;
+    
+}
 
-    width: 70vw;
-background-color:rgb(175, 177, 211);
 
-flex-direction: column;
- }
- .imagenescarrito{border: 1px solid rgb(157, 27, 11) ;
-    border-radius: 1rem;
+
+
+.imagenescarrito {
+
+    box-shadow: 0px 0px 8px 0px rgba(7, 11, 128, .8);
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
-    width: 50vw;
-    height: 80% ;
+    width: 70%;
+    height: 80%;
     border-radius: 8px;
 }
-    .cajadearticulos h5{font-size: 10px;
-    margin-left: 1rem;}
-.descripcion{display:flex;
-flex-direction: column;
-border-top: 1px solid rgb(7, 11, 128) ;
-margin-top: 12px;
-}
-.descrip{font-size: 15px;
-    
-font-family:'Kalam', cursiva;
-}
-.cantidad{background-color:rgb(11, 168, 168);
-color:rgb(157, 27, 11) ;
-border-radius: 1rem;
-border: solid 1px black; }
 
-.opcion{color:rgb(157, 27, 11) ;}
-.borrar{color:rgb(157, 27, 11) ;
-    background-color: rgb(175, 177, 211);
-font-family: 'Kalam', cursiva; ;
-font-size: 22px;
-margin-top: 5px;}
-.producto{font-family: 'Kalam', cursiva;
-font-size: 1rem;}
+
+
+
+.cajadearticulos h5 {
+    font-size: 10px;
+    margin-left: 1rem;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(7, 11, 128);
+    margin-top: 12px;
+}
+
+.descrip {
+    font-size: 15px;
+    font-family: 'Kalam', cursiva;
+}
+
+.cantidad {
+    background-color: rgb(11, 168, 168);
+    color: rgb(157, 27, 11);
+    border-radius: 1rem;
+    border: solid 1px black;
+}
+
+.opcion {
+    color: rgb(157, 27, 11);
+}
+
+.borrar {
+    color: rgb(157, 27, 11);
+    font-family: 'Kalam', cursiva;
+    ;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: rgb(13, 156, 156);
+    border: 1px solid rgb(7, 11, 128);
+    border-radius: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 2rem;
+
+
+}
+
+.producto {
+    font-family: 'Kalam', cursiva;
+    font-size: 1rem;
+}
+
+#cajadefactura {
+    margin-top: 3rem;
+    width: 40%;
+    border-top: 1px solid rgb(7, 11, 128);
+}
+
+#carrito3 {
+    display: flex;
+    width: 40%;
+    border-top: 1px solid rgb(7, 11, 128);
+padding: 1rem;
+    justify-content: center;
+    color: rgb(7, 11, 128);
+    margin-top: 5rem;
+    gap: 2rem;
+    ;
+    font-family: 'Kalam', cursiva;
+}
+
+.factura {
+    display: flex;
+
+    width: 80%;
+    justify-content: center;
+    color: black;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+.total {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    color: black;
+    gap: 7rem;
+    margin-left: 1rem;
+    width: 80%;
+}
+
+.valor {
+    display: flex;
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+    gap: 7rem;
+    font-size: 1rem;
+}
+
+.precio {
+    border: 1px solid rgb(11, 168, 168);
+    padding: 10px;
+    color: black
+}
+
+.diseñoletra {
+    color: rgb(7, 11, 128);
+    font-family: 'Kalam', cursiva;
+    margin-left: 1rem;
+}
+
+.botoncomprar {
+    width: 90%;
+    margin-top: 2rem;
+    color: rgb(7, 11, 128);
+    background-color: rgb(11, 168, 168);
+    border-radius: 3rem;
+    font-family: 'Kalam', cursiva;
+    height: 20%;
+    font-size: 20px;
+    margin-bottom: 4rem;
+}
+.boton{width: 70%;
+    color: rgb(7, 11, 128);
+    font-family: 'Kalam', cursiva;
+}

@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+.seccioncarrito{ flex-wrap: wrap;
+    justify-content: center;
+    
+
+;}
+    .cajadearticulos{
+        flex-grow: 1;
+        text-align: center;
+        width: 40% ;}
+        #carrito2{flex-direction: row;
+        gap: 1rem;}
+
+
+        #titulocarrito{font-size: 30px;}
+
+        .logocarrito{width: 40%;}
+}
+
+
+@media (min-width: 1024px) {
+
+    #titulocarrito{font-size: 40px;}
+}
