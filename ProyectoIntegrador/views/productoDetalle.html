@@ -67,57 +67,77 @@
         </section>
     </header>
      <!--       MAIN       -->
-    <main>         
+    <main>
         <!--SECCIÓN DETALLE DEL PRODUCTO-->
-    <section class="contenedor-padre">
-        <section class="contenedor-detalle-producto-1">
-            <article>
-                <form action="/productoDetalle.html" method="get">
-                    <input class="ingresotexto0" type="text" id="espaciodetexto" placeholder="espaciodetexto">
-                </form>
-                <i class="fa-solid fa-heart heart3"></i>
-                <div>
-                    <img src="/images/bmx_bicicleta_1.webp" alt="Bicicleta seleccionada">
-                </div>       
-            </article>
-        </section>
-        <section class="contenedor-detalle-producto-2">
-            <article class="detalle-del-poducto-2-1">
-                <div>
-                    <form action="/productoDetalle.html" method="get">
-                        <p>
-                            <input class="ingresotexto1" type="text" id="nombredepoducto" placeholder="(Nombre del producto)">
-                            </p>
-                            <p>
-                            <input class="ingresotexto2" type="text" id="detalledelproducto" placeholder="(Detalle del producto)">
-                        </p>
+        <section class="contenedor-padre">
+            <section class="contenedor-detalle-producto-1">
+                <h2 class="ingresotexto0">BICICLETA XYZ</h2>
+                <article class="productoDetalle1">
+                    <i class="fa-solid fa-heart heart3"></i>
+                    <section>
+                        <img src="/images/bmx-1.png" alt="Bicicleta seleccionada">
+                    </section>
+                    <section class="minis">
+                        <figure class="mini1"><img src="/images/bmx-1.png" alt="miniatura bici1"></figure>
+                        <figure class="mini2"><img src="/images/bmx-1.png" alt="miniatura bici1"> </figure>
+                        <figure class="mini3"><img src="/images/bmx-1.png" alt="miniatura bici1" ></figure>
+                    </section>  
+                    <section class="stars">
+                        <i class="fa-solid fa-star star1"></i>
+                        <i class="fa-solid fa-star star2"></i>
+                        <i class="fa-solid fa-star star3"></i>
+                        <i class="fa-solid fa-star star4"></i>
+                        <i class="fa-solid fa-star star5"></i>
+                    </section>     
+                </article>
+            </section>
+            <section class="contenedor-detalle-producto-2">
+                <article class="detalle-del-poducto-2-1">
+                    <h2 class="ingresotexto1"><b>BICICLETA XY</b></h2>
+                    <h5 class="ingresotexto2"><b>Referencia xxxxxx</b></h5>
+                </article>
+                <article class="detalle-del-poducto-2-2">
+                    <h3 class="ingresotexto3">DESCRIPCIÓN Y CARACTERÍSTICAS</h3>
+                    <br/>
+                    <p class="parrafoDescrip1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
+                    </p>
+                    <br/>
+                    <p class="parrafoDescrip2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
+                    </p>
+                </article>
+                <article class="detalle-del-poducto-2-3">
+                    <h4 class="ingresotexto4">GARANTÍA DE CALIDAD</h4>
+                    <p class="garantiaDescrip">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
+                    </p>
+                    <form class="desplegables">
+                        <select class="tallaBike" id="size" name="opcionesTalla">
+                            <option class="tallaje" value="1">S</option>
+                            <option class="tallaje" value="2">M</option>
+                            <option class="tallaje" value="3">L</option>
+                          </select>
+                          <select class="cantidades" id="cantDetalle" name="opCant">
+                            <option class="cantD" value="1">1</option>
+                            <option class="cantD" value="2">2</option>
+                            <option class="cantD" value="3">3</option>
+                            <option class="cantD" value="4">4</option>
+                            <option class="cantD" value="5">5</option>
+                          </select>
+                          <select class="opcionColor" id="colorBike" name="color">
+                            <option class="opColorBike1" value="1">Negro</option>
+                            <option class="opColorBike2" value="2">Rojo</option>
+                            <option class="opColorBike3" value="3">Azul</option>
+                            <option class="opColorBike4" value="4">Silver</option>
+                            <option class="opColorBike5" value="5">Neón</option>
+                            <option class="opColorBike6" value="6">Blanco</option>
+                          </select>
                     </form>
-                </div>
-            </article>
-            <article class="detalle-del-poducto-2-2">
-                    <input class="ingresotexto3" type="text" id="texto" placeholder="(texto)">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
-                    </p>
-            </article>
-            <article class="detalle-del-poducto-2-3">
-                <div id="divgregaralcarrito">
-                    <input class="ingresotexto4" type="text" id="texto1" placeholder="(texto)">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
-                    </p>
                     <a href="/carrito"><button type="submit" class="boton-canasta" name="agregaralarrito">Agregar al carrito</button></a>
-                </div>
-                <div>
-                    <input class="ingresotexto5" type="text" id="texto1" placeholder="(texto)">
-                    <input class="ingresotexto6" type="text" id="texto1" placeholder="(texto)">
-                </div>
-            </article>
+                </article>
+            </section>
         </section>
-    </section>
     </main>
     <nav class="whapp">
         <a href="/" id="chat">
