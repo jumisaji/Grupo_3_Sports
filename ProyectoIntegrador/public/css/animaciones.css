@@ -66,6 +66,15 @@
     box-shadow: 4px 4px 20px 0px rgba(7, 11,128,.5);
 }
 /* MAIN CARRITO DE COMPRAS */
+.borrar:hover{
+    color: rgb(157, 27, 11);
+    font-size: 25px;
+}
+.botoncomprar:hover{
+    color: white;
+    background-color: rgba(7, 11,128,1);
+    box-shadow: 4px 4px 20px 0px rgba(7, 11,128,.5);
+}
 /* MAIN DETALLE DE PRODUCTO */
 .boton-canasta:hover{
     color: white;

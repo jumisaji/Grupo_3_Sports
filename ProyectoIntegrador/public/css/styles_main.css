@@ -32,6 +32,7 @@ main{
     border-radius: 5px;
     position: relative;
     transition: all .5s;
+    padding: 10px;
 }
 
 .ganga{  
