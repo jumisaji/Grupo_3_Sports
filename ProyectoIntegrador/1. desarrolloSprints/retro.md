@@ -29,4 +29,11 @@ RETROSPECTIVA DEL PRIMER SPRINT
         4. No pedir ayuda cuando se presenta algún impasse personal que limite el tiempo de desempeño de una tarea.
         5. No intentar o proponer alg por miedo de equivocarse, es la mejor forma de aprender.
 
+        juan cruz:
+        1. tenemos que comenzar a mejorar la organizacion de tiempo y actividades de cada uno 
+        2. hacer mas reuniones de equipo para la organizacion del proyecto 
+        3. mantener la prolijidad y los resultados que vamos teniendo que son muy buenos 
+        4.no frustrarse con las cosas que no nos salen 
+        5.tenemos que dejar de tener miedo a preguntar o sacarte alguna duda porque sino te estancas.
+
 
