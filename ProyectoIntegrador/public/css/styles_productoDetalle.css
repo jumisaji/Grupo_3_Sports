@@ -1,86 +1,16 @@
 
-main{
-    background: #E5E5E5;
-}
-.contenedor-padre{
+.detalle-del-poducto{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 70vw;
     box-sizing: border-box;
 }
-.contenedor-detalle-producto-1{
-    box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
-    border-radius: 5px;
-    flex-direction: row;
-    width: 80vw;
-    height: 55vh;
-    background: #C0C0C0;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    margin-top: 30px;
+#productoimg0{
+width: 40vw;
+height: 80%;
 }
-.contenedor-detalle-producto-2{
-    flex-direction: column;
-    width: 80vw;
-    height: 100vh;
-    background: #ebebeb;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-}
-.ingresotexto0{
-    width: 70%;
-    height: 2rem;
-    color: #A0A0A0;
-    font-family: 'Kalam', cursiva;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    border-radius: 5px;
-    font-size: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.heart3{
-    text-align: center;
-    color:#9D1B6F;
-    font-size: 6.5vw;
-    display: flex;
-    padding: 10px;
-    width: 3vh;
-    height: 3vh;
-    justify-content: center;
-    position: absolute;
-    top: 2px;
-    right: 1vw;
-}
-.ingresotexto1{
-    width: 100%;
-    height: 2rem;
-    color: rgb(192, 192, 192);
-    font-family: 'Kalam', cursiva;
-    margin-top: 2.5rem;
-    border-radius: 5px;
-    font-size: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.ingresotexto2{
-    width: 35vw;
-    height: 1.5rem;
-    color: rgb(192, 192, 192);
-    font-family: 'Kalam', cursiva;
-    margin-top: 1rem;
-    border-radius: 5px;
-    font-size: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.ingresotexto3{
+#productoimg1{
     width: 30vw;
+<<<<<<< HEAD
     height: 1rem;
     color: rgb(192, 192, 192);
     font-family: 'Kalam', cursiva;
@@ -163,6 +93,9 @@ text-align: center;
     color:#5C5C5C;
     font-weight: bold;
     font-family: 'Kalam', cursiva;
+=======
+    height: 60%;
+>>>>>>> 3820a8444586c24e77bf9e33d62c118419c87413
 }
 .boton-canasta{
     width: 40vw;
