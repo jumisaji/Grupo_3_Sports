@@ -36,6 +36,10 @@
 .bikeof:hover { 
     box-shadow: 3px 3px 20px 0px rgba(7, 11,128,.85);
 }
+
+.bikeof:hover .referencia , .bikeof:hover .precioff{ 
+    display: block;
+}
 /* MAIN BIKES */
 .heart2:hover{
     color: #9D1B6F;
@@ -44,6 +48,10 @@
 
 .bike:hover { 
     box-shadow: 5px 5px 20px 0px rgba(7, 11,128,.85);
+}
+
+.bike:hover .modelo, .bike:hover .rodada , .bike:hover .detalle{
+    display: block;
 }
 /* MAIN FORMULARIO LOGIN */
 #botonLogIngreso:hover, #botonLogNewReg:hover{

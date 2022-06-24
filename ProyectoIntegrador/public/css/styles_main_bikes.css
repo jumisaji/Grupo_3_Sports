@@ -60,3 +60,7 @@
     font-size: 20px;
     color: #9D1B6F;
  }
+
+.modelo, .rodada , .detalle{
+    display: none;
+}
