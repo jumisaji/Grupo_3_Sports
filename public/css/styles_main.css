@@ -66,6 +66,10 @@ main{
     color: #9D1B6F;
  }
 
+ .precioff{
+    font-family: 'roboto';
+ }
+
  .precioff, .referencia{
     display: none;
  }

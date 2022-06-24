@@ -60,6 +60,9 @@
     font-size: 20px;
     color: #9D1B6F;
  }
+ .precio{
+    font-family: 'roboto';
+ }
 
 .modelo, .rodada , .detalle{
     display: none;

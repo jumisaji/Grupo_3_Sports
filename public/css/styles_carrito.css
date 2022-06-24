@@ -74,8 +74,12 @@
 }
 
 .descrip {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'raleway';
+}
+.descripnum{
+    font-family: 'roboto';
+    font-size: 15px;
 }
 
 .cantidad {
@@ -122,7 +126,7 @@
     color: rgb(7, 11, 128);
     margin-top: 5rem;
     gap: 2rem;
-    font-family: 'raleway', cursiva;
+    font-family: 'raleway';
 }
 
 .factura {
