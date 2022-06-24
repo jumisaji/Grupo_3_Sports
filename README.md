@@ -8,3 +8,4 @@ Proyecto Integrador.
 >Desarrollo Sprints:
 1. [Retrospectiva](https://github.com/jumisaji/Grupo_3_Sports/blob/main/ProyectoIntegrador/1.%20desarrolloSprints/retro.md)
 2. [Tablero de trabajo](https://github.com/jumisaji/Grupo_3_Sports/blob/main/ProyectoIntegrador/1.%20desarrolloSprints/tableroDeTrabajo.md)
+3. Sprint2: Se entregan las páginas de home, de categorías, carrito, detalle de producto (Se hace ingreso dando click dobre la imagen de cualquier categoría o de ofertas), formulario de login, el cual en su botón nuevo registro, abre el formulario de register. :)  :)  :)
