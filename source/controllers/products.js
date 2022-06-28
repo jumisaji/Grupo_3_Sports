@@ -1,3 +1,8 @@
+const {resolve} = require('path')
+
+
+
+
 module.exports = { 
     
 ruta:(req,res) => res.sendFile(path.resolve(__dirname, '../views/ruta.html')),
