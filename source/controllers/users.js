@@ -1,14 +1,15 @@
 const {resolve} = require('path')
-
-
-
 module.exports ={
 
-login:(req,res) => res.sendFile(path.resolve(__dirname, '../views/login.html')),
+login:function(req,res){ let file = resolve(__dirname, '../views/login.html') 
+res.sendFile(file)},
 
-register:(req,res) => res.sendFile(path.resolve(__dirname, '../views/register.html')),
 
-carrito:(req,res) => res.sendFile(path.resolve(__dirname, '../views/carrito.html'))
+register:function(req,res){ let file = resolve(__dirname, '../views/register.html') 
+res.sendFile(file)},
+
+carrito: function(req,res){ let file = resolve(__dirname, '../views/carrito.html') 
+res.sendFile(file)}
 
 
 }

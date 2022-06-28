@@ -1,18 +1,19 @@
 const {resolve} = require('path')
-
-
-
-
 module.exports = { 
     
-ruta:(req,res) => res.sendFile(path.resolve(__dirname, '../views/ruta.html')),
+ruta:function(req,res){ let file = resolve(__dirname, '../views/ruta.html')
+res.sendFile(file)},
 
-bmx:(req,res) => res.sendFile(path.resolve(__dirname, '../views/bmx.html')),
+bmx:function(req,res){ let file = resolve(__dirname, '../views/bmx.html')
+res.sendFile(file)},
 
-mtb:(req,res) => res.sendFile(path.resolve(__dirname, '../views/mtb.html')),
+mtb: function(req,res){ let file = resolve(__dirname, '../views/mtb.html')
+res.sendFile(file)},
 
-urban:(req,res) => res.sendFile(path.resolve(__dirname, '../views/urban.html')),
+urban: function(req,res){let file = resolve(__dirname, '../views/urban.html')
+res.sendFile(file)} ,
     
-detalle:(req,res) => res.sendFile(path.resolve(__dirname, '../views/productoDetalle.html'))
+detalle: function(req,res){ let file = resolve(__dirname, '../views/productoDetalle.html') 
+res.sendFile(file)}
 
 }

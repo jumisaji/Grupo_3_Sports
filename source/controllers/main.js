@@ -1,9 +1,8 @@
 const {resolve} = require('path')
-
-
 module.exports = {
     
-home:(req,res) => res.sendFile(path.resolve(__dirname, '../views/home.html')),
+home: function(req,res){ let file = resolve(__dirname, '../views/home.html') 
+res.sendFile(file)}
 
 
 
