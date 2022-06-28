@@ -4,8 +4,8 @@ const rutas = Router();
 const {login} = require('../controllers/users');
 const {register} = require('../controllers/users');
 const {carrito} = require('../controllers/users');
-rutas.get('/',login);
-rutas.get('/',register);
-rutas.get('/',carrito);
+rutas.get('/login',login);
+rutas.get('/register',register);
+rutas.get('/carrito',carrito);
 
 module.exports = rutas

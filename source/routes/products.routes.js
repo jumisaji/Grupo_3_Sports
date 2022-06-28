@@ -7,10 +7,10 @@ const {bmx} = require('../controllers/products');
 const {mtb} = require('../controllers/products');
 const {urban} = require('../controllers/products');
 const {detalle} = require('../controllers/products');
-rutas.get('/',ruta);
-rutas.get('/',bmx);
-rutas.get('/',mtb);
-rutas.get('/',urban);
-rutas.get('/',detalle);
+rutas.get('/ruta',ruta);
+rutas.get('/bmx',bmx);
+rutas.get('/mtb',mtb);
+rutas.get('/urban',urban);
+rutas.get('/productoDetalle',detalle);
 
 module.exports = rutas
