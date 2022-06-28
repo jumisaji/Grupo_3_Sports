@@ -1,11 +1,9 @@
-const{resolve}= require(path)
+
 const express = require('express');
+const {port,start} = require( "./modules/port")
 const server = express();
-const port = process.env.PORT || 2022;
-server.listen(port, () => console.log('Abriendo el servidor http://localhost:'+port));
-const public = resolve(__dirname, '../public');
-const static= express.static(public)
-server.use(static);
+server.listen(port,start()); 
+server.use(require("./modules/public"))
 
 
 server.get('/', (req,res) => res.sendFile(path.resolve(__dirname, '../views/home.html')))
