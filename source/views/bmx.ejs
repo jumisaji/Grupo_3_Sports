@@ -1,33 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--head-->
 <%- include('./includes/head') %>
+<!--/head-->
 
 <!--    **************************************************   BODY   ****************************************************    -->
+
 <body>
-    <!--          HEADER          --> 
-    <header>  
-         <section class="encabezado">
-             <nav class="goBike"><!--LOGO HEADER-->
-                <a href="/"><figure id="logo"><img src= "/images/logo-gobike-cabecera.png" alt ="Logo GoBike"></figure></a>
-            </nav>
-            <nav id="opciones1"><!--Botones con opciones en el header-->
-                <a href = "/ruta"><b> Bicicletas de Ruta </b></a>
-                <a href = "/bmx"><b> Bicicletas BMX </b></a>
-                <a href = "/mtb"><b> Bicicletas MTB </b></a>
-                <a href = "/urban"><b> Bicicletas Urbanas </b></a>
-            </nav>
-            <form id="buscar"> <!--barra de búsqueda-->
-                <input  type="search" id="barraBuscar" name="Barra de busqueda" placeholder=" Buscar productos, marcas..."> 
-                <a href="/"><button type="button" id="lupa"><i class="fa-solid fa-magnifying-glass"></i></button></a>
-            </form>
-            <nav id="opciones2"><!--botones con iconos para login y carrito de compras-->
-                <a href = "/login"><button type="acceso" id="tuCuenta"><i class="fas fa-user"></i></button></a>
-                <a href = "/carrito"><button type="acceso" id="canasta"><i class="fas fa-shopping-cart"></i></button></a>
-            </nav>
-        </section>
-    </header>
-     <!--       MAIN       -->
+<!--    **************************************************  HEADER  ****************************************************    --> 
+
+    <!--header-->
+    <%- include('./includes/header') %>
+    <!--/header-->
+
+<!--    **************************************************   MAIN   ****************************************************    --> 
+
      <main>         
         <!--SECCIÓN BICICLETAS BMX-->
         <section class="bicicletas">
@@ -82,64 +70,20 @@
             </article>
           </section>
     </main>
+    
+<!--    **************************************************   BANNER   ****************************************************    -->
+
     <nav class="whapp">
         <a href="/" id="chat">
             <i class="fab fa-whatsapp"></i>
         </a>
     </nav>
-    <!--     FOOTER o pie de página    -->
-    <footer>
-        <section id="secfooter">
 
-            <nav class="goBike2"><!--LOGO FOOTER-->
-                <a href="/"><figure id="logo2"><img src= "/images/logo-gobike-horizontal.png" alt ="Logo Lineal GoBike"></figure></a>
-            </nav>
-            <section class="opfooter">
-                <article class="pagotarjeta">
-                    <section id="credit">
-                        <a href="/"><i class="fas fa-money-check-alt"></i></a><b> Formas de Pago </b>
-                    </section>
-                    <p> Con Go Bike Card, puedes pagar desde la comodidad de tu hogar. ¡Y siempre es seguro!</p>
-                </article>
-            
-                <article class="puntos">
-                    <section id="diamond">
-                        <a href="/"><i class="fas fa-gem"></i></a><b>Cliente Diamante</b>
-                    </section>
-                    <p> Solo por estar registrad@ en Go Bike, acumula puntos con tus compras y recibe grandes beneficios.</p>
-                </article>
-                
-                <article class="protegido">
-                    <section id="security">
-                        <a href="/"><i class="fas fa-user-shield"></i></a><b>Compras Seguras</b>
-                    </section>
-                    <p> Go Bike proteje tus compras, conoce nuestra política de reembolso. </p>
-                </article>
-            </section>
+<!--    **************************************************  FOOTER ****************************************************    --> 
 
-            <section class="opfooter2">
-            <article class="novedad">
-                <section id="suscrito">
-                    <h4> MANTENTE ENTERADO </h4>
-                    <p>Suscríbete para conocer más sobre nuestros productos y promociones exclusivas</p>
-                    <span>
-                        <a href="/">
-                            <b>SUSCRÍBETE A NUESTRA LISTA DE CORREO <i class="fas fa-envelope-open-text"></i></b>
-                        </a>
-                    </span>
-                </section>
-            </article>
-            <section class="redesPie">
-                <nav class="redesFooter">
-                    <a href = "/"><i class="fa-brands fa-facebook-square"></i></a>
-                    <a href = "/"><i class="fa-brands fa-instagram"></i></a>
-                </nav>
-            </section>
-        </section>
-        
-        <p id="derechosAutor"><i>Copyright © 2022 Made by GoBike ... <i class="fas fa-biking"></i>...</i></p>
+     <!--footer-->
+     <%- include('./includes/footer') %>
+     <!--/footer-->
 
-        </section>
-    </footer>
 </body>
 </html>
