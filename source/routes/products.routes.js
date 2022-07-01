@@ -1,6 +1,5 @@
-const {Router} = require(express);
+const {Router} = require('express');
 const rutas = Router();
-
 
 const {ruta, bmx, mtb, urban, detalle} = require('../controllers/products');
 rutas.get('/ruta',ruta);
