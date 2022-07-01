@@ -19,6 +19,8 @@ server.get('/login');
 server.get('/carrito');
 server.get('/register');
 server.get('/productoDetalle');
+server.get('/creacion');
+server.get('/edicion');
 //controladores
 
 //ejs
