@@ -9,5 +9,7 @@ const controller = {
     ruta: (req,res) => res.render('ruta', data),
     urban: (req,res) => res.render('urban', data),
     detalle: (req,res) => res.render('detalle', data),
+    creacion: (req,res) => res.render('creacion', data),
+    edicion: (req,res) => res.render('edicion', data),
 }
 module.exports = controller
