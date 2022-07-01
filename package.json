@@ -2,7 +2,7 @@
   "name": "proyectointegrador",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "source/app.js",
   "scripts": {
     "test": "node source/app.js",
     "start": "node source/app.js "
