@@ -16,17 +16,6 @@
         font-size: 5vw;
         right:2vw;
     }
-    /* MAIN BIKE Tablet */
-    .bike {
-        width: 40%;
-        margin: 15px;
-        text-align: center;
-        flex-grow: 1;
-    }
-    .heart2{
-        font-size: 5vw;
-        right:2vw;
-    }
     
 }
 /*  ***************************  */
@@ -49,22 +38,4 @@
         display: flex;
         justify-content: center;
     }
-
-        /* MAIN BIKE Desktop */
-    .bike {
-        width: 20%;
-        margin: 12px;
-        text-align: center;
-        flex-grow: 1;
-    }
-    .heart2{
-        font-size: 2.5vw;
-        right:1vw;
-    }
-
-    .modelo{
-        display: flex;
-        justify-content: center;
-    }
-   
 }

@@ -43,14 +43,7 @@
     #tuCuenta, #canasta{
         font-size: 25px;
     }
-     /* Footer Tablet */
-     #logo2 img{
-        margin: 10px 100px;
-    }
 
-     #derechosAutor{
-        margin: 29px 100px 2px 100px;
-    }
 }
 
 /*  ********* DESKTOP *********  */
@@ -107,42 +100,6 @@
 
     #tuCuenta, #canasta{
         font-size: 30px;
-        }
-
-        /* Footer Desktop */
-        #secfooter{
-            justify-content: space-between;/**/
-            }
-
-        #logo2 img{
-            padding: 1px;
-            margin: 1px;
-            margin-left: 3px;
-            width: 25vw;
-            justify-content: flex-start;
-        }
-
-        .opfooter{
-            display: flex;
-            flex-flow: row wrap;
-            width: 25vw;
-            align-self: center;
-            margin-left: 40px;
-            padding-top: 10px;
-            justify-content: space-evenly;
-        }
-
-        .opfooter2{
-            width: 25vw;
-            align-self: flex-start;
-        }
-
-        #derechosAutor{
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: flex-start;
-            margin: auto;
-            padding: 50px 25% 5px 25%;
         }
 
     }

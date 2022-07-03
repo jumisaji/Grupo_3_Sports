@@ -1,0 +1,9 @@
+/* ********** ANIMACIONES Y TRANSICIONES ********** */
+/* MAIN HOME */
+.bikeof:hover { 
+    box-shadow: 3px 3px 20px 0px rgba(7, 11,128,.85);
+}
+
+.bikeof:hover .referencia , .bikeof:hover .precioff{ 
+    display: block;
+}

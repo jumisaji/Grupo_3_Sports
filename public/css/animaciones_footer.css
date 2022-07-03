@@ -1,0 +1,13 @@
+/* ********** ANIMACIONES Y TRANSICIONES ********** */
+/* FOOTER*/
+#secfooter .fas:hover{
+    color: #9D1B6F;
+}
+
+#derechosAutor .fas:hover{
+    color: white;
+}
+
+.redesFooter a:hover{
+    color: white;
+}

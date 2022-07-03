@@ -1,0 +1,44 @@
+/* **************                   MEDIA QUERIES   MAIN          ************** */
+
+/*  **************************  */
+/*  ********* TABLET *********  */
+/*  **************************  */
+@media screen and (min-width: 700px){
+
+    /* MAIN BIKE Tablet */
+    .bike {
+        width: 40%;
+        margin: 15px;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .heart2{
+        font-size: 5vw;
+        right:2vw;
+    }
+    
+}
+/*  ***************************  */
+/*  ********* DESKTOP *********  */
+/*  ***************************  */
+
+@media screen and (min-width:992px){
+    
+        /* MAIN BIKE Desktop */
+    .bike {
+        width: 20%;
+        margin: 12px;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .heart2{
+        font-size: 2.5vw;
+        right:1vw;
+    }
+
+    .modelo{
+        display: flex;
+        justify-content: center;
+    }
+   
+}
