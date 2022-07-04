@@ -34,8 +34,8 @@
     <link rel="stylesheet" href="/css/animaciones_footer.css"> <!--Llmamos documento CSS que contiene animaciones y transiciones footer-->
 
     <% if(styles && styles.length>0){ %>
-        <% styles.forEach(css => { %>
-            <link rel="stylesheet" href="/css/<%= css %>.css">
+        <% styles.forEach(css => { %> <!--styles es el nombre del array-->
+            <link rel="stylesheet" href="/css/<%= css %>.css"> <!--Llmamos documentos CSS con link dinámico-->
         <% }); %>  
     <%} %> 
 

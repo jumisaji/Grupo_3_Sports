@@ -1,3 +1,14 @@
+main{
+    font-size: 16px;
+    color: #070B80;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 .contenedor-padre{
     display: flex;
     flex-direction: column;
