@@ -5,7 +5,7 @@ const data = [
 ];
 const controller = {
     bmx: (req,res) => res.render('bmx', {
-        css: ['styles_main_bikes', 'animaciones_main_bikes', 'media_queries_main_bikes']
+        styles: ['styles_main_bikes', 'animaciones_main_bikes', 'media_queries_main_bikes']
     }),
     
 
