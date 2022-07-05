@@ -52,3 +52,10 @@ RETROSPECTIVA DEL SEGUNDO SPRINT
         3. Trabajo en equipo y comunicación, ademas de la organizacion con clickup.
         4. Ideas que compliquen o carguen mucho a la pagina.
         5. Ausencias prolongadas. 
+
+        juan cruz:
+        1. inovar un poco mas con las ideas
+        2. comunicarnos mas a la hora de el final del sprint 
+        3. la organizacion que tenemos 
+        4. atrasarse con los temas 
+        5. utilizar herramientas inecesarias
