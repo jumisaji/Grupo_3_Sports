@@ -12,7 +12,7 @@ footer{
     text-align: center;
 }
 
-#seccfooter{
+#secfooter{
     Display: flex;
     flex-flow: column wrap;
     justify-content: center;

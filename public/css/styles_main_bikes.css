@@ -14,11 +14,6 @@ main{
     width: 77%;
 }
 
-.bicicletas h2{
-    margin: 10px;
-    padding: 5px;
-}
-
 #ruta, #bmx,#mtb, #urban{
     margin: 10px;
     padding: 20px;
