@@ -62,7 +62,7 @@ main{
 
 .heart3{
     text-align: center;
-    color:#9D1B6F;
+    color:#666;
     font-size: 6.5vw;
     display: flex;
     padding: 10px;
@@ -72,8 +72,11 @@ main{
     position: absolute;
     top: 2px;
     right:2vw;
+    transition: all 1s;
 }
-
+.heart3:hover{
+    color:#9D1B6F
+}
 .minis{ 
     display: flex;
     flex-flow: row wrap;
@@ -90,7 +93,7 @@ main{
     margin: 5px;
     padding: 3px;
     font-size: 1.5rem;
-    background-color: rgba(7, 11, 128,.8);
+    background: rgba(7, 11, 128,.8);
     border-radius: 8px;
     margin-bottom: 15px;
     display: flex;
@@ -101,10 +104,13 @@ main{
 
 .star1, .star2, .star3, .star4, .star5{
     font-size: 0.8rem;
-    color: yellow;
+    color: #666;
     padding: 1px 0.2rem;
+    transition: all 1s;
 }
-
+.star1:hover, .star2:hover, .star3:hover, .star4:hover, .star5:hover{
+    color: gold;
+}
 .ingresotexto1{
     margin: 30px 20px 5px 20px;
     padding: 2px;
@@ -248,11 +254,13 @@ main{
 }
 
 .boton-canasta{
-    width: 21vw;
+    width: 15vw;
+    margin-left: 20px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    height: 4rem;
+    height: 3rem;
     font-family: 'Kalam';
+    font-weight: bold;
     background-color: rgb(11, 168, 168);
     color: rgb(7, 11, 128);
     border-radius: 40rem;

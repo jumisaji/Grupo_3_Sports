@@ -36,4 +36,19 @@ RETROSPECTIVA DEL PRIMER SPRINT
         4.no frustrarse con las cosas que no nos salen 
         5.tenemos que dejar de tener miedo a preguntar o sacarte alguna duda porque sino te estancas.
 
+RETROSPECTIVA DEL SEGUNDO SPRINT
 
+1. COMENZAR A HACER
+2. HACER MÁS
+3. CONTINUAR HACIENDO
+4. HACER MENOS
+5. DEJAR DE HACER
+
+                            SOBRE EL SEGUNDO SPRINT
+
+        Mateo:
+        1. Adelantarse con algunas tareas que no cuesten demasiado.
+        2. Intercambio de ideas.
+        3. Trabajo en equipo y comunicación, ademas de la organizacion con clickup.
+        4. Ideas que compliquen o carguen mucho a la pagina.
+        5. Ausencias prolongadas. 
