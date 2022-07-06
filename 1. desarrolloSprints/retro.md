@@ -65,5 +65,5 @@ RETROSPECTIVA DEL SEGUNDO SPRINT
         2. Notificar los cambios  ejecutados, para actualizar el proyecto y trabajar más en sincronía. Confiar más en cada uno.
         3. La organización de trabajo que tenemos y el apoyo de equipo.
         4. Tener horarios de trabajo desincronizados.
-        5. Complicar tareas sencillas.
+        5. Complicar tareas sencillas. 
 
