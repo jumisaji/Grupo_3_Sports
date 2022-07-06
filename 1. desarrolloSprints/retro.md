@@ -27,7 +27,7 @@ RETROSPECTIVA DEL PRIMER SPRINT
            La disposición para reunirnos y trabajar las tareas asignadas.
            Programarnos para cumplir en tiempos establecidos y con tiempos de ventaja para correcciones, ajustes o cambios pertinentes.
         4. No pedir ayuda cuando se presenta algún impasse personal que limite el tiempo de desempeño de una tarea.
-        5. No intentar o proponer alg por miedo de equivocarse, es la mejor forma de aprender.
+        5. No intentar o proponer algo por miedo de equivocarse, es la mejor forma de aprender.
 
         juan cruz:
         1. tenemos que comenzar a mejorar la organizacion de tiempo y actividades de cada uno 
@@ -59,3 +59,11 @@ RETROSPECTIVA DEL SEGUNDO SPRINT
         3. la organizacion que tenemos 
         4. atrasarse con los temas 
         5. utilizar herramientas inecesarias
+
+                Julie
+        1. Dar finalización cada uno a las tareas asignadas en clickup, para tener más claro el avance de las mismas.
+        2. Notificar los cambios  ejecutados, para actualizar el proyecto y trabajar más en sincronía. Confiar más en cada uno.
+        3. La organización de trabajo que tenemos y el apoyo de equipo.
+        4. Tener horarios de trabajo desincronizados.
+        5. Complicar tareas sencillas.
+

@@ -39,6 +39,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .productoDetalle1{
@@ -162,7 +163,7 @@ main{
     padding: 5px;
     font-family: 'raleway';
     color: rgba(7, 11, 128,.8);
-    font-size: 14px;
+    font-size: 14px;    
 }
 
 .ingresotexto4{
@@ -246,6 +247,7 @@ main{
     font-weight: bold;
     font-family: 'raleway';
 }
+
 .sizeBike ,.cantidadesCar, .optionColor{
     background-color: rgba(11, 168, 168,.3);
     color: rgb(157, 27, 11);

@@ -1,0 +1,7 @@
+Weekly del equipo.
+
+** 3er sprint :
+
+En la semana del tercer sprint nos reunimos para configurar la semana de trabajo, en donde el primer fin de semana fue muy importante que cada miembro se actualizara en temática y actividades de play Ground, teniendo al día las clases para entender mejor la temática y tareas a realizar. Para este Sprint, decidimos que la mejor opción era hacer tres reuniones en la semana, en donde ibamos a ejecutar el sprint 3 en conjunto sin dividir demasiado las actividades o tareas principales, ya que el sprint 3 fue bastante corto pero con una temática muy importante, que era importante que cada miembro entendiera y pudiera ver la ejecución, por lo que nos pareció más conveniente tres reuniones, en las cuales participaramos como equipo para ejecutarlo, en estas reuniones nos turnabaos para hacer ciertas prácticas y los demás apoyabamos la ejecució o sugeriamos cambios sobre la misma. 
+
+En esas tres reuniones armamos el conjunto de carpetas necesarias para el 3er sprint, agregamos ejs a nuestro proyecto, dividimos las rutas de forma super ordenada y fuera de las reuniones, corregimos los errores que tuvimos en el sprint2 (como lo eran etiquetas que no eran necesarias y ni siquiera estabamos usando), estas correcciones las realizamos por asignación de tareas.
