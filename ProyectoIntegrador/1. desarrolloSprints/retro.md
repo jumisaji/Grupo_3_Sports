@@ -2,6 +2,40 @@ Este Documento permite mejorar y afianzar el trabajo y desempeño en equipo.
 
 Dinámica de estrella de Mar https://proyectosagiles.org/2009/06/14/retrospectiva-estrella-mar-starfish-retrospective-scrum/:
 
+
+RETROSPECTIVA DEL SEGUNDO SPRINT
+
+1. COMENZAR A HACER
+2. HACER MÁS
+3. CONTINUAR HACIENDO
+4. HACER MENOS
+5. DEJAR DE HACER
+
+                            SOBRE EL SEGUNDO SPRINT
+
+        Mateo:
+        1. Adelantarse con algunas tareas que no cuesten demasiado.
+        2. Intercambio de ideas.
+        3. Trabajo en equipo y comunicación, ademas de la organizacion con clickup.
+        4. Ideas que compliquen o carguen mucho a la pagina.
+        5. Ausencias prolongadas. 
+
+        juan cruz:
+        1. inovar un poco mas con las ideas
+        2. comunicarnos mas a la hora de el final del sprint 
+        3. la organizacion que tenemos 
+        4. atrasarse con los temas 
+        5. utilizar herramientas inecesarias
+
+                Julie
+        1. Dar finalización cada uno a las tareas asignadas en clickup, para tener más claro el avance de las mismas.
+        2. Notificar los cambios  ejecutados, para actualizar el proyecto y trabajar más en sincronía. Confiar más en cada uno.
+        3. La organización de trabajo que tenemos y el apoyo de equipo.
+        4. Tener horarios de trabajo desincronizados.
+        5. Complicar tareas sencillas. 
+
+
+
 RETROSPECTIVA DEL PRIMER SPRINT
 
 1. COMENZAR A HACER
