@@ -5,7 +5,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 15px;
+    padding: 30px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -17,6 +17,7 @@ main{
 #ruta, #bmx,#mtb, #urban{
     margin: 10px;
     padding: 20px;
+    width: 100%;
 }
 
 .bike{

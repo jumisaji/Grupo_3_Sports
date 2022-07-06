@@ -6,7 +6,7 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
