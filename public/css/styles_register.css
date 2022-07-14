@@ -19,6 +19,7 @@ main{
 
 .seccionregister {
     display: flex;
+    flex-flow: row wrap;
     width: 70vw;
     background-color: rgb(192, 192, 192);
     box-shadow: 0px 0px 8px 0px rgba(7, 11, 128,.8);
@@ -55,6 +56,10 @@ main{
     padding-left: 5px;
     padding-right: 5px;
 }
+#emailReg{
+    width: 60vw;
+}
+
 #fechaReg{
     margin: 15px 3px 3px 3px;
     padding: 2px;
