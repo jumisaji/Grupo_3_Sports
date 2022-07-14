@@ -1,0 +1,215 @@
+[
+    /*Bicicletas de Ruta*/
+        {
+            "nombre": "bici1",
+            "id": 1,
+            "modelo": "Ruta",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "ruta-1.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici2",
+            "id": 2,
+            "modelo": "Ruta",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "ruta-2.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici3",
+            "id": 3,
+            "modelo": "Ruta",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "ruta-3.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici4",
+            "id": 4,
+            "modelo": "Ruta",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "ruta-4.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+    /*Bicicletas de BMX*/    
+        {
+            "nombre": "bici5",
+            "id": 5,
+            "modelo": "BMX",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "bmx-1.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici6",
+            "id": 6,
+            "modelo": "BMX",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "bmx-2.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici7",
+            "id": 7,
+            "modelo": "BMX",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "bmx-3.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici8",
+            "id": 8,
+            "modelo": "BMX",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "bmx-4.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+    /*Bicicletas de MTB*/
+        {
+            "nombre": "bici9",
+            "id": 9,
+            "modelo": "MTB",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "mtb-1.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici10",
+            "id": 10,
+            "modelo": "MTB",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "mtb-2.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici11",
+            "id": 11,
+            "modelo": "MTB",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "mtb-3.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici12",
+            "id": 12,
+            "modelo": "MTB",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "mtb-4.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        /*Bicicletas Urbanas*/
+        {
+            "nombre": "bici13",
+            "id": 13,
+            "modelo": "Urban",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "urban-1.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici14",
+            "id": 14,
+            "modelo": "Urban",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "urban-2.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici15",
+            "id": 15,
+            "modelo": "Urban",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "urban-3.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        },
+    
+        {
+            "nombre": "bici16",
+            "id": 16,
+            "modelo": "Urban",
+            "marca": "XYZ",
+            "rodada": 26,
+            "precio": 1234,
+            "descuento": -20,
+            "image": "urban-4.png",
+            "detalle": "lorem ipsum",
+            "estado": "disponible"
+        }
+        
+        ]
+    
