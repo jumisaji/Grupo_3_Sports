@@ -11,7 +11,8 @@ server.use(require('./routes/products.routes'));
 server.use(require('./routes/users.routes'));
 //vistas
 server.get('/');
-server.get('/route');
+server.get('/bikes_category')
+server.get('/ruta');
 server.get('/bmx');
 server.get('/mtb');
 server.get('/urban');

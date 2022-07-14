@@ -13,7 +13,7 @@ const controller = {
         styles: ['styles_main_bikes', 'animations_main_bikes', 'media_queries_main_bikes']
     }),
 
-    ruta: (req,res) => res.render('route', {
+    ruta: (req,res) => res.render('ruta', {
         styles: ['styles_main_bikes', 'animations_main_bikes', 'media_queries_main_bikes']
     }),
 
