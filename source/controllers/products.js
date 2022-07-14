@@ -13,7 +13,7 @@ const controller = {
         styles: ['styles_main_bikes', 'animations_main_bikes', 'media_queries_main_bikes']
     }),
 
-    ruta: (req,res) => res.render('ruta', {
+    ruta: (req,res) => res.render('route', {
         styles: ['styles_main_bikes', 'animations_main_bikes', 'media_queries_main_bikes']
     }),
 
@@ -21,13 +21,13 @@ const controller = {
         styles: ['styles_main_bikes', 'animations_main_bikes', 'media_queries_main_bikes']
     }),
 
-    detalle: (req,res) => res.render('productoDetalle', {
-        styles: ['styles_detailproduct', 'animations_detailproduct', 'media_queries_detailproduct']
+    detalle: (req,res) => res.render('productDetail', {
+        styles: ['styles_productDetail', 'animations_detailproduct', 'media_queries_productDetail']
     }),
 
-    creacion: (req,res) => res.render('creacion', data),
+    creacion: (req,res) => res.render('create', data),
 
-    edicion: (req,res) => res.render('edicion', data)
+    edicion: (req,res) => res.render('edit', data)
 
 };
 module.exports = controller;
