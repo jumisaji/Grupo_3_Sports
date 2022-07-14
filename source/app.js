@@ -16,11 +16,11 @@ server.get('/bmx');
 server.get('/mtb');
 server.get('/urban');
 server.get('/login');
-server.get('/carrito');
+server.get('/cart');
 server.get('/register');
-server.get('/productoDetalle');
-server.get('/creacion');
-server.get('/edicion');
+server.get('/productDetail');
+server.get('/create');
+server.get('/edit');
 
 //ejs
 server.set('views', resolve(__dirname, 'views'));   
