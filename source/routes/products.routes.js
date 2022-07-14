@@ -6,8 +6,8 @@ rutas.get('/ruta',ruta);
 rutas.get('/bmx',bmx);
 rutas.get('/mtb',mtb);
 rutas.get('/urban',urban);
-rutas.get('/productoDetalle',detalle);
-rutas.get('/creacion',creacion);
-rutas.get('/edicion',edicion);
+rutas.get('/productDetail',detalle);
+rutas.get('/create',creacion);
+rutas.get('/edit',edicion);
 
 module.exports = rutas
