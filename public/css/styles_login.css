@@ -83,6 +83,12 @@ h2 {
     border-top: 1px solid rgb(7, 11, 128);
     width: 90%;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .iconosredes {
@@ -95,6 +101,10 @@ h2 {
 
 .cajaiconos {
     margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .nuevoregistro {
@@ -102,17 +112,13 @@ h2 {
     background-color: rgb(11, 168, 168);
     margin-bottom: 2rem;
     border-radius: 40rem;
-    margin-top: 2rem;
     font-size: 1rem;
     font-family: 'Kalam', cursiva;
     padding: 10px;
-}
-
-.enlacenuevoregistro {
     color: rgb(7, 11, 128);
 }
 
-#botonLogIngreso,
-#botonLogNewReg {
+
+#botonLogIngreso, #botonLogNewReg {
     transition: all .5s;
 }
