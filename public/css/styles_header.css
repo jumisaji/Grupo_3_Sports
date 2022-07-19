@@ -102,7 +102,7 @@ header{
     transition: all .3s;
 }
 
-#tuCuenta, #canasta{
+#tuCuenta, #canasta,#create{
     color: white;
     background-color: #070B80;
     font-size: 20px;

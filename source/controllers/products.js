@@ -25,9 +25,7 @@ const controller = {
         styles: ['styles_productDetail', 'animations_productDetail', 'media_queries_productDetail']
     }),
 
-    creacion: (req,res) => res.render('create', data),
-
-    edicion: (req,res) => res.render('edit', data)
+    
 
 };
 module.exports = controller;
