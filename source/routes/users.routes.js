@@ -1,5 +1,8 @@
 const {Router} = require('express');
 const rutas = Router();
+const multer = require('multer');
+const storage = require('../modules/storage')
+const upload = multer({storage: storage('products')});
 
 const {login, register, carrito,creacion,edicion} = require('../controllers/users'); 
 rutas.get('/login',login);
