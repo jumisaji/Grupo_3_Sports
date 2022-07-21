@@ -16,14 +16,14 @@
                 <img class="logocreate" src="/images/logo_go_bike_cart_y log.png" alt="">
             
                     <form action="create.ejs" method="post"></form>
-                    <input class="formcreacion" type="text" name="producto" placeholder="nombre del producto">
-                    <input class="formcreacion" type="text" name="producto" placeholder="descripcion del producto">
+                    <input class="formcreacion" type="text" name="producto" placeholder="nombre del producto" required>
+                    <input class="formcreacion" type="text" name="producto" placeholder="descripcion del producto" >
                     <label class="label" for="imagen">imagen del producto</label>
                     <input class="imagencreacion" type="file" name="imagen"  >
                     
-                    <input class="formcreacion" type="text" name="producto" placeholder="categoria">
-                    <input class="formcreacion" type="text" name="producto" placeholder="color del producto">
-                    <input class="formcreacion" type="text" name="producto" placeholder="precio del producto">
+                    <input class="formcreacion" type="text" name="producto" placeholder="categoria" required>
+                    <input class="formcreacion" type="text" name="producto" placeholder="color del producto" required>
+                    <input class="formcreacion" type="text" name="producto" placeholder="precio del producto" required>
                     <button id="botoncrear" type="submit" name="producto">crear producto</button>
                     </form>
                

@@ -42,14 +42,16 @@ font-family: 'Kalam', cursiva;
 margin-top: 1rem;
 margin-bottom: 2rem;
 font-size: 20px;
+transition: all .5s;
+font-weight: bold;
 }
 .imagencreacion{width:70%;
 height: 10%;
 text-decoration: none;
 margin-top: 5px;
 margin-bottom: 2rem;
-background-color: rgb(11, 168, 168);
-color: rgb(7, 11, 128);
+background-color:rgb(7, 11, 128);
+color: snow;
 padding: 1rem;
 border-radius: 1rem;
 font-size: 15px;
@@ -57,7 +59,11 @@ font-family: 'Kalam', cursiva;}
 
 .label{font-size: 20px;
     font-family: 'Kalam', cursiva;
-    color: rgb(7, 11, 128);
+    color: #9D1B6F;
     margin-top: 2rem;
+    font-weight: bold;
     
 }
+#botoncrear:hover{  color: white;
+    background-color: rgba(7, 11,128,1);
+    box-shadow: 4px 4px 20px 0px rgba(7, 11,128,.5);}

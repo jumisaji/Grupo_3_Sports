@@ -1,60 +1,38 @@
 [
-    {
-        "id":1,
-        "firstname":"juan cruz",
-        "lastname":"perez",
-        "email":"juanchiperez2004@gmail.com",
-        "password":345123456,
-        "category":"client",
-        "image":""
-},
-{
-    "id":"",
-    "firstname":"",
-    "lastname":"",
-    "email":"",
-    "password":"",
-    "category":"",
-    "image":""
-
-
-},
-{
-    "id":"",
-    "firstname":"",
-    "lastname":"",
-    "email":"",
-    "password":"",
-    "category":"",
-    "image":""
-
-
-},
-{
-    "id":"",
-    "firstname":"",
-    "lastname":"",
-    "email":"",
-    "password":"",
-    "category":"",
-    "image":""
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  {
+    "id": 1,
+    "firstname": "juan cruz",
+    "lastname": "perez",
+    "email": "juanchiperez2004@gmail.com",
+    "password": 345123456,
+    "category": "client",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "firstname": "",
+    "lastname": "",
+    "email": "",
+    "password": "",
+    "category": "",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "firstname": "",
+    "lastname": "",
+    "email": "",
+    "password": "",
+    "category": "",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "firstname": "",
+    "lastname": "",
+    "email": "",
+    "password": "",
+    "category": "",
+    "image": ""
+  }
 ]
