@@ -12,7 +12,18 @@
     <!--/header-->
 <!--    **************************************************  MAIN   **************************************************** -->
     <main>         
-       <!--ESCRIBIR CODIGOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO-->
+        <section>
+            <h2>Edit product <%= product.id %> </h2>
+            <form action="/products/edit/<%= element.id %>?m=PUT" method="post" enctype="multipart/form-data">
+                <input type="text" name="name" id="name" placeholder="nombre del producto" autocomplete="off" value="<%= element.nombre %>">
+                <textarea name="description" id="description" autocomplete="off"><%= element.detalle %></textarea>
+                <input type="file" name="image" id="image" autocomplete="off" multiple>
+                <input type="text" name="categoria" id="categoria" placeholder="categoria" autocomplete="off" value="<%= element.modelo %>">
+                <input type="text" name="color del producto" id="color del producto" placeholder="color del producto" autocomplete="off" value="<%= element.color %>">
+                <input type="number" name="price" id="price" placeholder="Price" autocomplete="off" value="<%= element.precio %>">
+                <button type="submit">Update</button>
+            </form>
+        </section>
     </main>
     <!--    **************************************************  CHAT WHATSAPP   **************************************  -->
     <%- include('./includes/bodywhapp') %>
