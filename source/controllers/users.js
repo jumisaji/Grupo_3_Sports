@@ -1,8 +1,29 @@
-const data = [
-    {
-
-    }
-];
+const {app,one,create,write} = require('../models/products.model');
+const lista = {
+        create: (req,res) => {
+            return res.render('products/create', {
+              title: 'Create Product',
+            })
+          },
+        save: (req, res) => {
+            req.body.image = req.files[0].filename
+            let newProduct = create(req.body)
+            let products = index();
+            products.push(newProduct)
+            write(products)
+            return res.redirect('/products/')
+          },
+        edit:(req,res) => {
+            let product = one(parseInt(req.params.id))
+            if(!product){
+              return res.redirect('/products/')
+            }
+            return res.render('products/edit', {
+              title: 'Edit of products',
+              product:product 
+            })
+          }
+}
 const controller = {
     login: (req,res) => res.render('login', {
         styles: ['styles_login', 'animations_login', 'media_queries_forms']
@@ -16,7 +37,7 @@ const controller = {
         styles: ['styles_cart', 'animations_cart', 'media_queries_cart']
     }),
     edicion: (req,res) => res.render('edit', {
-        styles: [ ]
+        styles: [ 'styles_edit' ]
     }),
     creacion: (req,res) => res.render('create', {
         styles: ['styles_create', ]

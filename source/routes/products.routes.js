@@ -2,7 +2,7 @@ const {Router} = require('express');
 const rutas = Router();
 const multer = require('multer');
 
-const {ruta, bmx, mtb, urban, detalle, creacion, edicion} = require('../controllers/products');
+const {ruta, bmx, mtb, urban, detalle} = require('../controllers/products');
 rutas.get('/ruta',ruta);
 rutas.get('/bmx',bmx);
 rutas.get('/mtb',mtb);
