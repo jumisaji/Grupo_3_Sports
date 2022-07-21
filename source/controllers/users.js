@@ -15,5 +15,11 @@ const controller = {
     carrito: (req,res) => res.render('cart', {
         styles: ['styles_cart', 'animations_cart', 'media_queries_cart']
     }),
+    edicion: (req,res) => res.render('edit', {
+        styles: [ ]
+    }),
+    creacion: (req,res) => res.render('create', {
+        styles: ['styles_create', ]
+    })
 };
 module.exports = controller;

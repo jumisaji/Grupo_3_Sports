@@ -1,0 +1,60 @@
+[
+    {
+        "id":1,
+        "firstname":"juan cruz",
+        "lastname":"perez",
+        "email":"juanchiperez2004@gmail.com",
+        "password":345123456,
+        "category":"client",
+        "image":""
+},
+{
+    "id":"",
+    "firstname":"",
+    "lastname":"",
+    "email":"",
+    "password":"",
+    "category":"",
+    "image":""
+
+
+},
+{
+    "id":"",
+    "firstname":"",
+    "lastname":"",
+    "email":"",
+    "password":"",
+    "category":"",
+    "image":""
+
+
+},
+{
+    "id":"",
+    "firstname":"",
+    "lastname":"",
+    "email":"",
+    "password":"",
+    "category":"",
+    "image":""
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
