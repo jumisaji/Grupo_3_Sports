@@ -1,7 +1,9 @@
-const controller = {
-    home: (req,res) => res.render('home', {
-     styles: ['styles_main_home', 'animations_main_home', 'media_queries_main_home']   
-    }),
+const {index} = require('../models/products.model')
+module.exports = {
+    home: (req,res) =>{
+        return res.render('index',{
+        title: 'Home',
+            products: index().filter(e => e.price > 2000)
+        });
+    },
 };
-module.exports = controller;
-

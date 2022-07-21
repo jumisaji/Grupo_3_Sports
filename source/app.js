@@ -1,10 +1,17 @@
 //config
 const express = require('express');
 const {resolve} = require('path')
+const method = require('method-override')
 const server = express();
 const {port,start} = require( "./modules/port")
 const uploads = require("./modules/uploads")
 server.listen(port,start()); 
+
+
+server.use (uploads);
+server.use(express.urlencoded({extended:false})); //  req.body y el req.query
+server.use(express.json())
+server.use(method('m')); // En la url poner ?m=DELETE
 //rutas
 server.use(require('./modules/public'));
 server.use(require('./routes/main.routes'));
