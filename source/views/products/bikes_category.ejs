@@ -13,55 +13,22 @@
     <!--    **********************************************  MAIN   **************************************************  --> 
     <main class="bicicletas">
         <!--SECCIÓN CATEGORÍAS DE BICICLETAS-->
-        <h1 id="category">  Bicicletas </h1>
-        <article class="bike">
-            <a href="/productoDetalle"><figure><img src="/images/bmx-1.png " alt ="BikeBMX# "></figure></a>
-            <section class="descripcion">
-                <form method="get"><i class="fa-solid fa-heart heart2" ></i></form>
-                <a class="precio">$2500.33</a>
-                <a class="descuento">-20%</a>
-                <a class="marca">Marca</a>
-                <a class="modelo">Modelo</a>
-                <a class="rodada">Rodada</a>
-                <a class="detalle">detalle</a>
-                </section>
-        </article>
-        <article class="bike">
-            <a href="/productoDetalle"><figure><img src="/images/bmx-2.png " alt ="BikeBMX# "></figure></a>
-            <section class="descripcion">
-                <form method="get"><i class="fa-solid fa-heart heart2" ></i></form>
-                <a class="precio">$2500.33</a>
-                <a class="descuento">-20%</a>
-                <a class="marca">Marca</a>
-                <a class="modelo">Modelo</a>
-                <a class="rodada">Rodada</a>
-                <a class="detalle">detalle</a>
-            </section>
-        </article>
-        <article class="bike">
-            <a href="/productoDetalle"><figure><img src="/images/bmx-3.png " alt ="BikeBMX# "></figure></a>
-            <section class="descripcion">
-                <form method="get"><i class="fa-solid fa-heart heart2" ></i></form>
-                <a class="precio">$2500.33</a>
-                <a class="descuento">-20%</a>
-                <a class="marca">Marca</a>
-                <a class="modelo">Modelo</a>
-                <a class="rodada">Rodada</a>
-                <a class="detalle">detalle</a>
-            </section>
-        </article>
-        <article class="bike">
-            <a href="/productoDetalle"><figure><img src="/images/bmx-4.png " alt ="BikeBMX# "></figure></a>
-            <section class="descripcion">
-                <form method="get"><i class="fa-solid fa-heart heart2" ></i></form>
-                <a class="precio">$2500.33</a>
-                <a class="descuento">-20%</a>
-                <a class="marca">Marca</a>
-                <a class="modelo">Modelo</a>
-                <a class="rodada">Rodada</a>
-                <a class="detalle">detalle</a>
-            </section>
-        </article>
+        <section>
+            <h2>Todas las bicicletas</h2>
+            <form action="/products/" method="get">
+                <input type="text" name="name" id="name" placeholder="Bicycle name">
+                <button type="submit">Search</button>
+            </form>
+            <ul>
+                <% products.forEach(element => { %>             
+                    <li>
+                        <a href="/products/productDetail/<%= element.id %>">
+                            <picture><img src="/products/<%= element.image  %>" alt=""></picture>
+                            <h2><%= element.name %> - <span>$<%= element.price %></span></h2>
+                            <p><%= element.description %></p>                   
+                        </a>
+                    </li>
+                <% }) %>
     </main>
     <!--    **************************************************  CHAT WHATSAPP   ********************************************  -->
     <%- include('../includes/bodywhapp') %>

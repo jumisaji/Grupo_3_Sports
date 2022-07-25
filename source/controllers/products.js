@@ -1,4 +1,4 @@
-const {index,one,} = require('../models/products.model');
+const {index,one,create,write} = require('../models/products.model');
 module.exports = {
   detalle: (req, res) => {
     let product = one(parseInt(req.params.id))
@@ -6,10 +6,10 @@ module.exports = {
     if(!product){
       return res.redirect('/products/')
     }
-    return res.render('/products/productDetail/'+product.id, {
-      styles: ['styles_productDetail', 'animations_productDetail', 'media_queries_productDetail'],
+    return res.render('products/productDetail', {
       title: 'Detail of products',
-      product: product 
+      product: product,
+      styles: ['styles_productDetail', 'animations_productDetail', 'media_queries_productDetail']
     })
   },
   index: (req,res) =>{

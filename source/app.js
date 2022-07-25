@@ -20,7 +20,7 @@ server.use(method('m')); // En la url poner ?m=DELETE
 //vistas
 server.use(require("./routes/main.routes"))
 server.use('/products',require('./routes/products.routes'))
-server.use(require('./routes/users.routes'))
+server.use('/users',require('./routes/users.routes'))
 //ejs
 server.set('views', resolve(__dirname, 'views'));   
 server.set('view engine','ejs');
