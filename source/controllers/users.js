@@ -14,12 +14,10 @@ module.exports = {
   edicion: (req,res) => res.render('edit', {
       styles: [ 'styles_edit' ]
   }),
-  creacion: (req,res) => res.render('create', {
-      styles: ['styles_create', ]
-  }),
   create: (req,res) => {
-      return res.render('products/create', {
+      return res.render('users/create', {
         title: 'Create Product',
+        styles: ['styles_create', ]
       })
     },
   save: (req, res) => {
