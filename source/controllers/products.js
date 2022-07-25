@@ -1,25 +1,17 @@
 const {index,one,} = require('../models/products.model');
 module.exports = {
-  bmx: (req,res) => res.render('bmx', {
-      styles: ['styles_main_bikes', 'animations_main_bikes', 'media_queries_main_bikes']
-  }),
-  
+  detalle: (req, res) => {
+    let product = one(parseInt(req.params.id))
 
-  mtb: (req,res) => res.render('mtb',{
-      styles: ['styles_main_bikes', 'animations_main_bikes', 'media_queries_main_bikes']
-  }),
-
-  ruta: (req,res) => res.render('ruta', {
-      styles: ['styles_main_bikes', 'animations_main_bikes', 'media_queries_main_bikes']
-  }),
-
-  urban: (req,res) => res.render('urban',{
-      styles: ['styles_main_bikes', 'animations_main_bikes', 'media_queries_main_bikes']
-  }),
-
-  detalle: (req,res) => res.render('productDetail', {
-      styles: ['styles_productDetail', 'animations_productDetail', 'media_queries_productDetail']
-  }),
+    if(!product){
+      return res.redirect('/products/')
+    }
+    return res.render('/products/productDetail/'+product.id, {
+      styles: ['styles_productDetail', 'animations_productDetail', 'media_queries_productDetail'],
+      title: 'Detail of products',
+      product: product 
+    })
+  },
   index: (req,res) =>{
 
       let products = index();
@@ -29,18 +21,8 @@ module.exports = {
       }
       return res.render('products/bikes_category',{
         title: 'List of products',
-        products: products
-      })
-    },
-  detail: (req, res) => {
-      let product = one(parseInt(req.params.id))
-  
-      if(!product){
-        return res.redirect('/products/')
-      }
-      return res.render('products/productDetail/'+product.id, {
-        title: 'Detail of products',
-        product: product 
+        products: products,
+        styles: ['styles_main_bikes', 'media_queries_main_bikes', 'animations_main_bikes'],
       })
     },
 };

@@ -4,23 +4,23 @@ const {resolve} = require('path')
 const method = require('method-override')
 const server = express();
 const {port,start} = require( "./modules/port")
-const uploads = require("./modules/uploads")
+const uploads = require("./modules/uploads");
+const public = require("./modules/public")
+const { publicDecrypt } = require('crypto');
 server.listen(port,start()); 
 
 
-server.use (uploads);
+server.use(uploads);
+server.use(public);
 server.use(express.urlencoded({extended:false})); //  req.body y el req.query
 server.use(express.json())
 server.use(method('m')); // En la url poner ?m=DELETE
 //rutas
-server.use(require('./modules/public'));
-server.use(require('./routes/main.routes'));
-server.use(require('./routes/products.routes'));
-server.use(require('./routes/users.routes'));
+
 //vistas
 server.use(require("./routes/main.routes"))
 server.use('/products',require('./routes/products.routes'))
-server.use('/users', require('./routes/users.routes'))
+server.use(require('./routes/users.routes'))
 //ejs
 server.set('views', resolve(__dirname, 'views'));   
 server.set('view engine','ejs');
