@@ -1,4 +1,4 @@
-const {app,one,create,write} = require('../models/products.model');
+const {index,one,create,write} = require('../models/products.model');
 module.exports = {
   login: (req,res) => {
     return res.render('users/login', {

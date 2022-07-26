@@ -1,4 +1,4 @@
-const {index,one,create,write} = require('../models/products.model');
+const {index,one} = require('../models/products.model');
 module.exports = {
   detalle: (req, res) => {
     let product = one(parseInt(req.params.id))
@@ -12,7 +12,7 @@ module.exports = {
       styles: ['styles_productDetail', 'animations_productDetail', 'media_queries_productDetail']
     })
   },
-  index: (req,res) =>{
+  bikes: (req,res) =>{
 
       let products = index();
   
