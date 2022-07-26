@@ -1,10 +1,11 @@
 #maindetalle{
     color: #070B80;
     text-align: center;
-    width: 90vw;
+    width: 80vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-direction: column;
     margin-top: 1rem;
     background-color: rgb(192, 192, 192);
     
@@ -14,7 +15,7 @@
     
     text-align: center;}
 
-    .imgdetalle{width: 90%;
+    .imgdetalle{width: 60%;
     border: #070B80 solid 2px;
 margin-top: 2rem;
 border-radius: 1rem;}
@@ -23,6 +24,4 @@ border-radius: 1rem;}
     font-family: 'relaway';
 margin-top: 1rem;
 color: #070B80;}
-#secciondetalle{display: flex;
-flex-direction: column;
-flex-wrap: wrap;}
+
