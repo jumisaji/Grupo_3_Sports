@@ -11,7 +11,7 @@
     <%- include('./includes/header') %>
     <!--/header-->
     <!--    **************************************************   MAIN   ****************************************************    -->
-     <main class="ofertas">         
+     <main class="detailmain">         
         <!--SECCIÓN PRINCIPAL HOME OFERTAS-->
         <section>
             <h2>Ofertas</h2>
@@ -19,7 +19,7 @@
                 <% products.forEach(element => { %>             
                     <li>
                         <a href="/products/productDetail/<%= element.id %>">
-                            <picture><img src="/products/<%= element.image  %>" alt=""></picture>
+                            <picture><img class="bikeof" src="/products/<%= element.image  %>" alt=""></picture>
                             <h2><%= element.name %> - <span>$<%= element.price %></span></h2>
                             <p><%= element.description %></p>                   
                         </a>
