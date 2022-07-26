@@ -11,11 +11,13 @@
     <%- include('../includes/header') %>
     <!--/header-->
     <!--    **************************************************   MAIN  ****************************************************    -->
-    <main>
-        <!--SECCIÓN DETALLE DEL PRODUCTO-->
-        <section>
-            <h2><%= product.name %> - <span>$<%= product.price %></span></h2>
-            <picture><img src="/products/<%= product.image  %>" alt=""></picture>
+    <main id="maindetalle">
+        
+            <picture><img class="imgdetalle" src="/products/<%= product.image  %>" alt=""></picture>
+            <br>
+            <br>
+            <section id="secciondetalle">
+            <h2 id="nombreproduct"><%= product.name %> - <span>$<%= product.price %></span></h2>
             <p><%= product.description %></p>
             <form action="/products/delete/<%= product.id %>?m=DELETE" method="post">
                 <button type="submit">
@@ -24,10 +26,11 @@
             </form>
             <form action="/products/edit/<%= product.id %>?m=PUT" method="get">
                 <button type="submit">
-                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <i class="fa-solid fa-pen-to-square"></i>
                 </button>
             </form>
         </section>
+        
     </main>
     <!--    **************************************************  CHAT WHATSAPP   ********************************************  -->
     <%- include('../includes/bodywhapp') %>

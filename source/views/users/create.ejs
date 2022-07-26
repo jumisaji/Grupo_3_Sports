@@ -15,16 +15,20 @@
             <main id="maincreate">
                 <img class="logocreate" src="/images/logo_go_bike_cart_y log.png" alt="">
             
-                <section>
-                    <h2>New Albums</h2>
+               
+            
                     <form action="/products/save" method="post" enctype="multipart/form-data">
-                        <input type="text" name="name" id="name" placeholder="Album Name" autocomplete="off">
-                        <input type="number" name="price" id="price" placeholder="Price" autocomplete="off">
-                        <input type="file" name="image" id="image" autocomplete="off">
-                        <textarea name="description" id="description" autocomplete="off"></textarea>
-                        <button type="submit">Save</button>
+                        <input class="formcreacion" type="text" name="name" id="name" placeholder="nombre del producto" autocomplete="off">
+                        <input class="formcreacion" type="number" name="price" id="price" placeholder="Precio" autocomplete="off">
+                       <br>
+                        <label class="label" for="image">imagen del producto</label>
+                        <br>
+                        <input class="imagencreacion"type="file" name="image" id="image" autocomplete="off">
+                        
+                        <textarea class="formcreacion" name="description" id="description" autocomplete="off"></textarea>
+                        <button id="botoncrear" type="submit">crear</button>
                     </form>
-                </section>
+                
                
 
 

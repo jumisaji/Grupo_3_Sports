@@ -14,18 +14,18 @@
     <main class="bicicletas">
         <!--SECCIÓN CATEGORÍAS DE BICICLETAS-->
         <section>
-            <h2>Todas las bicicletas</h2>
+            <h2 >Todas las bicicletas</h2>
             <form action="/products/" method="get">
-                <input type="text" name="name" id="name" placeholder="Bicycle name">
-                <button type="submit">Search</button>
+                <input class="barrabusquedalist" type="text" name="name" id="name" placeholder="Bicycle name">
+                <button class="botonbus" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
             <ul>
                 <% products.forEach(element => { %>             
-                    <li>
+                    <li class=" bike">
                         <a href="/products/productDetail/<%= element.id %>">
-                            <picture><img src="/products/<%= element.image  %>" alt=""></picture>
-                            <h2><%= element.name %> - <span>$<%= element.price %></span></h2>
-                            <p><%= element.description %></p>                   
+                            <picture ><img class="imgbici" src="/products/<%= element.image  %>" alt=""></picture>
+                            <h2 class="descripcion""><%= element.name %> - <span>$<%= element.price %></span></h2>
+                            <p  class="descripcion"><%= element.description %></p>                   
                         </a>
                     </li>
                 <% }) %>

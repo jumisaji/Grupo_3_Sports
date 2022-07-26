@@ -10,7 +10,7 @@ main{
     text-align: center;
 }
 
-.bike img{
+.imgbici{
     width: 77%;
 }
 
@@ -19,6 +19,7 @@ main{
     padding: 20px;
     width: 100%;
 }
+
 
 .bike{
     box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
@@ -41,6 +42,8 @@ main{
     display: flex;
     flex-flow:  column wrap;
     justify-content: space-between;
+    font-size: 1rem;
+    margin-top: 10px;
  } 
 
  .heart2{
@@ -75,3 +78,24 @@ main{
 .modelo, .rodada , .detalle{
     display: none;
 }
+.barrabusquedalist{height: 3rem;
+    background-color:snow;
+    border-radius: 1rem 0 0 1rem;
+    padding: 1rem;
+    border: solid 2px rgba(7, 11, 128,1);
+    width: 50%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.botonbus{height: 3rem;
+    color: snow;
+    border-radius: 0 1rem 1rem 0;
+    padding: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(7, 11, 128,1);
+    width: 10%;
+}
+
+h2{font-family: 'raleway', cursiva;} 
+
