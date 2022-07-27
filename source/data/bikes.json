@@ -1,167 +1,153 @@
 [
-   
-        {
-            "name": "bici1",
-            "id": 1,
-            "category": "Ruta",
-            "price": 1234,
-            "image": "ruta-1.png",
-            "": "lorem ipsum",
-            "color": "Blanco y negro"
-        },
-    
-        {
-            "name": "bici2",
-            "id": 2,
-            "category": "Ruta",
-            "price": 1234,
-            "image": "ruta-2.png",
-            "desciption": "lorem ipsum",
-            "color": "Rojo y negro"
-        },
-    
-        {
-            "name": "bici3",
-            "id": 3,
-            "category": "Ruta",
-            "price": 1234,
-            "image": "ruta-3.png",
-            "desciption": "lorem ipsum",
-            "color": "Amarillo y gris"
-        },
-    
-        {
-            "name": "bici4",
-            "id": 4,
-            "category": "Ruta",
-            "price": 1234,
-            "image": "ruta-4.png",
-            "desciption": "lorem ipsum",
-            "color": "Azul y negro"
-        },
-    
-    
-        {
-            "name": "bici5",
-            "id": 5,
-            "category": "BMX",
-            "price": 1234,
-            "image": "bmx-1.png",
-            "desciption": "lorem ipsum",
-            "color": "Negro"
-        },
-    
-        {
-            "name": "bici6",
-            "id": 6,
-            "category": "BMX",
-            "price": 1234,
-            "image": "bmx-2.png",
-            "desciption": "lorem ipsum",
-            "color": "Negro"
-        },
-    
-        {
-            "name": "bici7",
-            "id": 7,
-            "category": "BMX",
-            "price": 1234,
-            "image": "bmx-3.png",
-            "desciption": "lorem ipsum",
-            "color": "Negro"
-        },
-    
-        {
-            "name": "bici8",
-            "id": 8,
-            "category": "BMX",
-            "price": 1234,
-            "image": "bmx-4.png",
-            "desciption": "lorem ipsum",
-            "color": "Blanco"
-        },
-    
-    
-        {
-            "name": "bici9",
-            "id": 9,
-            "category": "MTB",
-            "price": 1234,
-            "image": "mtb-1.png",
-            "desciption": "lorem ipsum",
-            "color": "Negro y amarillo"
-        },
-    
-        {
-            "name": "bici10",
-            "id": 10,
-            "category": "MTB",
-            "price": 1234,
-            "image": "mtb-2.png",
-            "desciption": "lorem ipsum",
-            "color": "Negro y amarillo"
-        },
-    
-        {
-            "name": "bici11",
-            "id": 11,
-            "category": "MTB",
-            "price": 1234,
-            "image": "mtb-3.png",
-            "desciption": "lorem ipsum",
-            "color": "Amarillo"
-        },
-    
-        {
-            "name": "bici12",
-            "id": 12,
-            "category": "MTB",
-            "price": 1234,
-            "image": "mtb-4.png",
-            "desciption": "lorem ipsum",
-            "color": "Rojo y negro"
-        },
-    
-  
-        {
-            "name": "bici13",
-            "id": 13,
-            "category": "Urban",
-            "price": 1234,
-            "image": "urbana-1.png",
-            "desciption": "lorem ipsum",
-            "color": "Negro"
-        },
-    
-        {
-            "name": "bici14",
-            "id": 14,
-            "category": "Urban",
-            "price": 1234,
-            "image": "urbana-2.png",
-            "desciption": "lorem ipsum",
-            "color": "Negro"
-        },
-    
-        {
-            "name": "bici15",
-            "id": 15,
-            "category": "Urban",
-            "price": 1234,
-            "image": "urbana-3.png",
-            "desciption": "lorem ipsum",
-            "color": "Celeste"
-        },
-    
-        {
-            "name": "bici16",
-            "id": 16,
-            "category": "Urban",
-            "price": 1234,
-            "image": "urbana-4.png",
-            "desciption": "lorem ipsum",
-            "color": "Negro y azul"
-        }
-        
-        ]
-    
+  {
+    "name": "bici1",
+    "id": 1,
+    "category": "Ruta",
+    "price": 1234,
+    "image": "ruta-1.png",
+    "": "lorem ipsum",
+    "color": "Blanco y negro"
+  },
+  {
+    "name": "bici2",
+    "id": 2,
+    "category": "Ruta",
+    "price": 1234,
+    "image": "ruta-2.png",
+    "desciption": "lorem ipsum",
+    "color": "Rojo y negro"
+  },
+  {
+    "name": "bici3",
+    "id": 3,
+    "category": "Ruta",
+    "price": 1234,
+    "image": "ruta-3.png",
+    "desciption": "lorem ipsum",
+    "color": "Amarillo y gris"
+  },
+  {
+    "name": "bici4",
+    "id": 4,
+    "category": "Ruta",
+    "price": 1234,
+    "image": "ruta-4.png",
+    "desciption": "lorem ipsum",
+    "color": "Azul y negro"
+  },
+  {
+    "name": "bici5",
+    "id": 5,
+    "category": "BMX",
+    "price": 1234,
+    "image": "bmx-1.png",
+    "desciption": "lorem ipsum",
+    "color": "Negro"
+  },
+  {
+    "name": "bici6",
+    "id": 6,
+    "category": "BMX",
+    "price": 1234,
+    "image": "bmx-2.png",
+    "desciption": "lorem ipsum",
+    "color": "Negro"
+  },
+  {
+    "name": "bici7",
+    "id": 7,
+    "category": "BMX",
+    "price": 1234,
+    "image": "bmx-3.png",
+    "desciption": "lorem ipsum",
+    "color": "Negro"
+  },
+  {
+    "name": "bici8",
+    "id": 8,
+    "category": "BMX",
+    "price": 1234,
+    "image": "bmx-4.png",
+    "desciption": "lorem ipsum",
+    "color": "Blanco"
+  },
+  {
+    "name": "bici9",
+    "id": 9,
+    "category": "MTB",
+    "price": 1234,
+    "image": "mtb-1.png",
+    "desciption": "lorem ipsum",
+    "color": "Negro y amarillo"
+  },
+  {
+    "name": "bici10",
+    "id": 10,
+    "category": "MTB",
+    "price": 1234,
+    "image": "mtb-2.png",
+    "desciption": "lorem ipsum",
+    "color": "Negro y amarillo"
+  },
+  {
+    "name": "bici11",
+    "id": 11,
+    "category": "MTB",
+    "price": 1234,
+    "image": "mtb-3.png",
+    "desciption": "lorem ipsum",
+    "color": "Amarillo"
+  },
+  {
+    "name": "bici12",
+    "id": 12,
+    "category": "MTB",
+    "price": 1234,
+    "image": "mtb-4.png",
+    "desciption": "lorem ipsum",
+    "color": "Rojo y negro"
+  },
+  {
+    "name": "bici13",
+    "id": 13,
+    "category": "Urban",
+    "price": 1234,
+    "image": "urbana-1.png",
+    "desciption": "lorem ipsum",
+    "color": "Negro"
+  },
+  {
+    "name": "bici14",
+    "id": 14,
+    "category": "Urban",
+    "price": 1234,
+    "image": "urbana-2.png",
+    "desciption": "lorem ipsum",
+    "color": "Negro"
+  },
+  {
+    "name": "bici15",
+    "id": 15,
+    "category": "Urban",
+    "price": 1234,
+    "image": "urbana-3.png",
+    "desciption": "lorem ipsum",
+    "color": "Celeste"
+  },
+  {
+    "name": "bici16",
+    "id": 16,
+    "category": "Urban",
+    "price": 1234,
+    "image": "urbana-4.png",
+    "desciption": "lorem ipsum",
+    "color": "Negro y azul"
+  },
+  {
+    "id": 17,
+    "name": "s",
+    "price": 2,
+    "description": "sss",
+    "image": "image-1658883544510-932720718.jpg"
+  }
+]
