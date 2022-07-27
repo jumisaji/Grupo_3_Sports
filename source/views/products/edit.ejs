@@ -14,14 +14,16 @@
     <main>         
         <section>
             <h2>Edit product <%= product.id %> </h2>
-            <form action="/products/edit/<%= product.id %>?m=PUT" method="post" enctype="multipart/form-data">
-                <input type="text" name="name" id="name" placeholder="nombre del producto" autocomplete="off" value="<%= product.name %>">
-                <textarea name="description" id="description" autocomplete="off"><%= product.desciption %></textarea>
-                <input type="file" name="image" id="image" autocomplete="off" multiple>
-                <input type="text" name="categoria" id="categoria" placeholder="categoria" autocomplete="off" value="<%= product.category %>">
-                <input type="text" name="color del producto" id="color del producto" placeholder="color del producto" autocomplete="off" value="<%= product.color %>">
-                <input type="number" name="price" id="price" placeholder="Price" autocomplete="off" value="<%= product.price %>">
-                <button type="submit">Update</button>
+            <form action="/products/edit/<%= product.id %>?m=PUT" method="POST" enctype="multipart/form-data">
+                <input class="formcreacion" type="text" name="name" id="name" placeholder="nombre del producto" autocomplete="off" value="<%= product.name %>">
+                <input class="formcreacion" type="number" name="price" id="price" placeholder="Precio" autocomplete="off" value="<%= product.price %>">
+                <br>
+                <label class="label" for="image">imagen del producto</label>
+                <br>
+                <input class="imagencreacion"type="file" name="image" id="image" autocomplete="off" value="<%= product.image %>">
+                        
+                <textarea class="formcreacion" name="description" id="description" autocomplete="off" value="<%= product.description %>"></textarea>
+                <button id="botonEditar" type="submit">Update</button>
             </form>
         </section>
     </main>

@@ -31,9 +31,6 @@ module.exports = {
     })
     },
     
-  edicion: (req,res) => res.render('edit', {
-        styles: [ 'styles_edit' ]
-    }),
   create: (req,res) => {
         return res.render('products/create', {
           title: 'Create Product',
@@ -53,11 +50,14 @@ module.exports = {
         if(!product){
           return res.redirect('/products/')
         }
-        return res.render('products/edit', {
+        if (res.render('products/edit', {
           title: 'Edit of products',
           product:product,
           styles: ['styles_edit']
-        })
+        })){
+          return res.redirect('/products/')
+        }
+        
       },
   modify: (req, res) => {
         let product = one(parseInt(req.params.id))
@@ -72,7 +72,7 @@ module.exports = {
           return p 
         });
         write(productsModified)
-        return res.redirect('/products/detail/' + product.id)
+        return res.redirect('/products/')
       },
   destroid:(req,res) => {
         let product = one(parseInt(req.params.id))
