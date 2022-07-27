@@ -2,7 +2,7 @@ const { readFileSync, writeFileSync} = require('fs');
 const {resolve} = require('path');
 
 const model = {
-    index: function(){
+    bikes: function(){
         let file = resolve(__dirname,'../data','bikes.json');
         let data = readFileSync(file);
         return JSON.parse(data);

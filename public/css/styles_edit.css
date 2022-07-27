@@ -1,0 +1,18 @@
+main{
+    font-size: 16px;
+    color: #070B80;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#titleEdit{
+    font-size: 1px;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+}

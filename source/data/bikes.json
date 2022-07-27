@@ -6,7 +6,8 @@
     "price": 1234,
     "image": "ruta-1.png",
     "": "lorem ipsum",
-    "color": "Blanco y negro"
+    "color": "Blanco y negro",
+    "description": ""
   },
   {
     "name": "bici2",

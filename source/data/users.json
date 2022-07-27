@@ -10,11 +10,11 @@
   },
   {
     "id": 2,
-    "firstname": "",
-    "lastname": "",
-    "email": "",
-    "password": "",
-    "category": "",
+    "firstname": "Julieth Milena",
+    "lastname": "Sánchez Jiménez",
+    "email": "ing.jsanchezj@gmail.com",
+    "password": "123abc",
+    "category": "client", 
     "image": ""
   },
   {
