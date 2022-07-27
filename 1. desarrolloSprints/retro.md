@@ -2,6 +2,37 @@ Este Documento permite mejorar y afianzar el trabajo y desempeño en equipo.
 
 Dinámica de estrella de Mar https://proyectosagiles.org/2009/06/14/retrospectiva-estrella-mar-starfish-retrospective-scrum/:
 
+
+RETROSPECTIVA DEL TERCER SPRINT
+
+1. COMENZAR A HACER
+2. HACER MÁS
+3. CONTINUAR HACIENDO
+4. HACER MENOS
+5. DEJAR DE HACER
+                            SOBRE EL TERCER SPRINT
+
+        Mateo:
+        1. Adelantar detalles en los sprints.
+        2. Reuniones.
+        3. Trabajo en equipo y comunicación, ademas de la organizacion con clickup.
+        4. Dejar detalles para ultimo momento.
+        5. Copiar codigo de las clases, por mas simple que sea.
+
+        juan cruz:
+        1. Innovar en diseño.
+        2. comunicacion.
+        3. Organizacion y reuniones. 
+        4. Leer mejor las consignas.
+        5. Atrasarse con PLayground.
+
+                Julie
+        1. Dar finalización cada uno a las tareas asignadas en clickup, para tener más claro el avance de las mismas.
+        2. Notificar los cambios  ejecutados, para actualizar el proyecto y trabajar más en sincronía. Confiar más en cada uno.
+        3. La organización de trabajo que tenemos y el apoyo de equipo.
+        4. Tener horarios de trabajo desincronizados.
+        5. Complicar tareas sencillas. 
+
 RETROSPECTIVA DEL SEGUNDO SPRINT
 
 1. COMENZAR A HACER
