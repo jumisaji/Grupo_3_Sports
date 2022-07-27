@@ -9,6 +9,7 @@ RETROSPECTIVA DEL TERCER SPRINT
 3. CONTINUAR HACIENDO
 4. HACER MENOS
 5. DEJAR DE HACER
+                            
                             SOBRE EL TERCER SPRINT
 
         Mateo:
