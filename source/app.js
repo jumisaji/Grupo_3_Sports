@@ -3,9 +3,9 @@ const express = require('express');
 const {resolve} = require('path')
 const method = require('method-override')
 const server = express();
-const {port,start} = require( "/modules/port")
-const uploads = require("/modules/uploads");
-const public = require("/modules/public")
+const {port,start} = require( "./modules/port")
+const uploads = require("./modules/uploads");
+const public = require("./modules/public")
 const { publicDecrypt } = require('crypto');
 server.listen(port,start()); 
 
@@ -18,9 +18,9 @@ server.use(method('m')); // En la url poner ?m= metodo, como DELETE
 //rutas
 
 //vistas
-server.use(require("/routes/main.routes"))
-server.use('/products',require('/routes/products.routes'))
-server.use('/users',require('/routes/users.routes'))
+server.use(require("./routes/main.routes"))
+server.use('/products',require('./routes/products.routes'))
+server.use('/users',require('./routes/users.routes'))
 //ejs
 server.set('views', resolve(__dirname, 'views'));   
 server.set('view engine','ejs');
