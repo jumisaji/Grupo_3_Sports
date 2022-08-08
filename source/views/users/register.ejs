@@ -18,7 +18,7 @@
                 <img id="logo_register" src="/images/logo_go_bike_cart_y Log.png" alt="logo gobike">
                 <p id="textoregistro"><b>Registro</b></p>
             </section>
-            <form action="/register.html" method="get">
+            <form action="/users/register" method="post" id="form-register" enctype="multipart/form-data">
                 <fieldset>
                     <legend>Registro de informacion personal</legend>
                 
@@ -53,9 +53,8 @@
                     <% } %>
 
                     <input class="ingresotexto1" type="file" name="usersProfilePhoto"><!--Foto de perfil-->
-                    <% if (locals.errors && errors.usersProfilePhoto) { %>                                                                                      
+                    <% if (locals.errors && errors.usersProfilePhoto) { %>
                         <p class="msg-error"> <%= errors.usersProfilePhoto.msg %> </p>
-                     
                     <% } %>
 
                     <input  class="ingresotexto1" type="password" name="password" placeholder="Contraseña" value="<%= locals.oldData ? oldData.password : null %>"><!--contraseña-->

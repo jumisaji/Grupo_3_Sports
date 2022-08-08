@@ -14,7 +14,7 @@
     "lastname": "Sánchez Jiménez",
     "email": "ing.jsanchezj@gmail.com",
     "password": "123abc",
-    "category": "client", 
+    "category": "client",
     "image": ""
   },
   {
@@ -34,5 +34,11 @@
     "password": "",
     "category": "",
     "image": ""
+  },
+  {
+    "id": 5,
+    "name": "ssssssssss",
+    "price": null,
+    "image": "usersProfilePhoto-1659939261899_img.jpg"
   }
 ]

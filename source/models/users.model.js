@@ -1,14 +1,14 @@
-const { readFileSync } = require('fs');
+const { readFileSync, writeFileSync } = require('fs');
 const {resolve} = require('path');
 
 const model = {
     index: function(){
-        let file = resolve(__dirname,'../data','bikes.json');
+        let file = resolve(__dirname,'../data','users.json');
         let data = readFileSync(file);
         return JSON.parse(data);
       },
     create: function(data){
-        let file = resolve(__dirname,'../data','bikes.json');
+        let file = resolve(__dirname,'../data','users.json');
         let info = readFileSync(file);
         let products = JSON.parse(info);
         let lastProduct= products[products.length - 1];
@@ -23,7 +23,7 @@ const model = {
         })
       },
     write: function(data) {
-        let file = resolve(__dirname,'../data','bikes.json');
+        let file = resolve(__dirname,'../data','users.json');
         let info = JSON.stringify(data,null,2);
         return writeFileSync(file, info);
       },

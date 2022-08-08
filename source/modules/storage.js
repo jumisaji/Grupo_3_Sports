@@ -1,5 +1,6 @@
-const {extname, resolve} = require('path')
 const {diskStorage} = require('multer');
+const {extname, resolve} = require('path')
+
 
 const storage = directory => diskStorage({
     destination: (req, file, callback) => {

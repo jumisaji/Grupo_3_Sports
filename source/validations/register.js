@@ -1,5 +1,5 @@
 const {body} = require('express-validator');
-const {extname} = require('path');
+const {extname, resolve} = require('path');
 const {unlinkSync} = require('fs');
 const {index} = require('../models/users.model')
 
@@ -27,7 +27,7 @@ const register = [
 
     body('usersProfilePhoto').custom((value, {req}) => {
         let archivos = req.files
-        if(!archivos && archivos.length == 0){
+        if(!archivos || archivos.length == 0){
             throw new Error('No se pudo subir la imagen')
         }
 
