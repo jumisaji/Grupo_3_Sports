@@ -32,6 +32,18 @@ const userController = {
       styles: ['styles_login', 'animations_login', 'media_queries_forms']
   })
   },
+  access: function(req,res){
+    let validaciones = validationResult(req)
+    let {errors} = validaciones
+    if(errors && errors.length > 0){
+      return res.render('users/login',{
+        styles:['styles_login', 'animations_login', 'media_queries_forms'],
+        oldData: req.body,
+        errors: validaciones.mapped()
+      });
+    }
+    return res.send('Ingresando...')
+  }
 };
 
 module.exports = userController;

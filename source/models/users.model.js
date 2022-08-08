@@ -1,5 +1,6 @@
 const { readFileSync, writeFileSync } = require('fs');
 const {resolve} = require('path');
+const {hashSync} = require('bcryptjs');
 
 const model = {
     index: function(){
@@ -7,19 +8,27 @@ const model = {
         let data = readFileSync(file);
         return JSON.parse(data);
       },
+      one:function(id){
+        let file = resolve(__dirname,'../data','bikes.json');
+        let data = readFileSync(file);
+        let users = JSON.parse(data);
+        return users.find(users => users.id === id)
+      },
     create: function(data){
-        let file = resolve(__dirname,'../data','users.json');
+        let file = resolve(__dirname,'../data','bikes.json');
         let info = readFileSync(file);
-        let products = JSON.parse(info);
-        let lastProduct= products[products.length - 1];
+        let users = JSON.parse(info);
+        let lastUser= users[users.length - 1];
         return Object({
-          id: products.length == 0 ? 1 : lastProduct.id + 1,
+          id: users.length == 0 ? 1 : lastUser.id + 1,
           name: data.name,
-          price: parseInt(data.price),
-          description: data.description,
-          image: data.image,
-          category: data.category,
-          color: data.color
+          surname: data.surname ,
+          email: data.email,
+          identification: data.identification,
+          phoneNumber: data.phoneNumber,
+          usersProfilePhoto: data.usersProfilePhoto,
+          password: hashSync(data.password,10),
+          isAdmin: data.email.includes('@grupo3.com')
         })
       },
     write: function(data) {

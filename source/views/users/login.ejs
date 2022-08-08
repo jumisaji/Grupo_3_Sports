@@ -16,11 +16,17 @@
             <section>
                 <img class="logo_login" src="/images/logo_go_bike_cart_y Log.png" alt="logo gobike">
             </section>
-            <form action="login.html" method="get">
-                <input class="ingresotexto" type="text" name="usuario" placeholder="Nombre de usuario o correo" minlength="4" required>
-                    <br>
-                    <input class="ingresotexto" type="password" name="contraseña" placeholder="Contraseña" minlength="4" required>
-                            
+            <form action="/users/access" id="form-login" method="post">
+                <input class="ingresotexto" type="email" name="email" placeholder="Nombre de usuario o correo" value="<%= locals.oldData ? oldData.email : null %>">
+                <% if (locals.errors && errors.email) { %>                                                                                      
+                    <p class="msg-error"> <%= errors.email.msg %> </p>
+                 
+                <% } %>
+                    <input class="ingresotexto" type="password" name="password" placeholder="Contraseña" value="<%= locals.oldData ? oldData.password : null %>">
+                    <% if (locals.errors && errors.password) { %>                                                                                      
+                        <p class="msg-error"> <%= errors.password.msg %> </p>
+                     
+                    <% } %>   
                     <nav>
                         <a href="/">
                             <h4 id="forgotPass">¿olvidaste tu contraseña?</h4>
