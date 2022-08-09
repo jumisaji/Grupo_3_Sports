@@ -25,7 +25,6 @@ header{display: flex;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around; 
-    
     width: 100%;
 }
 
@@ -33,18 +32,11 @@ header{display: flex;
     width: 90%;
     height: 5rem;
     margin: 5px;
-   
-    
-}
-#opciones2{display: flex;
-    
 }
 
-
-
-
-
-
+#opciones2{
+    display: flex;
+}
 
 #buscar{
     text-align: center;   
@@ -53,13 +45,15 @@ header{display: flex;
     justify-content: center;
     position: relative;  
     align-content: center;
+    margin-left: 21px;
+    margin-right: 21px;
 }
 
 #barraBuscar{
     border-radius: 1rem 0 0 1rem;
     margin-top: 8px;
+    margin-bottom: 8px;
     padding: 1rem;
- 
     width: 80%;
     height: 2rem;
 }
@@ -70,13 +64,8 @@ header{display: flex;
     background-color: #c0c0c0;
     color: #070B80;
     width: 20%;
-  
     margin-top: 8px;
-    
-
 }
-
-
 
 .iconoss {
     color: white;
@@ -84,9 +73,8 @@ header{display: flex;
     font-size: 30px;
     margin-right: 1rem;
     margin-top: 8px;
-    margin-left: rem;
+    margin-left: 0.5rem;
     transition: all .5s;
-    
 }
 
 
