@@ -107,6 +107,26 @@
     "identification": "3333333",
     "phoneNumber": "333333333333",
     "password": "$2a$10$uA3NC1T9RZ6HF8nP/uzcju1HD/hupCekRngmr4zdOs2b/VKbCz37C",
-    "isAdmin": true
-  }
-]
+    "isAdmin": true  
+  },
+    {
+      "id": 21,
+      "name": "juan cruz",
+      "surname": "perez",
+      "email": "juanchiperez2004@gmail.com",
+      "identification": "45630969",
+      "phoneNumber": "1162907922",
+      "password": "$2a$10$NoGmeYDhsXOJ02P3tR4yK.Si4t0s5TbVzEBrNYnTohtDpez.nofc2",
+      "isAdmin": false
+    },
+    {
+      "id": 22,
+      "name": "ana",
+      "surname": "bois",
+      "email": "anu.bois78@grupo3.com",
+      "identification": "45630989",
+      "phoneNumber": "1162907922",
+      "password": "$2a$10$OYy4YYKiCRRDVfrh59/lS.0//R8aHLsLlfMAwL.M/UPZU.5PHcR8y",
+      "isAdmin": true
+    }
+  ]

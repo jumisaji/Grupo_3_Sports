@@ -1,3 +1,4 @@
+
 * {
     border: none;
     margin: none;
@@ -19,8 +20,10 @@ main{
 
 .seccionregister {
     display: flex;
-    flex-flow: row wrap;
-    width: 70vw;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     background-color: rgb(192, 192, 192);
     box-shadow: 0px 0px 8px 0px rgba(7, 11, 128,.8);
     margin-top: 2rem;
@@ -28,25 +31,25 @@ main{
     justify-content: center;
     border-radius: 5px;
 }
-#cabecera_register{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background: rgba(7, 11, 128,.21);
-    border-radius: 5px;
-}
+
+
 #logo_register{
- width: 20vw;
- justify-content: space-around;
+ width: 50%;
+ height: 50;
  padding-top: 15px;
+ margin-left: auto;
+ margin-right: auto;
 }
 #textoregistro{
-    width: 70vw;
-    justify-content: space-around;
-    padding-bottom: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: large;
 }
 .ingresotexto1 {
-    width: 30vw;
+    width: 60%;
     height: 2rem;
     color: rgb(192, 192, 192);
     font-family: 'raleway', cursiva;
@@ -57,7 +60,7 @@ main{
     padding-right: 5px;
 }
 #emailReg{
-    width: 60vw;
+    width: 60%;
 }
 
 #fechaReg{
@@ -66,7 +69,7 @@ main{
 }
 
 .ingresotexto_date {
-    width: 50vw;
+    width: 50%;
     height: 2rem;
     color: rgb(192, 192, 192);
     font-family: 'raleway', cursiva;
@@ -77,13 +80,16 @@ main{
     padding-right: 5px;
 }
 
-#terminos{
-    padding: 10px;
-    margin: 5px;
+.term1{ margin-bottom: 1rem;
+    margin-top: 1rem;
+  
+    
+    
 }
 
+
 .boton-registrar{
-    width: 20vw;
+    width: 20%;
     margin-top: 2rem;
     height: 2.5rem;
     font-family: 'Kalam', cursiva;
@@ -95,4 +101,12 @@ main{
 }
 #botonReg{
     transition: all .5s;
+    width: 40%;
+    height: 4rem;
+    font-size: 20px;
 }
+.msg-error{font-size: 12px;
+    margin-top: 1rem;
+    color: #9D1B6F;
+    font-weight: bold;}
+
