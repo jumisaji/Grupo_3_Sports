@@ -2,6 +2,42 @@ Este Documento permite mejorar y afianzar el trabajo y desempeño en equipo.
 
 Dinámica de estrella de Mar https://proyectosagiles.org/2009/06/14/retrospectiva-estrella-mar-starfish-retrospective-scrum/:
 
+RETROSPECTIVA DEL CUARTO SPRINT
+
+1. COMENZAR A HACER
+2. HACER MÁS
+3. CONTINUAR HACIENDO
+4. HACER MENOS
+5. DEJAR DE HACER
+                            SOBRE EL TERCER SPRINT
+
+        Mateo:
+        1. Diseños innovadores para algunos segmentos.
+        2. Revisiones personales del proyecto.
+        3. Trabajo en equipo y comunicación.
+        4. Cosas el ultimo día.
+        5. Dejar de posponer.
+
+        juan Cruz:
+        1. 
+        2. 
+        3. 
+        4. 
+        5. 
+
+        Julieth:
+        1. 
+        2. 
+        3. 
+        4. 
+        5. 
+
+        Guadalupe:
+        1. 
+        2. 
+        3. 
+        4. 
+        5.  
 
 RETROSPECTIVA DEL TERCER SPRINT
 
