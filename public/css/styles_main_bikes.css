@@ -71,13 +71,17 @@ main{
     font-size: 20px;
     color: #9D1B6F;
  }
- .precio{
+
+ .precio
+ {
     font-family: 'roboto';
  }
 
-.modelo, .rodada , .detalle{
+.modelo, .rodada , .detalle
+{
     display: none;
 }
+
 .barrabusquedalist{height: 3rem;
     background-color:snow;
     border-radius: 1rem 0 0 1rem;
@@ -88,7 +92,8 @@ main{
     margin-top: 1rem;
 }
 
-.botonbus{height: 3rem;
+.botonbus{
+    height: 3rem;
     color: snow;
     border-radius: 0 1rem 1rem 0;
     padding: 1rem;
@@ -97,5 +102,8 @@ main{
     width: 10%;
 }
 
-h2{font-family: 'raleway', cursiva;} 
+h2
+{
+    font-family: 'raleway', cursiva;
+} 
 
