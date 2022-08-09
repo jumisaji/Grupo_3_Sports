@@ -1,47 +1,5 @@
 [
   {
-    "id": 1,
-    "firstname": "juan cruz",
-    "lastname": "perez",
-    "email": "juanchiperez2004@gmail.com",
-    "password": 345123456,
-    "category": "client",
-    "image": ""
-  },
-  {
-    "id": 2,
-    "firstname": "Julieth Milena",
-    "lastname": "Sánchez Jiménez",
-    "email": "ing.jsanchezj@gmail.com",
-    "password": "123abc",
-    "category": "client",
-    "image": ""
-  },
-  {
-    "id": 3,
-    "firstname": "",
-    "lastname": "",
-    "email": "",
-    "password": "",
-    "category": "",
-    "image": ""
-  },
-  {
-    "id": 4,
-    "firstname": "",
-    "lastname": "",
-    "email": "",
-    "password": "",
-    "category": "",
-    "image": ""
-  },
-  {
-    "id": 5,
-    "name": "ssssssssss",
-    "price": null,
-    "image": "usersProfilePhoto-1659939261899_img.jpg"
-  },
-  {
     "id": 17,
     "name": "Jorge",
     "surname": "Chespirito",
@@ -99,6 +57,56 @@
     "identification": "45132025",
     "phoneNumber": "333333333",
     "password": "$2a$10$dN8oRDWdeHlOWrCrswDlAuqE7NTHs0dVcpJgcgxwP69df9mY5bMMC",
+    "isAdmin": true
+  },
+  {
+    "id": 17,
+    "name": "aaaaa",
+    "surname": "aaaaaa",
+    "email": "aaaa@gmail.com",
+    "identification": "3333333333",
+    "phoneNumber": "3333333333333",
+    "password": "$2a$10$AVM0gU9jIBFq8q8x48wZLObyLtql2GCVL05ovXUNVTzpBl3ZcTsU.",
+    "isAdmin": false
+  },
+  {
+    "id": 17,
+    "name": "aaaaaaa",
+    "surname": "aaaaaaaaaaaaaa",
+    "email": "aaaaaaaaa@gmail.com",
+    "identification": "33333333333333",
+    "phoneNumber": "333333333333333",
+    "password": "$2a$10$CPTAy2a7Pr5bAHEiVMAxGuqGtAAthJOZiXkfvPe9Y9y.9USJmNuIi",
+    "isAdmin": false
+  },
+  {
+    "id": 18,
+    "name": "aaaaaaaa",
+    "surname": "aaaaaaaaaaaa",
+    "email": "aaaaaaaa@gmail.com",
+    "identification": "22222222222",
+    "phoneNumber": "22222222222222222",
+    "password": "$2a$10$r0qfsl1GGLLZUYTuI.oVe./TyO0LOckGiuJV8ZcVjOsqA.0/CM5n6",
+    "isAdmin": false
+  },
+  {
+    "id": 19,
+    "name": "wwwwwwww",
+    "surname": "wwwwwwwww",
+    "email": "w@gmail.com",
+    "identification": "4444444444",
+    "phoneNumber": "4444444444444",
+    "password": "$2a$10$jwqAUVP.kYhLckZohYqs7umkPrkzkwhqr/Gq6USFmVNARe4TgHW0W",
+    "isAdmin": false
+  },
+  {
+    "id": 20,
+    "name": "wwwwwww",
+    "surname": "wwwwwwwwwww",
+    "email": "w@grupo3.com",
+    "identification": "3333333",
+    "phoneNumber": "333333333333",
+    "password": "$2a$10$uA3NC1T9RZ6HF8nP/uzcju1HD/hupCekRngmr4zdOs2b/VKbCz37C",
     "isAdmin": true
   }
 ]

@@ -42,7 +42,16 @@ const userController = {
         errors: validaciones.mapped()
       });
     }
-    return res.send('Ingresando...')
+
+    let users = index();
+    let user = users.find(u => u.email === req.body.email);
+    req.session.user = user; //acá user esta obteniendo los datos de ese usuario que se logueó o que está ingresando;
+
+    return res.redirect('/')
+  },
+  logout: function (req,res) {
+    delete req.session.user
+    return res.redirect('/')
   }
 };
 

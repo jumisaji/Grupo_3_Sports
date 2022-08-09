@@ -9,13 +9,13 @@ const model = {
         return JSON.parse(data);
       },
       one:function(id){
-        let file = resolve(__dirname,'../data','bikes.json');
+        let file = resolve(__dirname,'../data','users.json');
         let data = readFileSync(file);
         let users = JSON.parse(data);
         return users.find(users => users.id === id)
       },
     create: function(data){
-        let file = resolve(__dirname,'../data','bikes.json');
+        let file = resolve(__dirname,'../data','users.json');
         let info = readFileSync(file);
         let users = JSON.parse(info);
         let lastUser= users[users.length - 1];
