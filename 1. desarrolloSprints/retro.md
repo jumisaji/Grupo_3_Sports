@@ -9,7 +9,7 @@ RETROSPECTIVA DEL CUARTO SPRINT
 3. CONTINUAR HACIENDO
 4. HACER MENOS
 5. DEJAR DE HACER
-                            SOBRE EL TERCER SPRINT
+                            RETROSPECTIVA SOBRE EL CUARTO SPRINT
 
         Mateo:
         1. Diseños innovadores para algunos segmentos.
@@ -18,6 +18,13 @@ RETROSPECTIVA DEL CUARTO SPRINT
         4. Cosas el ultimo día.
         5. Dejar de posponer.
 
+        Julieth:
+        1. Agradecer el trabajo y paciencia de los demás miembros del equipo cuando es complicado dar el 100%. Gracias chicos, por el apoyo y comprensión, y por el esfuerzo extra que les implicó. :) :) Lograr un mejor balance entre trabajo profesional, trabajo con el equipo y temas personales.
+        2. Terminar con más tiempo para poder verificar y hacer ajustes con adecuada revisión.
+        3. Buen ritmo de trabajo y la organización previa de tareas, lo que nos ayuda a culminar dentro de los tiempos y seguir mejorando.
+        4. No verificar cambios antes de commitear para evitar daños o cambios no intencionales que afecten el desarrollo del proyecto.
+        5. No descansar lo suficiente, ya que no permite tener la mente y atención al 100%
+
         juan Cruz:
         1. 
         2. 
@@ -25,14 +32,7 @@ RETROSPECTIVA DEL CUARTO SPRINT
         4. 
         5. 
 
-        Julieth:
-        1. 
-        2. 
-        3. 
-        4. 
-        5. 
-
-        Guadalupe:
+        Guadalupe: 
         1. 
         2. 
         3. 
@@ -93,7 +93,7 @@ RETROSPECTIVA DEL SEGUNDO SPRINT
         4. atrasarse con los temas 
         5. utilizar herramientas inecesarias
 
-                Julie
+        Julie
         1. Dar finalización cada uno a las tareas asignadas en clickup, para tener más claro el avance de las mismas.
         2. Notificar los cambios  ejecutados, para actualizar el proyecto y trabajar más en sincronía. Confiar más en cada uno.
         3. La organización de trabajo que tenemos y el apoyo de equipo.
