@@ -1,5 +1,13 @@
 Weekly del equipo.
 
+** 5to sprint :
+
+Durante el desarrollo del quinto sprint nos reunimos para configurar las tareas requeridas para llevar a cabo con éxito el quinto sprint, planeamos una reunión de asignación y una reunión más para trabajar en conjunto requerimientos del sprint.
+
+Durante la primera semana cada integrante trabajó sus tareas asignadas y correcciones previas del sprint4, ya finalizando la última semana, se trabajo en el funcionamiento propio del sprint5 y nos reunimos para cumplir con esta parte funcional del proyecto. Una vez terminada la parte funcional de lo que nos solicitaban, nos enfocamos en mejorar la parte estética del proyecto.
+
+Durante el último tramo del sprint5 recibimos una nueva integrante, Guadalupe, quien nos acompañará en el desarrollo y crecimiento del proyecto Go Bike. Todo el equipo le dimos la bienvenida y esperamos poder trabajar maravillosamente en conjunto. :)
+
 ** 4to sprint :
 
 Durante el desarrollo del cuarto sprint nos reunimos para configurar las tareas asignadas de trabajo y las correcciones indicadas tras realimentación del tercer sprint.
