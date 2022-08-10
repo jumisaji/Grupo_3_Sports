@@ -148,5 +148,25 @@
     "phoneNumber": "444444444",
     "password": "$2a$10$9vTvdRy240JUunSlq2CmLO1ZkBdqVI2scM5PColwwm9CvQB5qJVRC",
     "isAdmin": false
+  },
+  {
+    "id": 25,
+    "name": "Julie",
+    "surname": "Sanchez",
+    "email": "julie@otro.com",
+    "identification": "13579",
+    "phoneNumber": "3103178834",
+    "password": "$2a$10$HYE1jtGP30bx6BWfbfMxDe/vMp2/d/wU4Tvgl28y86Zjrqn7yEWzm",
+    "isAdmin": false
+  },
+  {
+    "id": 26,
+    "name": "Julie",
+    "surname": "Sanchez",
+    "email": "julie@grupo3.com",
+    "identification": "13579",
+    "phoneNumber": "3103178834",
+    "password": "$2a$10$0VWwKi.LhwrJqwchKax/3uBXXIyqQ19WmKCj5sfjJOgJipT12aHj2",
+    "isAdmin": true
   }
 ]
