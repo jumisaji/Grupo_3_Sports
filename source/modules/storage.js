@@ -4,7 +4,7 @@ const {extname, resolve} = require('path')
 
 const storage = directory => diskStorage({
     destination: (req, file, callback) => {
-      let path = resolve(__dirname, '../../public/images/', directory)
+      let path = resolve(__dirname, '../../uploads/', directory)
       return callback(null,path);
     },
     filename: (req, file, callback) => {

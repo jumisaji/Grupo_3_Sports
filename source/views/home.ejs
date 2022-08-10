@@ -19,7 +19,7 @@
                 <% products.forEach(element => { %>             
                     <li>
                         <a href="/products/productDetail/<%= element.id %>">
-                            <picture><img class="bikeof" src="/products/<%= element.image  %>" alt=""></picture>
+                            <picture><img class="bikeof" src="../images/products/<%= element.image  %>" alt=""></picture>
                             <h2><%= element.name %> - <span>$<%= element.price %></span></h2>
                             <p><%= element.description %></p>                   
                         </a>
