@@ -143,5 +143,12 @@
     "image": "urbana-4.png",
     "desciption": "lorem ipsum",
     "color": "Negro y azul"
+  },
+  {
+    "id": 17,
+    "name": "prueba2 Editada",
+    "price": 23233333,
+    "description": "",
+    "image": "image-1660099575961_img.jpg"
   }
 ]
