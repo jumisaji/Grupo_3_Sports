@@ -1,33 +1,20 @@
-.detailmain{
+main{
     font-size: 16px;
     color: #070B80;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 20px;
     text-align: center;
 }
-
-#offers{
-    margin: 10px;
-    padding: 20px;
-    width: 100%;
-}
-
-.bikeof img{
-    width: 80%;
-}
-
-.bikeof{
-    box-shadow: 0px 0px 10px 0px rgba(11, 168, 168,.8);
+.bike{
+    box-shadow: 0px 0px 10px 0px rgba(7, 11, 128,.8);
     text-align: center;
-    font-family:'raleway';
     display: inline-block;
     background-color:white;
-    border: rgba(11, 168, 168,.4) solid 1px;
+    border: rgba(7, 11, 128,.5) solid 1px;
     width: 70%;
     margin-bottom: 10px;
     transition: all .5s;
@@ -36,44 +23,13 @@
     transition: all .5s;
     padding: 10px;
 }
-
-.ganga{  
-    padding: 15px;
-    border-top: rgba(11, 168, 168,.4) solid 1px;
-    display: flex;
-    flex-flow:  column wrap;
-    justify-content: space-between;
-    color: blue;
- } 
-
- .heart1{
-    text-align: center;
-    color: #9D1B6F;
-    font-size: 6.5vw;
-    display: flex;
-    padding: 10px;
-    width: 3vh;
-    height: 3vh;
-    justify-content: center;
-    position: absolute;
-    top: 1px;
-    right:2vw;
-    transform: rotate(0deg);
-    transition: all .3s;
- }
-
- .descuentazo{
-    font-family:  'Roboto bold';
-    font-size: 24px;
-    color: #9D1B6F;
- }
-
- .precioff{
-    font-family: 'roboto';
- }
-
- .precioff, .referencia{
-    display: none;
- }
+#ruta, #bmx,#mtb, #urban{
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+}
+.imgbici{
+    width: 77%;
+}
 
  
