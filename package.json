@@ -6,7 +6,12 @@
   "scripts": {
     "test": "nodemon source/app.js -e json,js,mjs,ejs",
     "start": "node source/app.js ",
-    "sq-i":"sequelize init"
+    "sq-i":"sequelize init",
+    "sq-ms":"sequelize init:migrations && sequelize init:seeders",
+    "sq-mg":"sequelize migration:generate --name users",
+    "sq-sg":"sequelize seed:generate --name users ",
+    "sq-db":"sequelize db:drop && sequelize db:create && Sequelize db:migrate && Sequelize db:seed:all"
+
   },
   "keywords": [],
   "author": "",
