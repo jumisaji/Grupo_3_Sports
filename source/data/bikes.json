@@ -7,16 +7,6 @@
     "image": "ruta-1.png",
     "description": "lorem ipsum",
     "color": "Blanco y negro"
-   
-  },
-  {
-    "name": "bici2",
-    "id": 2,
-    "category": "Ruta",
-    "price": 1234,
-    "image": "ruta-2.png",
-    "desciption": "lorem ipsum",
-    "color": "Rojo y negro"
   },
   {
     "name": "bici3",
@@ -144,5 +134,4 @@
     "desciption": "lorem ipsum",
     "color": "Negro y azul"
   }
-  
 ]

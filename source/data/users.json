@@ -168,5 +168,15 @@
     "phoneNumber": "3103178834",
     "password": "$2a$10$0VWwKi.LhwrJqwchKax/3uBXXIyqQ19WmKCj5sfjJOgJipT12aHj2",
     "isAdmin": true
+  },
+  {
+    "id": 27,
+    "name": "admin",
+    "surname": "prueba",
+    "email": "prueba@grupo3.com",
+    "identification": "45630969",
+    "phoneNumber": "1162907922",
+    "password": "$2a$10$6C7Fh/aZrENADKKZrIU4Luj4erjszVBHIiutcBEEwjXkygC2USg0K",
+    "isAdmin": true
   }
 ]
