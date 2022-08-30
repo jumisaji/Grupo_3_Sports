@@ -4,6 +4,8 @@ const {resolve} = require('path');
 const method = require('method-override');
 const session = require('express-session');
 const { publicDecrypt } = require('crypto');
+const cookieParser = require ("cookie-parser");
+const recordameMiddleware = require("./middlewares/recordameMiddleware")
 
 //modules
 const {port,start} = require( "./modules/port")
@@ -22,6 +24,8 @@ server.use(uploads);
 server.use(public);
 server.use(express.urlencoded({extended:false})); //  req.body y el req.query
 server.use(express.json()) //permite procesar datos que vengan en formato json
+server.use(cookieParser()) //permite procesar datos que vengan en formato cookieParser
+server.use(recordameMiddleware)
 server.use(method('m')); // En la url poner ?m= metodo, como DELETE
 server.use(session({
     secret:'sessionSecret',
