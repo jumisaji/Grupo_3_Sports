@@ -11,7 +11,7 @@ module.exports = {
           type: Sequelize.INTEGER,
         },
       colorOption:{
-        type: Sequelize.VARCHAR,
+        type: Sequelize.STRING
       }
       });
     } catch (error) {

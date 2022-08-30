@@ -12,22 +12,22 @@ module.exports = {
           type: Sequelize.INTEGER,
         },
         name:{
-          type: Sequelize.VARCHAR,
+          type: Sequelize.STRING,
         },
         surname:{
-          type: Sequelize.VARCHAR,
+          type: Sequelize.STRING,
         },
         email:{
-          type: Sequelize.VARCHAR,
+          type: Sequelize.STRING,
         },
-        identifications:{
+        identification:{
           type: Sequelize.INTEGER,
         },
         phoneNumber:{
           type: Sequelize.INTEGER
         },
         password:{
-          type: Sequelize.INTEGER,
+          type: Sequelize.TEXT,
         },
         isAdmin:{
           type: Sequelize.INTEGER,

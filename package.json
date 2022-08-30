@@ -9,8 +9,8 @@
     "sq-i":"sequelize init",
     "sq-ms":"sequelize init:migrations && sequelize init:seeders",
     "sq-mg":"sequelize migration:generate --name users",
-    "sq-sg":"sequelize seed:generate --name users ",
-    "sq-db":"sequelize db:drop && sequelize db:create && Sequelize db:migrate && Sequelize db:seed:all"
+    "sq-sg":"sequelize seed:generate --name products ",
+    "sq-db":"sequelize db:drop && sequelize db:create && sequelize db:migrate && sequelize db:seed:all"
 
   },
   "keywords": [],

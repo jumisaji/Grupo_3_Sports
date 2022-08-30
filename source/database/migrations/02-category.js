@@ -3,23 +3,23 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     try {
-      await queryInterface.createTable("brand", {
+      await queryInterface.createTable("categories", {
         id: {
           allownull: false,
           autoincrement: true,
           primarykey: true,
           type: Sequelize.INTEGER,
         },
-      brandoption:{
-        type: Sequelize.VARCHAR,
-      }
+        bikeOption:{
+          type: Sequelize.STRING
+        },
       });
     } catch (error) {
-      console.log();
+      
     }
   },
 
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("brand");
+    await queryInterface.dropTable("categories");
   },
 };

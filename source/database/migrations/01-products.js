@@ -12,7 +12,7 @@ module.exports = {
         },
 
         name: {
-          type: Sequelize.VARCHAR,
+          type: Sequelize.STRING,
         },
         categories: {
           type: Sequelize.INTEGER,
@@ -21,10 +21,10 @@ module.exports = {
           type: Sequelize.INTEGER,
         },
         images:{
-          type: Sequelize.VARCHAR,
+          type: Sequelize.STRING,
         },
         brand:{
-          type: Sequelize.VARCHAR,
+          type: Sequelize.STRING,
         },
         colors:{
           type: Sequelize.TEXT,
@@ -33,7 +33,7 @@ module.exports = {
           type: Sequelize.INTEGER,
         },
         description:{
-          type: Sequelize.VARCHAR,
+          type: Sequelize.STRING,
         },
         stock:{
           type: Sequelize.INTEGER,
