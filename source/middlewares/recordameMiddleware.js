@@ -1,10 +1,19 @@
-function recordame(req,res,next){
-    if(req.cookies.recordame != undefined && req.session.user == undefined){
-        let file = resolve(__dirname,'../data','users.json')
-        let data = readFileSync(file, {encoding: "utf-8"});
-        let users = JSON.parse(data);
-        req.session.user = users.find(u => u.email === req.cookies.recordame)
+const {index} = require('../models/users.model');
+module.exports = (req,res,next) => {
+
+    let user = null;
+
+    if(req.cookies && req.cookies.username){
+        let users = index();
+        user = users.find(u => u.username === req.cookies.username)
+        req.session.user = user
     }
-    next()
- }
- module.exports = recordame
+
+    if(req.session && req.session.user){
+        user = req.session.user
+    }
+    
+    res.locals.user = user
+
+    return next()
+}

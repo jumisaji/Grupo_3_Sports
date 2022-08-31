@@ -47,7 +47,7 @@ const userController = {
     let user = users.find(u => u.email === req.body.email);
     req.session.user = user; //acá user esta obteniendo los datos de ese usuario que se logueó o que está ingresando;
 
-    if(req.body.recordame != undefined){
+    if(req.body.recordame){
       res.cookie("recordame", req.body.email, { maxAge: 172800000})
     }
 
