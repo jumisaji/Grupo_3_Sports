@@ -19,7 +19,7 @@
                 <% products.forEach(element => { %>             
                     <li>
                         <a href="/products/productDetail/<%= element.id %>">
-                            <picture><img class="bikeof" src="/images/products/<%= element.image  %>" alt=""></picture>
+                            <picture><img class="bikeof" src="/images/products/<%=element.image  %>" alt=""></picture>
                             <h2><%= element.name %> - <span>$<%= element.price %></span></h2>
                             <p><%= element.description %></p>                   
                         </a>
@@ -27,55 +27,7 @@
                 <% }) %>
             </ul>
 =======
-            <article class="bike">
-                <a href="/productDetail"><figure><img class="imgbici" src="/images/products/mtb-1.png " alt ="BikeMTBX# "></figure></a>
-                <section class="descripcion">
-                    <form method="get"><i class="fa-solid fa-heart heart2" ></i></form>
-                    <a class="precio">$2500.33</a>
-                    <a class="descuento">-20%</a>
-                    <a class="marca">Marca</a>
-                    <a class="modelo">Modelo</a>
-                    <a class="rodada">Rodada</a>
-                    <a class="detalle">detalle</a>
-                    </section>
-            </article>
-            <article class="bike">
-                <a href="/productDetail"><figure><img class="imgbici" src="/images/products/ruta-1.png " alt ="BikeRuta# "></figure></a>
-                <section class="descripcion">
-                    <form method="get"><i class="fa-solid fa-heart heart2" ></i></form>
-                    <a class="precio">$2500.33</a>
-                    <a class="descuento">-20%</a>
-                    <a class="marca">Marca</a>
-                    <a class="modelo">Modelo</a>
-                    <a class="rodada">Rodada</a>
-                    <a class="detalle">detalle</a>
-                    </section>
-            </article>
-            <article class="bike">
-                <a href="/productDetail"><figure><img class="imgbici" src="/images/products/urbana-1.png " alt ="BikeUrban# "></figure></a>
-                <section class="descripcion">
-                    <form method="get"><i class="fa-solid fa-heart heart2" ></i></form>
-                    <a class="precio">$2500.33</a>
-                    <a class="descuento">-20%</a>
-                    <a class="marca">Marca</a>
-                    <a class="modelo">Modelo</a>
-                    <a class="rodada">Rodada</a>
-                    <a class="detalle">detalle</a>
-                    </section>
-            </article>
-            <article class="bike">
-                <a href="/productDetail"><figure><img class="imgbici" src="/images/products/bmx-1.png " alt ="BikeBMX# "></figure></a>
-                <section class="descripcion">
-                    <form method="get"><i class="fa-solid fa-heart heart2" ></i></form>
-                    <a class="precio">$2500.33</a>
-                    <a class="descuento">-20%</a>
-                    <a class="marca">Marca</a>
-                    <a class="modelo">Modelo</a>
-                    <a class="rodada">Rodada</a>
-                    <a class="detalle">detalle</a>
-                    </section>
-            </article>
-        </section>
+           
     </main>
     <!--    **************************************************  CHAT WHATSAPP   ********************************************  -->
     <%- include('./includes/bodywhapp') %>

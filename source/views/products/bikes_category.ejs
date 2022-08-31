@@ -23,7 +23,7 @@
                 <% products.forEach(element => { %>             
                     <li class=" bike">
                         <a href="/products/productDetail/<%= element.id %>">
-                            <picture ><img class="imgbici" src="/images/products/<%= element.image  %>" alt=""></picture>
+                            <picture ><img class="imgbici" src="/products/<%= element.image  %>" alt=""></picture>
                             <h2 class="descripcion"><%= element.name %> - <span>$<%= element.price %></span></h2>
                             <p  class="descripcion"><%= element.description %></p>                   
                         </a>

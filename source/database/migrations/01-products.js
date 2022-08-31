@@ -14,22 +14,22 @@ module.exports = {
         name: {
           type: Sequelize.STRING,
         },
-        categories: {
+        category: {
           type: Sequelize.INTEGER,
         },
-        prices: {
+        price: {
           type: Sequelize.INTEGER,
         },
-        images:{
+        imageid:{
           type: Sequelize.STRING,
         },
         brand:{
           type: Sequelize.STRING,
         },
-        colors:{
+        color:{
           type: Sequelize.TEXT,
         },
-        sizes:{
+        size:{
           type: Sequelize.INTEGER,
         },
         description:{

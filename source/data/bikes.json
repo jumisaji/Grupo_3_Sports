@@ -14,16 +14,16 @@
     "category": "Ruta",
     "price": 1234,
     "image": "ruta-3.png",
-    "desciption": "lorem ipsum",
+    "description": "hola chicos",
     "color": "Amarillo y gris"
   },
   {
-    "name": "bici4",
+    "name": "bici5",
     "id": 4,
     "category": "Ruta",
     "price": 1234,
     "image": "ruta-4.png",
-    "desciption": "lorem ipsum",
+    "description": "",
     "color": "Azul y negro"
   },
   {
@@ -32,7 +32,7 @@
     "category": "BMX",
     "price": 1234,
     "image": "bmx-1.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Negro"
   },
   {
@@ -41,7 +41,7 @@
     "category": "BMX",
     "price": 1234,
     "image": "bmx-2.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Negro"
   },
   {
@@ -50,7 +50,7 @@
     "category": "BMX",
     "price": 1234,
     "image": "bmx-3.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Negro"
   },
   {
@@ -59,7 +59,7 @@
     "category": "BMX",
     "price": 1234,
     "image": "bmx-4.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Blanco"
   },
   {
@@ -68,7 +68,7 @@
     "category": "MTB",
     "price": 1234,
     "image": "mtb-1.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Negro y amarillo"
   },
   {
@@ -77,7 +77,7 @@
     "category": "MTB",
     "price": 1234,
     "image": "mtb-2.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Negro y amarillo"
   },
   {
@@ -86,7 +86,7 @@
     "category": "MTB",
     "price": 1234,
     "image": "mtb-3.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Amarillo"
   },
   {
@@ -95,7 +95,7 @@
     "category": "MTB",
     "price": 1234,
     "image": "mtb-4.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Rojo y negro"
   },
   {
@@ -104,7 +104,7 @@
     "category": "Urban",
     "price": 1234,
     "image": "urbana-1.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Negro"
   },
   {
@@ -113,7 +113,7 @@
     "category": "Urban",
     "price": 1234,
     "image": "urbana-2.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Negro"
   },
   {
@@ -122,7 +122,7 @@
     "category": "Urban",
     "price": 1234,
     "image": "urbana-3.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Celeste"
   },
   {
@@ -131,7 +131,35 @@
     "category": "Urban",
     "price": 1234,
     "image": "urbana-4.png",
-    "desciption": "lorem ipsum",
+    "description": "lorem ipsum",
     "color": "Negro y azul"
+  },
+  {
+    "id": 17,
+    "name": "fffff",
+    "price": 1233,
+    "description": "rrrrrrrrrrrrrrrrrrr",
+    "image": "image-1661969717051_img.png"
+  },
+  {
+    "id": 18,
+    "name": "dghgdhd",
+    "price": 234,
+    "description": "345654345654",
+    "image": "image-1661970318186_img.png"
+  },
+  {
+    "id": 19,
+    "name": "dghggggg",
+    "price": 2345,
+    "description": "2345654321",
+    "image": "image-1661970639273_img.png"
+  },
+  {
+    "id": 20,
+    "name": "ergedfgfd",
+    "price": 12345,
+    "description": "3456yuyt543",
+    "image": "image-1661970795452_img.png"
   }
 ]
