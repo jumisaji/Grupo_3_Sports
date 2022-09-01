@@ -21,15 +21,10 @@ const userController = {
     }
 
     req.body.password=hashSync(req.body.password,10);
-    req.body.isAdmin=String(req.body.name).toLocaleLowerCase().includes('grupo3');
+    req.body.isadmin=String(req.body.email).toLocaleLowerCase().includes('@grupo3');
 
-await user,create(req.body);
-    req.body.image = req.files[0].filename;
-    let newUser = create(req.body)
-    let users = index();
-    users.push(newUser)
-    write(users)
-    return res.redirect('/users/login?msg="El registro fue exitoso"')
+await User.create(req.body);
+    return res.redirect('/users/login?msg="El registro fue exitoso')
   },
 
   login: async (req,res) => {
@@ -48,9 +43,14 @@ await user,create(req.body);
       });
     }
 
-   let users=await User.findAll();
+   let users=await User.findAll({
+include:{
+  all:true
+}
+
+   });
     let user = users.find(u => u.email === req.body.email);
-    req.session.user = user; //acá user esta obteniendo los datos de ese usuario que se logueó o que está ingresando;
+    req.session.User = user; //acá user esta obteniendo los datos de ese usuario que se logueó o que está ingresando;
 
     if(req.body.recordame){
       res.cookie("recordame", req.body.email, { maxAge: 172800000})
