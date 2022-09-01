@@ -8,7 +8,7 @@ module.exports= (sequelize, DataTypes) => {
             type:DataTypes.INTEGER
           },
           colorsOption: {
-              type: DataTypes.STRING
+              type: DataTypes.TEXT
           }
     };    
     let config = {
