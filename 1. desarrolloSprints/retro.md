@@ -33,11 +33,11 @@ RETROSPECTIVA DEL CUARTO SPRINT
         5. 
 
         Guadalupe: 
-        1. 
-        2. 
-        3. 
-        4. 
-        5.  
+        1. Verificar antes de hacer commits así no cometer errores o demoras a los demás
+        2. Verificaciones y correcciones 
+        3. Continuar teniendo un buen ritmo de trabajo y la organización
+        4. Demoras a la hora de terminar las partes asignadas
+        5. Dejar las cosas para última hora 
 
 RETROSPECTIVA DEL TERCER SPRINT
 
