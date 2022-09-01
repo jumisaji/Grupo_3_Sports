@@ -23,7 +23,7 @@ const model = {
           name: data.name,
           price: parseInt(data.price),
           description: data.description,
-          image: data.image,
+          imageid: data.imageid,
           category: data.category,
           color: data.color
         })

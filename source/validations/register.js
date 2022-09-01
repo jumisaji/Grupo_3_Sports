@@ -1,7 +1,7 @@
 const {body} = require('express-validator');
 const {extname, resolve} = require('path');
 const {unlinkSync} = require('fs');
-const {index} = require('../models/users.model')
+const {User} = require('../database/models/index');
 
 const register = [
     body('name').notEmpty().withMessage('Debe completar este campo').bail().isLength({ min : 2 }).
@@ -11,8 +11,8 @@ const register = [
     withMessage('El nombre tiene que completarse con un minimo de 2 caracteres').bail(),
 
     body('email').notEmpty().withMessage('Debe completar este campo').bail().isEmail().
-    withMessage('Debe poner un email valido').bail().custom(value => {
-        let users = index()
+    withMessage('Debe poner un email valido').bail().custom(async(value )=> {
+        let users=await User.findAll();
         users = users.map(u => u.email)
         if(users.includes(value)){
             throw new Error('El email ingresado ya esta registrado')
@@ -25,7 +25,7 @@ const register = [
 
     body('phoneNumber').notEmpty().withMessage('Debe completar este campo').bail(),
 
-    body('usersProfilePhoto').custom((value, {req}) => {
+    body('usersProfilePhoto').custom(async(value, {req}) => {
         let archivos = req.files
         if(!archivos || archivos.length == 0){
             throw new Error('No se pudo subir la imagen')

@@ -1,10 +1,10 @@
-const {index} = require('../models/users.model');
-module.exports = (req,res,next) => {
+const { User } = require('../database/models/index');
+module.exports = async(req,res,next) => {
 
     let user = null;
 
     if(req.cookies && req.cookies.username){
-        let users = index();
+        let users= await User.findAll();
         user = users.find(u => u.username === req.cookies.username)
         req.session.user = user
     }

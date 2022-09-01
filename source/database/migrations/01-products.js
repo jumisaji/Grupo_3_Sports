@@ -5,9 +5,9 @@ module.exports = {
     try {
       await queryInterface.createTable("products", {
         id: {
-          allownull: false,
-          autoincrement: true,
-          primarykey: true,
+          allowNull: false,
+          autoIncrement: true,
+          primaryKey: true,
           type: Sequelize.INTEGER,
         },
 
@@ -22,6 +22,7 @@ module.exports = {
         },
         imageid:{
           type: Sequelize.STRING,
+          primaryKey: true,
         },
         brand:{
           type: Sequelize.STRING,
@@ -35,9 +36,7 @@ module.exports = {
         description:{
           type: Sequelize.STRING,
         },
-        stock:{
-          type: Sequelize.INTEGER,
-        },
+       
 
 
         

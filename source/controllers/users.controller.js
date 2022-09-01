@@ -1,14 +1,15 @@
+const { hashSync } = require('bcryptjs');
 const {validationResult} = require('express-validator')
-const {index, create, write} = require('../models/users.model');
+const {User} = require('../database/models/index');
 
 const userController = {
-  register: (req,res) => {
+  register: async (req,res) => {
     return res.render('users/register', {
       styles: ['styles_register', 'animations_register', 'media_queries_forms']
   })
   },
 
-  process: function(req, res){
+  process: async (req, res)=>{
     let validaciones = validationResult(req)
     let {errors} = validaciones
     if(errors && errors.length > 0){
@@ -19,6 +20,10 @@ const userController = {
       });
     }
 
+    req.body.password=hashSync(req.body.password,10);
+    req.body.isAdmin=String(req.body.name).toLocaleLowerCase().includes('grupo3');
+
+await user,create(req.body);
     req.body.image = req.files[0].filename;
     let newUser = create(req.body)
     let users = index();
@@ -27,12 +32,12 @@ const userController = {
     return res.redirect('/users/login?msg="El registro fue exitoso"')
   },
 
-  login: (req,res) => {
+  login: async (req,res) => {
     return res.render('users/login', {
       styles: ['styles_login', 'animations_login', 'media_queries_forms']
   })
   },
-  access: function(req,res){
+  access: async(req,res)=>{
     let validaciones = validationResult(req)
     let {errors} = validaciones
     if(errors && errors.length > 0){
@@ -43,7 +48,7 @@ const userController = {
       });
     }
 
-    let users = index();
+   let users=await User.findAll();
     let user = users.find(u => u.email === req.body.email);
     req.session.user = user; //acá user esta obteniendo los datos de ese usuario que se logueó o que está ingresando;
 
