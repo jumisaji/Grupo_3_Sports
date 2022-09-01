@@ -10,27 +10,35 @@ module.exports = {
           autoIncrement: true,
           primaryKey: true,
           type: Sequelize.INTEGER,
+          
         },
         name:{
-          type: Sequelize.STRING,
+          type: Sequelize.TEXT,
+          allowNull:true
         },
         surname:{
-          type: Sequelize.STRING,
+          type: Sequelize.TEXT,
+          allowNull:true
         },
         email:{
-          type: Sequelize.STRING,
+          type: Sequelize.TEXT,
+          allowNull:true
         },
         identification:{
-          type: Sequelize.INTEGER,
+          type: Sequelize.TEXT,
+          allowNull:true
         },
         phoneNumber:{
-          type: Sequelize.INTEGER
+          type: Sequelize.TEXT,
+          allowNull:true
         },
         password:{
           type: Sequelize.TEXT,
+          allowNull:true
         },
         isAdmin:{
-          type: Sequelize.INTEGER,
+          type: Sequelize.BOOLEAN,
+          allowNull:true
         }
 
 
