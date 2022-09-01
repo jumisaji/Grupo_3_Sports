@@ -8,7 +8,7 @@ module.exports= (sequelize, DataTypes) => {
             type:DataTypes.INTEGER
           },
           sizesOption: {
-              type: DataTypes.STRING
+              type: DataTypes.INTEGER
           }
     };
     let config = {
