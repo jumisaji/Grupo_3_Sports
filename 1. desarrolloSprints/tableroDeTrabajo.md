@@ -9,3 +9,6 @@ https://app.clickup.com/25743289/v/li/193735469
 
 LINK TAREAS QUINTO SPRINT
 https://app.clickup.com/25743289/v/li/199650077
+
+LINK TAREAS SEXTO SPRINT
+https://app.clickup.com/25743289/v/li/205500836
