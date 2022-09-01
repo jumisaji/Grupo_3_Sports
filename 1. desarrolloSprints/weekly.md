@@ -1,5 +1,8 @@
 Weekly del equipo.
 
+** 6to sprint :
+Durante el desarrollo del sexto sprint nos reunimos inicialmente para configurar las tareas y objetivos del mismo, dimos la bienvenida a una nueva integrante y actualizamos sus datos de contacto, para incluirla en los diferentes tableros y aplicaciones de trabajo que tenemos con el equipo. Particularmente dividimos las tareas en dos secciones grandes, la primera toda la actualización, corrección y ajustes pendientes a cargo de dos miembros del equipo y la segunda sección la implementación de tablas, modelos y deseños de las bases de datos, a cargo de otros dos miembros del equipo. Finalmente se hicieron tareas complementarias para cumplir con los demás requerimientos y se procuro dar cumplimiento a todo lo conserniente al sprint6.
+
 ** 5to sprint :
 
 Durante el desarrollo del quinto sprint nos reunimos para configurar las tareas requeridas para llevar a cabo con éxito el quinto sprint, planeamos una reunión de asignación y una reunión más para trabajar en conjunto requerimientos del sprint.
