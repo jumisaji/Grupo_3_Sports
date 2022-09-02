@@ -9,14 +9,15 @@ RETROSPECTIVA DEL CUARTO SPRINT
 3. CONTINUAR HACIENDO
 4. HACER MENOS
 5. DEJAR DE HACER
-                            RETROSPECTIVA SOBRE EL CUARTO SPRINT
+                            RETROSPECTIVA SOBRE EL quinto SPRINT
 
         Mateo:
-        1. 
-        2. 
-        3.
-        4. 
-        5. 
+        1. Más organización.
+        2. Trabajo en equipo.
+        3. Trabajo en equipo y comunicación.
+        4. Reuniones.
+        5. Dejar de no decir si no podemos solucionar algo.
+        
 
         Julie:
         1. Lograr un mejor balance entre trabajo profesional, trabajo con el equipo y temas personales.
@@ -26,11 +27,11 @@ RETROSPECTIVA DEL CUARTO SPRINT
         5. Desatender tareas asigandas a otros mienbros del equipo, ya que se pierde el hilo del proyecto
 
         juan Cruz:
-        1. 
-        2. 
-        3. 
-        4. 
-        5. 
+        1. empezar a trabajar sobre el sprint mas temprano y no tan al limite de la fecha de entrega 
+        2. mas responsabilidad con el trabajo de el equipo
+        3. la comunicacion que tenemos
+        4. dejar de atrasarse con los temas 
+        5. dejar de no darle importancia a la tarea de equipo que te asignan asi tus compañeros puedes seguir con el proyecto
 
         Guadalupe: 
         1. Verificar antes de hacer commits así no cometer errores o demoras a los demás
