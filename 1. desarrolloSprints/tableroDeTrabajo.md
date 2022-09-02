@@ -11,4 +11,8 @@ LINK TAREAS QUINTO SPRINT
 https://app.clickup.com/25743289/v/li/199650077
 
 LINK TAREAS SEXTO SPRINT
-https://app.clickup.com/25743289/v/li/205500836
+https://sharing.clickup.com/25743289/b/h/6-205500836-2/260b91632e1d482
+
+
+LINK TABLERO COMPLETO CON TODOS LOS SPRINTS
+https://sharing.clickup.com/25743289/b/h/4-49687327-2/d28a1273b43869e
