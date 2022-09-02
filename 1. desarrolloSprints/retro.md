@@ -12,18 +12,18 @@ RETROSPECTIVA DEL CUARTO SPRINT
                             RETROSPECTIVA SOBRE EL CUARTO SPRINT
 
         Mateo:
-        1. Diseños innovadores para algunos segmentos.
-        2. Revisiones personales del proyecto.
-        3. Trabajo en equipo y comunicación.
-        4. Cosas el ultimo día.
-        5. Dejar de posponer.
+        1. 
+        2. 
+        3.
+        4. 
+        5. 
 
-        Julieth:
-        1. Agradecer el trabajo y paciencia de los demás miembros del equipo cuando es complicado dar el 100%. Gracias chicos, por el apoyo y comprensión, y por el esfuerzo extra que les implicó. :) :) Lograr un mejor balance entre trabajo profesional, trabajo con el equipo y temas personales.
-        2. Terminar con más tiempo para poder verificar y hacer ajustes con adecuada revisión.
-        3. Buen ritmo de trabajo y la organización previa de tareas, lo que nos ayuda a culminar dentro de los tiempos y seguir mejorando.
-        4. No verificar cambios antes de commitear para evitar daños o cambios no intencionales que afecten el desarrollo del proyecto.
-        5. No descansar lo suficiente, ya que no permite tener la mente y atención al 100%
+        Julie:
+        1. Lograr un mejor balance entre trabajo profesional, trabajo con el equipo y temas personales.
+        2. Tener más cuidado con el detalle estético y hacer ajustes con adecuada revisión y aportanto a funcionabilidad, coherencia , estilo y diseño. Relacionarnos más entre el equipo, se pierde mucha comunicación a nivel personal ytermina por afectar la comunicación laboral
+        3. La organización previa de tareas, nos ayuda a cumplir objetivos dentro y el apoyo entre miembros del equipo y también a saber que tenemos a cargo.
+        4. Tener temas atrasados o con vacíos teóricos lo cual retrasa labores y disminuye tiempo de trabajo ya que toca rever temas.
+        5. Desatender tareas asigandas a otros mienbros del equipo, ya que se pierde el hilo del proyecto
 
         juan Cruz:
         1. 
@@ -38,6 +38,39 @@ RETROSPECTIVA DEL CUARTO SPRINT
         3. Continuar teniendo un buen ritmo de trabajo y la organización
         4. Demoras a la hora de terminar las partes asignadas
         5. Dejar las cosas para última hora 
+
+RETROSPECTIVA DEL CUARTO SPRINT
+
+1. COMENZAR A HACER
+2. HACER MÁS
+3. CONTINUAR HACIENDO
+4. HACER MENOS
+5. DEJAR DE HACER
+                            RETROSPECTIVA SOBRE EL CUARTO SPRINT
+
+        Mateo:
+        1. Diseños innovadores para algunos segmentos.
+        2. Revisiones personales del proyecto.
+        3. Trabajo en equipo y comunicación.
+        4. Cosas el ultimo día.
+        5. Dejar de posponer.
+
+        Julieth:
+        1. Agradecer el trabajo y paciencia de los demás miembros del equipo cuando es complicado dar el 100%. Gracias chicos, por el apoyo y comprensión, y por el esfuerzo extra que les implicó. :) :) Lograr un mejor balance entre trabajo profesional, trabajo con el equipo y temas personales.
+        2. Terminar con más tiempo para poder verificar y hacer ajustes con adecuada revisión.
+        3. Buen ritmo de trabajo y la organización previa de tareas, lo que nos ayuda a culminar dentro de los tiempos y seguir mejorando.
+        4. No verificar cambios antes de commitear para evitar daños o cambios no intencionales que afecten el desarrollo del proyecto.
+        5. No descansar lo suficiente, ya que no permite tener la mente y atención al 100%
+
+        juan cruz:
+        1. inovar un poco mas con las ideas
+        2. comunicarnos mas a la hora de el final del sprint 
+        3. la organizacion que tenemos 
+        4. atrasarse con los temas 
+        5. utilizar herramientas inecesarias
+
+        Guadalupe: 
+        Bienvenida nueva integrante :)
 
 RETROSPECTIVA DEL TERCER SPRINT
 
