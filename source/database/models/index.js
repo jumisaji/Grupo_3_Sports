@@ -10,7 +10,7 @@ const db = {};
 
 let sequelize;
 if (config.use_env_variable) {
-  sequelize = new Sequelize(process.env[config.use_env_variable], config);
+  sequelize = new Sequelize(process.env[config.use_env_variable], config); //Acá arma la conexión con la base de datos, lo crea directamente sequilize init 
 } else {
   sequelize = new Sequelize(config.database, config.username, config.password, config);
 }
@@ -34,4 +34,4 @@ Object.keys(db).forEach(modelName => {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
-module.exports = db;
+module.exports = db; //Se exporta variable db, se usa luego importando de los controladores o cualquier otro archivo, para hacer operaciones con la base de datos
