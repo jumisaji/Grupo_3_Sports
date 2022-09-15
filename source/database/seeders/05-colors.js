@@ -166,14 +166,10 @@ module.exports = {
           "imageid": "image-1661970795452_img.png"
         }
       ]
-    let colors = products.map((product,index) =>{
-      return Object({id: index + 1,colorOption: product.color}) 
-    }).filter((element, index,array) => {
-        return element.colorOption != "" || element.colorOption != undefined || element.colorOption != null
-      })
-      .filter((element, index,array) => {
-      return array.indexOf(element) === index;
-    })
+    let colors =  products.map((product) => product.color).filter(element=> element != undefined).filter((item, pos,a)=> a.indexOf(item) == pos).map((e,i) => Object({
+        id: i + 1,
+        colorOption: e
+      }))
     await queryInterface.bulkInsert('colors', colors , {});
   },
 

@@ -163,8 +163,9 @@ let products = [
       "imageid": "image-1661970795452_img.png"
     }
   ]
-  let categories = products.map((product,index) =>{ return Object({id:index + 1,bikeOption: product.category})}).filter(element=> element.bikeOption != undefined).filter((elements, index,array) => {
-    return chars.indexOf(c) === index;
-});
+  let categories = products.map((product) => product.category).filter(element=> element != undefined).filter((item, pos,a)=> a.indexOf(item) == pos).map((e,i) => Object({
+    id: i + 1,
+    bikeOption: e
+  }));
 
   console.log(categories)

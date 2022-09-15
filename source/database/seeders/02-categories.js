@@ -165,13 +165,10 @@ module.exports = {
         "imageid": "image-1661970795452_img.png"
       }
     ]
-    let categories = products.map((product,index) =>{
-      return Object({id:index + 1,bikeOption: product.category}) 
-    }).filter((element, index,array) => {
-      return element.bikeOption != "" || element.bikeOption != undefined || element.bikeOption != null
-    }).filter((element, index,array) => {
-      return array.indexOf(element) === index;
-    })
+    let categories = products.map((product) => product.category).filter(element=> element != undefined).filter((item, pos,a)=> a.indexOf(item) == pos).map((e,i) => Object({
+      id: i + 1,
+      bikeOption: e
+    }))
     await queryInterface.bulkInsert('categories', categories , {});
   },
 
