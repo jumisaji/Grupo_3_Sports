@@ -16,30 +16,27 @@ module.exports = {
         },
         category: {
           type: Sequelize.INTEGER,
+          allowNull:true
         },
         price: {
           type: Sequelize.INTEGER,
         },
         imageid:{
           type: Sequelize.STRING,
-          primaryKey: true,
+          allowNull:true
         },
         brand:{
           type: Sequelize.STRING,
+          allowNull:true
         },
         color:{
           type: Sequelize.TEXT,
-        },
-        size:{
-          type: Sequelize.INTEGER,
+          allowNull:true
         },
         description:{
-          type: Sequelize.STRING,
-        },
+          type: Sequelize.TEXT,
+        }
        
-
-
-        
       });
     } catch (error) {
       

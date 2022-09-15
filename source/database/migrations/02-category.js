@@ -12,7 +12,7 @@ module.exports = {
         },
         bikeOption:{
           type: Sequelize.STRING
-        },
+        }
       });
     } catch (error) {
       

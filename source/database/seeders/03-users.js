@@ -1,5 +1,3 @@
-'use strict';
-const {index} = require("../../models/users.model")
 module.exports = {
   async up (queryInterface, Sequelize) {
    let users = [  {
