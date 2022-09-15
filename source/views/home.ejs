@@ -11,24 +11,47 @@
     <%- include('./includes/header') %>
     <!--/header-->
     <!--    **************************************************   MAIN   ****************************************************    -->
-     <main class="detailmain">         
+    <main class="ofertas">         
         <!--SECCIÓN PRINCIPAL HOME OFERTAS-->
-        <section>
-            <h2>Ofertas</h2>
-            <ul>
-                <% products.forEach(element => { %>             
-                    <li>
-                        <a href="/products/productDetail/<%= element.id %>">
-                            <picture><img class="bikeof" src="/images/products/<%=element.image  %>" alt=""></picture>
-                            <h2><%= element.name %> - <span>$<%= element.price %></span></h2>
-                            <p><%= element.description %></p>                   
-                        </a>
-                    </li>
-                <% }) %>
-            </ul>
-=======
-           
+        <h1 id="offers">  ¡¡ GRANDES OFERTAS!!  </h1>
+        <article class="bikeof">
+            <a href="/productDetail"><figure><img src="/images/products/ruta-4.png" alt ="BiKe ruta en oferta"></figure></a>
+            <section class="ganga">
+                <form method="get"><i class="fa-solid fa-heart heart1" ></i></form>
+                <a class="precioff">$2500.33</a>
+                <a class="descuentazo">-20%</a>
+                <a class="referencia">Referencia</a>
+            </section>
+        </article>
+        <article class="bikeof">
+            <a href="/productDetail"><figure><img src="/images/products/bmx-4.png" alt ="BiKe ruta en oferta"></figure></a>
+            <section class="ganga">                    
+                <form method="get"><i class="fa-solid fa-heart heart1" ></i></form>
+                <a class="precioff">$2500.33</a>
+                <a class="descuentazo">-20%</a>
+                <a class="referencia">Referencia</a>
+            </section>
+        </article>
+        <article class="bikeof">
+           <a href="/productDetail"><figure><img src="/images/products/mtb-4.png" alt ="BiKe ruta en oferta"></figure></a>
+           <section class="ganga">
+                <form method="get"><i class="fa-solid fa-heart heart1" ></i></form>
+                <a class="precioff">$2500.33</a>
+                <a class="descuentazo">-20%</a>
+                <a class="referencia">Referencia</a>
+            </section>
+        </article>
+        <article class="bikeof">
+            <a href="/productDetail"><figure><img src="/images/products/urbana-4.png" alt ="BiKe ruta en oferta"></figure></a>
+            <section class="ganga">
+            <form method="get"><i class="fa-solid fa-heart heart1" ></i></form>
+                <a class="precioff">$2500.33</a>
+                <a class="descuentazo">-20%</a>
+                <a class="referencia">Referencia</a>
+            </section>
+        </article>
     </main>
+
     <!--    **************************************************  CHAT WHATSAPP   ********************************************  -->
     <%- include('./includes/bodywhapp') %>
     <!--    **************************************************  FOOTER   ****************************************************  --> 
