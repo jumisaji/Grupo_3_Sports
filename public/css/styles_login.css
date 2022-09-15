@@ -20,7 +20,7 @@ main{
 
 .seccionlogin {
     display: flex;
-    width: 70vw;
+    width: 85vw;
     background-color: rgb(192, 192, 192);
     box-shadow: 0px 0px 8px 0px rgba(7, 11, 128, .8);
     margin-left: auto;
