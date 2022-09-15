@@ -1,38 +1,29 @@
 'use strict';
 
+'use strict';
+
 module.exports = {
   async up (queryInterface, Sequelize) {
     try {
-      await queryInterface.createTable("imagesBikes", {
+      await queryInterface.createTable('imagesBikes', { 
         id: {
-          type: Sequelize.INTEGER,
+          allowNull: false,
           autoIncrement: true,
-          primaryKey: true
+          primaryKey: true,
+          type: Sequelize.INTEGER
         },
-        product:{
-          type: Sequelize.INTEGER,
-          references: 
-          {
-            model:'products',
-            key: 'id'
-          }
-        },
-        image:{
-          type: Sequelize.INTEGER,
-          references: 
-          {
-            model:'images',
-            key: 'id'
-          }
+        path: {
+          type: Sequelize.TEXT
         }
       });
+
     } catch (error) {
-      console.log();
+      console.log(error)
     }
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.dropTable("imagesBikes");
-
+     await queryInterface.dropTable('imagesBikes');
+    
   }
 };
