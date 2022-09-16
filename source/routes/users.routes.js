@@ -5,10 +5,11 @@ const {login, register, process, access, logout} = require('../controllers/users
 const middlewareRegister = require('../middlewares/register');
 const middlewareLogin = require('../middlewares/login');
 const isLogged = require('../middlewares/isLogged');
+const isAdmin = require('../middlewares/isAdmin');
 
 rutas.get('/register',register);
 rutas.post('/register', middlewareRegister ,process);
-rutas.get('/login', login);
+rutas.get('/login' ,login);
 rutas.post('/access', middlewareLogin ,access);
 rutas.get('/logout',[isLogged],logout)
 

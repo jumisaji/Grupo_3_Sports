@@ -47,10 +47,11 @@ await User.create(req.body);
 include:{
   all:true
 }
-
    });
     let user = users.find(u => u.email === req.body.email);
     req.session.User = user; //acá user esta obteniendo los datos de ese usuario que se logueó o que está ingresando;
+    req.body.isadmin=String(req.body.email).toLocaleLowerCase().includes('@grupo3')
+      
 
     if(req.body.recordame){
       res.cookie("recordame", req.body.email, { maxAge: 172800000})
