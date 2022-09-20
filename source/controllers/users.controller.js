@@ -20,10 +20,10 @@ const userController = {
       });
     }
 
-    req.body.password=hashSync(req.body.password,10);
-    req.body.isadmin=String(req.body.email).toLocaleLowerCase().includes('@grupo3');
+    req.body.password=hashSync(req.body.password,10);//hasheamos la password del user
+    req.body.isadmin=String(req.body.email).toLocaleLowerCase().includes('@grupo3');//verifica si es admin y con toLocaleLowerCase las pasamos todas a minúscula
 
-await User.create(req.body);
+await User.create(req.body);//crea usuario registrando en base de datos
     return res.redirect('/users/login?msg="El registro fue exitoso')
   },
 
@@ -43,7 +43,7 @@ await User.create(req.body);
       });
     }
 
-   let users=await User.findAll({
+   let users=await User.findAll({//sq
 include:{
   all:true
 }

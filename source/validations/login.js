@@ -1,5 +1,5 @@
 const { body } = require('express-validator');
-const { User } = require('../database/models/index');
+const { User } = require('../database/models/index');//sq
 const {compareSync} = require('bcryptjs');
 
 const login =[
