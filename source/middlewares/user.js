@@ -1,3 +1,4 @@
+const {User} = require('../database/models/index');
 const middleware = (req, res, next) => {
     let user = null;
 
