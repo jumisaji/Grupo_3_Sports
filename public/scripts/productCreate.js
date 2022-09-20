@@ -10,7 +10,7 @@
         let image = document.querySelector("#image");
         let description = document.querySelector("#description");
 
-        let archivos = req.files
+        
 
         if (name.value =="" || name.value == null) {
             errores.push("el campo del nombre debe estar completo")
@@ -33,6 +33,7 @@
         event.preventDefault();
     
     let  losErrores= document.querySelector(".errores ")
+    losErrores.innerHTML= null
         for (let i = 0; i < errores.length; i++) {
             losErrores.innerHTML +="<li>" + errores[i] +"</li>"
     

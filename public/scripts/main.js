@@ -11,6 +11,7 @@
        let identificacion= document.querySelector("#input-ident");
        let phoneNumber = document.querySelector("#input-phone");
        let Password = document.querySelector("#input-password");
+        const regexEmail = /^([A-Za-z0-9-+.])+@([A-Za-z0-9-.])+.([A-Za-z]{2,4})$/;
     
        if (nombre.value =="" || nombre.value == null) {
         errores.push("el campo del nombre debe estar completo")
@@ -28,7 +29,7 @@
        if (email.value =="" || email.value == null) {
         errores.push("el campo del email debe estar completo")
         
-       } else if (!email.isEmail) {
+       } else if (!regexEmail.test(email.value)) {
         errores.push("Debe poner un email valido")
        }
        if (identificacion.value =="" || identificacion.value == null) {
@@ -52,7 +53,8 @@
         event.preventDefault();
     
     let  losErrores= document.querySelector(".errores ul ")
-        for (let i = 0; i < errores.length; i++) {
+    losErrores.innerHTML= null
+            for (let i = 0; i < errores.length; i++) {
             losErrores.innerHTML +="<li>" + errores[i] +"</li>"
     
         }

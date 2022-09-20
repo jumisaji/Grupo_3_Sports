@@ -1,14 +1,13 @@
 const {User} = require('../database/models/index');
-const middleware = (req, res, next) => {
-    let user = null;
+module.exports =  async (req, res, next) => {
+    let User = null;
 
-    if(req.session && req.session.user){
-        user = req.session.user
+    if(req.session && req.session.User){
+        User = req.session.User
     }
 
-    res.locals.user = user;
+    res.locals.User = User;
 
     return next();
 }
 
-module.exports = middleware;

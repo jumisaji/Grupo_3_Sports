@@ -1,9 +1,9 @@
 const { body } = require('express-validator');
-const { User } = require('../database/models/index');//sq
+const { User } = require('../database/models/index');
 const {compareSync} = require('bcryptjs');
 
 const login =[
-    body('email').notEmpty().withMessage('Debe completar este campo').bail().isEmail().
+    body('email').notEmpty().withMessage('el campo de email').bail().isEmail().
     withMessage('Debe poner un email valido').bail().custom(async(value) => {
         let users=await User.findAll();
         users = users.map(u => u.email)
