@@ -20,28 +20,28 @@ const register = [
         return true
     }),
 
-    //body('identification').notEmpty().withMessage('Debe completar este campo').bail().
-    //isLength({ min : 4 }).withMessage('El documento tiene que contener minimo 4 caracteres').bail(),
+    body('identification').notEmpty().withMessage('Debe completar este campo').bail().
+    isLength({ min : 4 }).withMessage('El documento tiene que contener minimo 4 caracteres').bail(),
 
-    //body('phoneNumber').notEmpty().withMessage('Debe completar este campo').bail(),
+    body('phoneNumber').notEmpty().withMessage('Debe completar este campo').bail(),
 
-    //body('usersProfilePhoto').custom(async(value, {req}) => {
-      //  let archivos = req.files
-        //if(!archivos || archivos.length == 0){
-          //  throw new Error('No se pudo subir la imagen')
-        //}
+    body('usersProfilePhoto').custom(async(value, {req}) => {
+        let archivos = req.files
+        if(!archivos || archivos.length == 0){
+            throw new Error('No se pudo subir la imagen')
+        }
 
-        //let extensiones = ['.svg','.png','.jpg','.jpeg']
-        //let usersProfilePhoto = archivos[0]
-        //let extension = extname(usersProfilePhoto.filename)
+        let extensiones = ['.svg','.png','.jpg','.jpeg']
+        let usersProfilePhoto = archivos[0]
+        let extension = extname(usersProfilePhoto.filename)
 
-        //if(!extensiones.includes(extension)){
-           //  throw new Error('La imagen es permitida solo con las extensiones .svg, .png, .jpg y .jpeg')
-        //  unlinkSync(resolve(__dirname, '../../public/images/','users',usersProfilePhoto.filename))
-          ////  }
+        if(!extensiones.includes(extension)){
+             throw new Error('La imagen es permitida solo con las extensiones .svg, .png, .jpg y .jpeg')
+          unlinkSync(resolve(__dirname, '../../public/images/','users',usersProfilePhoto.filename))
+            }
 
-      //  return true
-   // }),
+        return true
+   }),
 
     body('password').notEmpty().withMessage('Debe completar este campo').bail().
     isLength({ min : 5 }).bail(),
