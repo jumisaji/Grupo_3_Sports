@@ -7,16 +7,32 @@ module.exports = {
         },
         {
             id:2,
-            brandoption: "Pacifica"
+            brandoption: "Benelli"
         },
         {
             id:3,
             brandoption: "cube bikes"
         },
         {
-            id:4,
+          id:4,
+          brandoption: "Scott"
+      },
+        {
+            id:5,
             brandoption: "Specialized"
-        }
+        },
+        {
+          id:6,
+          brandoption: "Giant"
+      },
+      {
+        id:7,
+        brandoption: "DiamondBack"
+    },
+    {
+      id:8,
+      brandoption: "Fuji"
+  }
     ]
     await queryInterface.bulkInsert('brands', brands , {});
   },

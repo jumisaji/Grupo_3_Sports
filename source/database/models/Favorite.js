@@ -1,5 +1,5 @@
 module.exports= (sequelize, DataTypes) => {
-    let alias = "categories";
+    let alias = "favs";
     let cols = {
         id: {
             allowNull: false,
@@ -7,15 +7,22 @@ module.exports= (sequelize, DataTypes) => {
             primaryKey: true,
             type:DataTypes.INTEGER
           },
-          bikesOption: {
-              type: DataTypes.STRING
+          userid:{
+            type: DataTypes.STRING,
+            foreignKey:true
+          },
+          
+          imageid:{
+            type: DataTypes.STRING,
+            foreignKey:true
           }
-    };
+        
+    };    
     let config = {
         timestamps: false,
         deletedAt: false
     };
     
-    const Category = sequelize.define(alias, cols, config);
-    return Category;
+    const Color = sequelize.define(alias, cols, config);
+    return Color;
     }
