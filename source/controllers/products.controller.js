@@ -1,3 +1,5 @@
+//const {validationResult} = require('express-validator')
+//const {Product} = require('../database/models/index')
 const {index,one,create,write} = require('../models/products.model');
 module.exports = {
   detalle: async (req, res) => {
