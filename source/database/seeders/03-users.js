@@ -11,6 +11,16 @@ module.exports = {
     isAdmin: true
   },
   {
+
+    name: "Julie",
+    surname: "Sanchez",
+    email: "julie@grupo3.com",
+    identification: "13579",
+    phoneNumber: "3103178834",
+    password: "$2a$10$xa.6EXVBYofIcSwd2AmENuRKsAjzeT77IIQOdTdYWGo.Ga8I8Qai2",
+    isAdmin: true
+  },
+  {
     
     name: "Pepito",
     surname: "Prueba",
