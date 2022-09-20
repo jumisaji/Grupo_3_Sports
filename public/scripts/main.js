@@ -51,7 +51,7 @@
        if (errores.length > 0) {
         event.preventDefault();
     
-    let  losErrores= document.querySelector("#errores ul ")
+    let  losErrores= document.querySelector(".errores ul ")
         for (let i = 0; i < errores.length; i++) {
             losErrores.innerHTML +="<li>" + errores[i] +"</li>"
     

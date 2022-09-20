@@ -111,7 +111,7 @@ main{
     font-weight: bold;}
 
 
-    #errores{
+    .errores{
         display: flex;
         justify-content: center;
     }
