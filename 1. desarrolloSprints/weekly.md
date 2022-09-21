@@ -1,5 +1,9 @@
 Weekly del equipo.
 
+** 7mo sprint :
+Durante este sprint debimos dedicar bastante tiempo, gran parte de los integrantes a volver a ver temas y a completar faltantes de temas vistos, lo cual nos retraso y a la fecha aún no se culmina, pero para el desarrolo del sprint se culminaron los temas. Se desarrollo  durante trabajo en dos reuniones grupales y durante trabajo personal. Nos apoyamos bastante del material de video de las clases y sobre las dudas se designaba a quien tuviese la disponibilidad para solicitar asesoría. Los requerimientos del sprint7 se cumplieron, pero aún hay cosas por corregir que estan pendientes, más no corresponden a la entrega de este sprint.
+
+
 ** 6to sprint :
 Durante el desarrollo del sexto sprint nos reunimos inicialmente para configurar las tareas y objetivos del mismo, dimos la bienvenida a una nueva integrante y actualizamos sus datos de contacto, para incluirla en los diferentes tableros y aplicaciones de trabajo que tenemos con el equipo. Particularmente dividimos las tareas en dos secciones grandes, la primera toda la actualización, corrección y ajustes pendientes a cargo de dos miembros del equipo y la segunda sección la implementación de tablas, modelos y deseños de las bases de datos, a cargo de otros dos miembros del equipo. Finalmente se hicieron tareas complementarias para cumplir con los demás requerimientos y se procuro dar cumplimiento a todo lo conserniente al sprint6.
 
