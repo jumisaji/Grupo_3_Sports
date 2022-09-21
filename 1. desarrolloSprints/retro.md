@@ -9,6 +9,20 @@ RETROSPECTIVA DEL CUARTO SPRINT
 3. CONTINUAR HACIENDO
 4. HACER MENOS
 5. DEJAR DE HACER
+
+                            RETROSPECTIVA SOBRE EL quinto SPRINT
+
+
+
+                                        JUAN CRUZ PEREZ
+                            1. preocuparse mas por la tarea que le toca a cada uno
+                            2. enfocarse en los sprint y lo que a cada uno le toque terminarlo correctamente y verificarlo
+                            3.la organizacion del tablero de trabajo
+                            4. no terminar de hacer la tarea que le toca a cada uno  y no verificar si funciona
+                            5. dejar hasta ultimo momento las consignas que te toca hacer y no terminarlas 
+
+
+
                             RETROSPECTIVA SOBRE EL quinto SPRINT
 
         Mateo:
