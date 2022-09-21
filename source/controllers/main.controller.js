@@ -1,7 +1,7 @@
-//const {Product} = require('../database/models/index')
 const {index} = require('../models/products.model')
 module.exports = {
-    home: (req,res) =>{
+    home: async (req,res) =>{
+        //let products = Product.findAll()
         return res.render('home',{
         title: 'Home',
         products: index(),

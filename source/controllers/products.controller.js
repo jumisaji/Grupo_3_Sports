@@ -1,8 +1,6 @@
-//const {validationResult} = require('express-validator')
-//const {Product} = require('../database/models/index')
 const {index,one,create,write} = require('../models/products.model');
 module.exports = {
-  detalle: async (req, res) => {
+  detalle: (req, res) => {
     let product = one(parseInt(req.params.id))
 
     if(!product){
@@ -14,7 +12,7 @@ module.exports = {
       styles: ['styles_productDetail', 'animations_productDetail', 'media_queries_productDetail']
     })
   },
-  bikes: async (req,res) =>{
+  bikes: (req,res) =>{
 
       let products = index();
   
@@ -27,19 +25,19 @@ module.exports = {
         styles: ['styles_main_bikes', 'media_queries_main_bikes', 'animations_main_bikes'],
       })
     },
-  carrito: async (req,res) => {
+  carrito: (req,res) => {
       return res.render('products/cart', {
         styles: ['styles_cart', 'animations_cart', 'media_queries_cart']
     })
     },
     
-  create: async (req,res) => {
+  create: (req,res) => {
         return res.render('products/create', {
           title: 'Create Product',
           styles: ['styles_create', ]
         })
       },
-  save: async (req, res) => {
+  save: (req, res) => {
         req.body.image = req.files[0].filename
         let newProduct = create(req.body)
         let products = index();
@@ -47,7 +45,7 @@ module.exports = {
         write(products)
         return res.redirect('/products/')
       },
-  edit: async (req,res) => {
+  edit:(req,res) => {
         let product = one(parseInt(req.params.id))
         if(!product){
           return res.redirect('/products/')
@@ -61,7 +59,7 @@ module.exports = {
         }
         
       },
-  modify: async (req, res) => {
+  modify: (req, res) => {
         let product = one(parseInt(req.params.id))
         let products = index();
         let productsModified = products.map(p =>{ 
@@ -76,7 +74,7 @@ module.exports = {
         write(productsModified)
         return res.redirect('/products/')
       },
-  destroid: async (req,res) => {
+  destroid:(req,res) => {
         let product = one(parseInt(req.params.id))
         if(!product){
           return res.redirect('/products/');
