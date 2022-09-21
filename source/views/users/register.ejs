@@ -3,6 +3,8 @@
 <!--    **************************************************   HEAD  ****************************************************    -->
 <!--head-->
 <%- include('../includes/head') %>
+<script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+<script defer src ="/scripts/main.js"></script>
 <!--/head-->
 <!--    **************************************************   BODY   ****************************************************    -->
 <body>
@@ -18,50 +20,51 @@
                 <img id="logo_register" src="/images/logos/logo_go_bike_cart_y Log.png" alt="logo gobike">
                 <p id="textoregistro"><b>Registro</b></p>
             </section>
-            <form action="/users/register" method="post" id="form-register" >
+            <form action="/users/register" method="post" id="formulario-register" >
                 <fieldset>
                     <legend>Registro de informacion personal</legend>
                 
-                    <input class="ingresotexto1" type="text" name="name" placeholder="Nombres" value="<%= locals.oldData ? oldData.name : null %>">
+                    <input id="input-nombre" class="ingresotexto1" type="text" name="name" placeholder="Nombres" value="<%= locals.oldData ? oldData.name : null %>">
                     <% if (locals.errors && errors.name) { %>                                                                                      <!--nombre-->
                         <p class="msg-error"> <%= errors.name.msg %> </p>
 
                     <% } %>
 
-                    <input class="ingresotexto1" type="text" name="surname" placeholder="Apellidos" value="<%= locals.oldData ? oldData.surname : null %>"><!--apellido-->
+                    <input id="input-apellido" class="ingresotexto1" type="text" name="surname" placeholder="Apellidos" value="<%= locals.oldData ? oldData.surname : null %>"><!--apellido-->
                     <% if (locals.errors && errors.surname) { %>                                                                                      
                         <p class="msg-error"> <%= errors.surname.msg %> </p>
                      
                     <% } %>
 
-                    <input class="ingresotexto1" type="email" name="email" id="emailReg" placeholder="Email / Correo Electrónico" value="<%= locals.oldData ? oldData.email : null %>"><!--email-->
+                    <input  class="ingresotexto1" type="email" name="email" id="input-email" placeholder="Email / Correo Electrónico" value="<%= locals.oldData ? oldData.email : null %>"><!--email-->
                     <% if (locals.errors && errors.email) { %>                                                                                      
                         <p class="msg-error"> <%= errors.email.msg %> </p>
                      
                     <% } %>
 
-                    <input class="ingresotexto1" type="number" name="identification" placeholder="Documento de Identidad" value="<%= locals.oldData ? oldData.identification : null %>"><!--DNI-->
+                    <input id="input-ident" class="ingresotexto1" type="number" name="identification" placeholder="Documento de Identidad" value="<%= locals.oldData ? oldData.identification : null %>"><!--DNI-->
                     <% if (locals.errors && errors.identification) { %>                                                                                      
                         <p class="msg-error"> <%= errors.identification.msg %> </p>
                      
                     <% } %>
 
-                    <input class="ingresotexto1" type="tel" name="phoneNumber" placeholder="Celular" value="<%= locals.oldData ? oldData.phoneNumber : null %>"><!--numero de celular-->
+                    <input id="input-phone" class="ingresotexto1" type="tel" name="phoneNumber" placeholder="Celular" value="<%= locals.oldData ? oldData.phoneNumber : null %>"><!--numero de celular-->
                     <% if (locals.errors && errors.phoneNumber) { %>                                                                                      
                         <p class="msg-error"> <%= errors.phoneNumber.msg %> </p>
                      
                     <% } %>
 
-                    <input class="ingresotexto1" type="file" name="usersProfilePhoto"><!--Foto de perfil-->
-                    <% if (locals.errors && errors.usersProfilePhoto) { %>
-                        <p class="msg-error"> <%= errors.usersProfilePhoto.msg %> </p>
-                    <% } %>
-
-                    <input  class="ingresotexto1" type="password" name="password" placeholder="Contraseña" value="<%= locals.oldData ? oldData.password : null %>"><!--contraseña-->
+                   
+                    <input id="input-password" class="ingresotexto1" type="password" name="password" placeholder="Contraseña" value="<%= locals.oldData ? oldData.password : null %>"><!--contraseña-->
                     <% if (locals.errors && errors.password) { %>                                                                                      
                         <p class="msg-error"> <%= errors.password.msg %> </p>
                      
                     <% } %>
+                    <div class="errores">
+                        <ul class="styleerror">
+        
+                        </ul>
+                    </div>
                         
                     <fieldset id="terminos">
                         <fieldset class="term1">
@@ -78,9 +81,7 @@
                         
                 </fieldset>
             </form>
-            <div class="errores">
-                <ul></ul>
-            </div>
+           
         </section>
     </main>
     <!--    **************************************************  CHAT WHATSAPP   ********************************************  -->

@@ -29,7 +29,7 @@ await User.create(req.body);//crea usuario registrando en base de datos
 
   login: async (req,res) => {
     return res.render('users/login', {
-      styles: ['styles_login', 'animations_login', 'media_queries_forms']
+      styles: [ 'styles_register','styles_login', 'animations_login', 'media_queries_forms']
   })
   },
   access: async(req,res)=>{
@@ -43,21 +43,22 @@ await User.create(req.body);//crea usuario registrando en base de datos
       });
     }
 
-   let users=await User.findAll({//sq
+   let users=await User.findAll({
 include:{
   all:true
 }
    });
     let user = users.find(u => u.email === req.body.email);
+<<<<<<< HEAD
     req.session.users = user; //acá user esta obteniendo los datos de ese usuario que se logueó o que está ingresando;
     req.body.isadmin=String(req.body.email).toLocaleLowerCase().includes('@grupo3')
       
+=======
+    req.session.User = user; //acá user esta obteniendo los datos de ese usuario que se logueó o que está ingresando;
+    return res.redirect(`/?msg=Bienvenido! ${user.isAdmin? 'Administador':user.email.split('@grupo3')[0]}`)
+>>>>>>> a2f4e30258dcfa5d9a8819118f8fcfed0f4872c1
 
-    if(req.body.recordame){
-      res.cookie("recordame", req.body.email, { maxAge: 172800000})
-    }
-
-    return res.redirect('/')
+    
   },
   logout: function (req,res) {
     delete req.session.user

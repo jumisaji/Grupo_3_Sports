@@ -3,6 +3,8 @@
 <!--    **************************************************  HEAD  ****************************************************  -->
 <!--head-->
 <%- include('../includes/head') %>
+<script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+<script defer src ="/scripts/productCreate.js"></script>
     <!--/head-->
     <!--    **************************************************  BODY  ****************************************************  -->
 
@@ -26,6 +28,11 @@
                         <input class="imagencreacion" type="file" name="image" id="image" autocomplete="off">
                         
                         <textarea class="formcreacion" name="description" id="description" autocomplete="off"></textarea>
+                        <div class="errores">
+                            <ul class="styleerror">
+                              
+                            </ul>
+                        </div>
                         <button id="botoncrear" type="submit">crear</button>
                     </form>
                 

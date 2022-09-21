@@ -3,6 +3,9 @@
 <!--    **************************************************   HEAD   ****************************************************    -->
 <!--head-->
 <%- include('../includes/head') %>
+<script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+<script defer src ="/scripts/loginvalidation.js"></script>
+
 <!--/head-->
 <!--    **************************************************   BODY   ****************************************************    -->
 <body>
@@ -17,16 +20,21 @@
                 <img class="logo_login" src="/images/logos/logo_go_bike_cart_y Log.png" alt="logo gobike">
             </section>
             <form action="/users/access" id="form-login" method="post">
-                <input class="ingresotexto" type="email" name="email" placeholder="Nombre de usuario o correo" value="<%= locals.oldData ? oldData.email : null %>">
+                <input id="input-email" class="ingresotexto" type="email" name="email" placeholder="Nombre de usuario o correo" value="<%= locals.oldData ? oldData.email : null %>">
                 <% if (locals.errors && errors.email) { %>                                                                                      
                     <p class="msg-error"> <%= errors.email.msg %> </p>
                  
                 <% } %>
-                    <input class="ingresotexto" type="password" name="password" placeholder="Contraseña" value="<%= locals.oldData ? oldData.password : null %>">
+                    <input id="input-password" class="ingresotexto" type="password" name="password" placeholder="Contraseña" value="<%= locals.oldData ? oldData.password : null %>">
                     <% if (locals.errors && errors.password) { %>                                                                                      
                         <p class="msg-error"> <%= errors.password.msg %> </p>
                      
-                    <% } %>   
+                    <% } %>  
+                    <div class="errores">
+                        <ul class="styleerror">
+        
+                        </ul>
+                    </div> 
                     <nav>
                         <a href="/">
                             <h4 id="forgotPass">¿olvidaste tu contraseña?</h4>

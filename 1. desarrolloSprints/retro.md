@@ -2,13 +2,34 @@ Este Documento permite mejorar y afianzar el trabajo y desempeño en equipo.
 
 Dinámica de estrella de Mar https://proyectosagiles.org/2009/06/14/retrospectiva-estrella-mar-starfish-retrospective-scrum/:
 
-RETROSPECTIVA DEL CUARTO SPRINT
+RETROSPECTIVA DEL SEXTO SPRINT
 
 1. COMENZAR A HACER
 2. HACER MÁS
 3. CONTINUAR HACIENDO
 4. HACER MENOS
 5. DEJAR DE HACER
+
+                            RETROSPECTIVA SOBRE EL SEXTO SPRINT
+
+
+
+                        JUAN CRUZ PEREZ
+         1. preocuparse mas por la tarea que le toca a cada uno
+         2. enfocarse en los sprint y lo que a cada uno le toque terminarlo correctamente y verificarlo
+        3.la organizacion del tablero de trabajo
+        4. no terminar de hacer la tarea que le toca a cada uno  y no verificar si funciona
+        5. dejar hasta ultimo momento las consignas que te toca hacer y no terminarlas 
+
+                        Julie
+        1. Tener calma y manejar las diferentes situaciones adversas para evitar que nos afecten.
+        2. Subir cambios de commits pequeños y no esperar a que en algún punto algo falle y ya no se sepa que y el cambio no se puede subir y se pierde tiempo.
+        3. Preguntar.
+        4. Tener horarios de trabajo desincronizados, pese a ser la única disponibilidad las horas de la magrugada o muy en la noche, siento que la carga de trabajo se incrementa por el agotamiento físico y mental y obvio rinde menos.
+        5. NO Complicar tareas sencillas. 
+
+
+
                             RETROSPECTIVA SOBRE EL quinto SPRINT
 
         Mateo:

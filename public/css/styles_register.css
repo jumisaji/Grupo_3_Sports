@@ -51,7 +51,7 @@ main{
 .ingresotexto1 {
     width: 60%;
     height: 2rem;
-    color: rgb(192, 192, 192);
+    color: black;
     font-family: 'raleway', cursiva;
     margin-top: 1rem;
     border-radius: 5px;
@@ -110,3 +110,23 @@ main{
     color: #9D1B6F;
     font-weight: bold;}
 
+
+    .errores{
+        display: flex;
+        justify-content: center;
+    }
+    .styleerror{
+        
+        display: flex;
+        flex-direction: column;
+        color: #9D1B6F;
+        font-family: 'raleway', cursiva;
+        gap: 1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        justify-content: center;
+        
+        
+    }
+
+    

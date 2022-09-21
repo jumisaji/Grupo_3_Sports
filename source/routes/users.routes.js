@@ -1,6 +1,7 @@
 const {Router} = require('express');
 const rutas = Router();
 
+
 const {login, register, process, access, logout} = require('../controllers/users.controller'); 
 const middlewareRegister = require('../middlewares/register');
 const middlewareLogin = require('../middlewares/login');
