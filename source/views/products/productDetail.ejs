@@ -12,12 +12,12 @@
     <!--/header-->
     <!--    **************************************************   MAIN  ****************************************************    -->
     <main id="maindetalle">
-        <% if (!user) { %>
+        <% if (!User) { %>
             <picture><img class="imgdetalle" src="/products/<%= product.imageid  %>" alt=""></picture>
             <section id="secciondetalle">
             <h2 id="nombreproduct"><%= product.name %> - <span>$<%= product.price %></span></h2>
             <p><%= product.description %></p>
-            <% } else if (user && user.isAdmin) { %>
+            <% } else if (User && User.isadmin) { %>
                 <picture><img class="imgdetalle" src="/products/<%= product.imageid  %>" alt=""></picture>
                 <section id="secciondetalle">
                 <h2 id="nombreproduct"><%= product.name %> - <span>$<%= product.price %></span></h2>

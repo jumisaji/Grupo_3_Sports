@@ -21,9 +21,9 @@
     "name": "bici5",
     "id": 4,
     "category": "Ruta",
-    "price": 1234,
+    "price": 1235,
     "imageid": "ruta-4.png",
-    "description": "",
+    "description": "lorem",
     "color": "Azul y negro"
   },
   {
@@ -133,33 +133,5 @@
     "imageid": "urbana-4.png",
     "description": "lorem ipsum",
     "color": "Negro y azul"
-  },
-  {
-    "id": 17,
-    "name": "fffff",
-    "price": 1233,
-    "description": "rrrrrrrrrrrrrrrrrrr",
-    "imageid": "image-1661969717051_img.png"
-  },
-  {
-    "id": 18,
-    "name": "dghgdhd",
-    "price": 234,
-    "description": "345654345654",
-    "imageid": "image-1661970318186_img.png"
-  },
-  {
-    "id": 19,
-    "name": "dghggggg",
-    "price": 2345,
-    "description": "2345654321",
-    "imageid": "image-1661970639273_img.png"
-  },
-  {
-    "id": 20,
-    "name": "ergedfgfd",
-    "price": 12345,
-    "description": "3456yuyt543",
-    "imageid": "image-1661970795452_img.png"
   }
 ]

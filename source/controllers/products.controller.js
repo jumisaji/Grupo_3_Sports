@@ -34,7 +34,7 @@ module.exports = {
   create: (req,res) => {
         return res.render('products/create', {
           title: 'Create Product',
-          styles: ['styles_create', ]
+          styles: [,'styles_create', ]
         })
       },
   save: (req, res) => {
