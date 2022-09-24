@@ -8,7 +8,7 @@
     
         
     <nav id="opciones2">
-        <% if (!user) { %>
+        <% if (!User) { %>
                 <form id="buscar"> <!--barra de búsqueda-->
                 <input  type="search" id="barraBuscar" name="Barra de busqueda" placeholder=" Buscar productos, marcas..."> 
                 <button type="button" id="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -17,7 +17,7 @@
              <!--botones con iconos para login y carrito de compras-->
                 <a href = "/users/login" type="acceso" class="iconoss"><i class="fas fa-user"></i></a>
                 <a href = "/products/" type="acceso" class="iconoss"><i class="fa-solid fa-list"></i></a>
-                <% } else if (user && user.isadmin) { %>
+                <% } else if (User && User.isadmin) { %>
                     <a href = "/products/" type="acceso" class="iconoss"><i class="fa-solid fa-list"></i></a>
                     <a href="/products/create" type="acceso" class="iconoss"><i class="fas fa-solid fa-circle-plus"></i></a>
                     <a href="/users/logout" class="iconoss"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
