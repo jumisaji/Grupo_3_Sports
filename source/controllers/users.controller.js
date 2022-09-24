@@ -29,7 +29,7 @@ await User.create(req.body);//crea usuario registrando en base de datos
 
   login: async (req,res) => {
     return res.render('users/login', {
-      styles: ['styles_login', 'animations_login', 'media_queries_forms']
+      styles: ['styles_register','styles_login', 'animations_login', 'media_queries_forms']
   })
   },
   access: async(req,res)=>{
