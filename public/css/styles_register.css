@@ -111,22 +111,5 @@ main{
     font-weight: bold;}
 
 
-    .errores{
-        display: flex;
-        justify-content: center;
-    }
-    .styleerror{
-        
-        display: flex;
-        flex-direction: column;
-        color: #9D1B6F;
-        font-family: 'raleway', cursiva;
-        gap: 1rem;
-        font-weight: bold;
-        margin-top: 1rem;
-        justify-content: center;
-        
-        
-    }
 
     

@@ -1,0 +1,17 @@
+.errores{
+    display: flex;
+    justify-content: center;
+}
+.styleerror{
+    font-size: 1rem ;
+    display: flex;
+    flex-direction: column;
+    color: #9D1B6F;
+    font-family: 'raleway', cursiva;
+    gap: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    justify-content: center;
+    
+    
+}

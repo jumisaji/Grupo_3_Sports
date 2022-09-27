@@ -5,7 +5,7 @@ const {User} = require('../database/models/index');
 const userController = {
   register: async (req,res) => {
     return res.render('users/register', {
-      styles: ['styles_register', 'animations_register', 'media_queries_forms']
+      styles: ["validaciones-frontend",'styles_register', 'animations_register', 'media_queries_forms']
   })
   },
 
@@ -29,7 +29,7 @@ await User.create(req.body);//crea usuario registrando en base de datos
 
   login: async (req,res) => {
     return res.render('users/login', {
-      styles: ['styles_register','styles_login', 'animations_login', 'media_queries_forms']
+      styles: ["validaciones-frontend",'styles_register','styles_login', 'animations_login', 'media_queries_forms']
   })
   },
   access: async(req,res)=>{

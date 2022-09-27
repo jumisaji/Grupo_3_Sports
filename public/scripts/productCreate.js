@@ -32,7 +32,7 @@
        if (errores.length > 0) {
         event.preventDefault();
     
-    let  losErrores= document.querySelector(".errores ")
+    let  losErrores= document.querySelector(".errores ul ")
     losErrores.innerHTML= null
         for (let i = 0; i < errores.length; i++) {
             losErrores.innerHTML +="<li>" + errores[i] +"</li>"
