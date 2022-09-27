@@ -1,18 +1,99 @@
-main{
-    font-size: 16px;
-    color: #070B80;
-    text-align: center;
+
+#edit{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 30px;
-    margin-bottom: 20px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(178, 178, 178);
+    width: 90vw;
+    margin-top: 1rem;
+    border-radius: 1rem ;
+   flex-flow: row wrap;
+   flex-direction: column;
+  
+    
 }
 
-#titleEdit{
-    font-size: 1px;
-    margin: 10px;
-    padding: 20px;
-    width: 100%;
+
+#seccionedit1{
+width: 100%;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    background-color:rgb(178, 178, 178);
+    padding: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+   
+   
+   
+
 }
+#titleEdit{
+    font-size: 2rem;
+    font-family: 'raleway', cursiva;
+    font-weight: bold;
+    color: #9D1B6F;
+    background-color: white;
+    border: solid 2px rgb(7, 11, 128);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.imgedit{
+    width: 80%;
+    height:  90%;
+}
+#seccionedit2{
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+  
+    background-color:rgb(178, 178, 178);
+    padding: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+
+}
+.imagenCreacion{
+    width:40%;
+height: 10%;
+text-decoration: none;
+margin-bottom: 1rem;
+
+
+background-color:rgb(7, 11, 128);
+color: snow;
+padding: 1rem;
+border-radius: 1rem;
+font-size: 15px;
+font-family: 'Kalam', cursiva;
+    
+}
+
+.formCreacion{width: 60%;
+    height: 10%;
+    margin-top: 0.5rem;
+    background-color: snow;
+    color: rgb(0, 0, 0);
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+    font-family: 'Kalam', cursiva;
+font-weight: bold;
+border: #9D1B6F solid 2px;
+font-size: 1rem;}
+#botonEditar{
+    width: 40%;
+    height: 4rem;
+    transition: all .5s;
+    font-size: 2rem;
+    background-color: #0BA8A8;
+    color:rgb(7, 11, 128) ;
+    border-radius: 1rem;
+    border: #9D1B6F solid 2px;
+}
+#botonEditar:hover {
+    color: white;
+    background-color:rgb(7, 11, 128) ;
+
+}
+

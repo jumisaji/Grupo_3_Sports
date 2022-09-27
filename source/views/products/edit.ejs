@@ -3,6 +3,8 @@
 <!--    **************************************************  HEAD  ****************************************************  -->
 <!--head-->
 <%- include('../includes/head') %>
+<script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+<script defer src ="/scripts/edit.js"></script>
 <!--/head-->
 <!--    **************************************************  BODY  ****************************************************  -->
 <body>
@@ -11,19 +13,24 @@
     <%- include('../includes/header') %>
     <!--/header-->
 <!--    **************************************************  MAIN   **************************************************** -->
-    <main>         
-        <section>
-            <h2 id="titleEdit">Edit product <%= product.id %> </h2>
-            <form action="/products/edit/<%= product.id %>?m=PUT" method="POST" enctype="multipart/form-data">
+    <main id="edit">         
+        <section id="seccionedit1">
+            <picture ><img class="imgedit" src="/images/logos/logo_go_bike_cart_y Log.png" alt=""></picture>
+            <h2 id="titleEdit">Editar producto <%= product.id %> </h2>
+        </section>
+        <section id="seccionedit2">
+            <form id="editform" action="/products/edit/<%= product.id %>?m=PUT" method="POST" enctype="multipart/form-data">
                 <input class="formCreacion" type="text" name="name" id="name" placeholder="nombre del producto" autocomplete="off" value="<%= product.name %>">
                 <input class="formCreacion" type="number" name="price" id="price" placeholder="Precio" autocomplete="off" value="<%= product.price %>">
-                <br>
-                <label class="label" for="image">imagen del producto</label>
-                <br>
-                <input class="imagenCreacion"type="file" name="image" id="image" autocomplete="off" value="<%= product.image %>">
-                        
+               
+                <input class="imagenCreacion"type="file" name="image" id="image" autocomplete="off" value="<%= product.image %>">   
                 <textarea class="formCreacion" name="description" id="description" autocomplete="off" value="<%= product.description %>"></textarea>
-                <button id="botonEditar" type="submit">Update</button>
+                <div class="errores">
+                    <ul class="styleerror">
+                      
+                    </ul>
+                </div>
+                <button id="botonEditar" type="submit">editar</button>
             </form>
         </section>
     </main>

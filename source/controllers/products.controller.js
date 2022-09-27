@@ -53,7 +53,7 @@ module.exports = {
         if (res.render('products/edit', {
           title: 'Edit of products',
           product:product,
-          styles: ['styles_edit']
+          styles: ["validaciones-frontend",'styles_edit']
         })){
           return res.redirect('/products/')
         }
