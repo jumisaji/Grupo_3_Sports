@@ -45,9 +45,9 @@
                             </section>
                             <section class="nombre-descripcion">
                                 <h2 class="nombreproduct">
-                                    <%= product.name %> - 
-                                    <br>
-                                    <span class="precio">$<%= product.price %></span>
+                                    <%= product.name %> -
+                                        <br>
+                                        <span class="precio">$<%= product.price %></span>
                                 </h2>
                                 <p class="descripcion-producto">
                                     <%= product.description %>
@@ -62,10 +62,29 @@
                                         <i class="fa-solid fa-pen-to-square"></i>
                                     </button>
                                 </form>
-
-                                <% } %>
                             </section>
                         </section>
+                        <% } else { %>
+                            <section class="secciongeneral">
+                                <section class="seccion-imagen">
+                                    <picture><img class="imgdetalle" src="/products/<%= product.imageid  %>" alt="">
+                                    </picture>
+                                </section>
+                                <section class="nombre-descripcion">
+
+                                    <h2 class="nombreproduct">
+                                        <%= product.name %> - <span class="precio">$<%= product.price %></span>
+                                    </h2>
+                                    <p class="descripcion-producto">
+                                        <%= product.description %>
+                                    </p>
+                                </section>
+                            </section>
+                            <% } %>
+
+
+
+
 
 
             </main>
