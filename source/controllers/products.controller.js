@@ -9,7 +9,7 @@ module.exports = {
     return res.render('products/productDetail', {
       title: 'Detail of products',
       product: product,
-      styles: ['styles_productDetail', 'animations_productDetail', 'media_queries_productDetail']
+      styles: ["styles_body",'styles_productDetail', 'animations_productDetail', 'media_queries_productDetail']
     })
   },
   bikes: (req,res) =>{

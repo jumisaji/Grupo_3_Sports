@@ -61,7 +61,7 @@ include:{
     return res.redirect('/')
   },
   logout: function (req,res) {
-    delete req.session.user
+    delete req.session.User
     return res.redirect('/')
   }
 };

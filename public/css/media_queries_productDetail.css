@@ -1,57 +1,49 @@
-@media screen and (min-width: 700px){
-    .heart3{
-        font-size: 5vw;
-        right: 2vw;
-    }
-
- 
-    .stars{
-        font-size: 1.7rem;
-    }
-    
-    .star1, .star2, .star3, .star4, .star5{
-        font-size: 1.2rem;
-    }
-
-    .boton-canasta{
-        height: 2.5rem;
-        font-size: 1rem;
-    }
+@media screen and (max-width: 615px){
 
 
-   
+.secciongeneral{
+    width: 125%;
+    padding: 2rem;
 }
-@media screen and (min-width:992px){
-    .contenedor-padre{
-        display: flex;
-        flex-direction: row;
-    }
-    .ingresotexto0{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        padding: 52px 5px;
-    }
-    .heart3{
-        font-size: 2.5vw;
-        right: 1vw;
-    }
 
-    .contenedor-detalle-producto-1{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        padding: 20px;
-        width: 45vw;
-    }
+.seccion-imagen{
+    width: 110%;
+    
+}
 
-    .contenedor-detalle-producto-2{
-        width: 40vw;
-    }
+.imgdetalle{
+    width: 90%;
+}
+.nombreproduct{
+    font-size: 1rem;
 
-     .detalle-del-poducto-2-3{
-        width: 38.5vw;
-        margin: 10px;
-     }
-  
+}
+.descripcion-producto{
+    font-size: 0.7rem;
+    font-weight: bold;
+
+}
+.nombre-descripcion{
+    margin-top: 1rem;
+    width: 120%;
+}
+
+
+.precio{
+    color: #9D1B6F;;
+    background-color: white;
+    padding: 0.5px;
+border: #9D1B6F solid 0.5px;
+}
+.editar{font-size: 1.5rem;
+    margin-left: 10px;
+
+
+}
+.borrar{font-size: 1.5rem;
+ 
+
+}
+
+
 }

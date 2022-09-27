@@ -1,11 +1,11 @@
 [
   {
-    "name": "bici1",
+    "name": "Bicicleta Ruta Fire Bird Ltwoo Aluminio Carrera Nitro Bikes",
     "id": 1,
     "category": "Ruta",
-    "price": 1234,
+    "price": 109001,
     "imageid": "ruta-1.png",
-    "description": "lorem ipsum",
+    "description": "Cuadro: TRINX aluminio 700C x 470, 510 MMHorquilla: Aluminio 700C ,Descarrilador: SHIMANO FD TY-510, Cambios: SHIMANO RD TX-800, Shifter: SHIMANO ST-EF500, Cassette: CS-M3008, 8S, 11-32T, Cadena: KMC 8S, Frenos: Aluminio disco mecánico, Ruedas: TRINX 700C doble, paredNeumáticos: KENDA 700 *32C, Platos: PROWHEEL 28/38/48 T* 170L, Asiento: SR SPORT",
     "color": "Blanco y negro"
   },
   {
@@ -18,12 +18,12 @@
     "color": "Amarillo y gris"
   },
   {
-    "name": "bici5",
+    "name": "Bicicleta Ruta bianchi  Harrier 16v Claris Shadow + Phanter",
     "id": 4,
     "category": "Ruta",
-    "price": 1235,
+    "price": 50000,
     "imageid": "ruta-4.png",
-    "description": "lorem",
+    "description": "",
     "color": "Azul y negro"
   },
   {

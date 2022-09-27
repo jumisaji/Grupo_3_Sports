@@ -1,29 +1,104 @@
-#maindetalle{
+#maindetalle {
     color: #070B80;
-    text-align: center;
-    width: 80vw;
+    width: 95vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
+    padding: 3rem;
     background-color: rgb(192, 192, 192);
     justify-content: center;
-    border-radius: 2rem;
-    text-align: center;
+
+
 }
 
-.imgdetalle{
-    width: 60%;
+.secciongeneral {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color:white;
     border: #070B80 solid 2px;
-    margin-top: 2rem;
-    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    border-radius: 12px;
+    flex-flow: row wrap;
+    
+
+
 }
 
-#nombreproduct{
+.seccion-imagen {
+    background-color: rgb(178, 178, 178);
+    ;
+    width: 80%;
+
+    padding: 1rem 0px 1rem 0px;
+    border-radius: 12px;
+    border: #070B80 solid 2px;
+
+
+}
+
+.imgdetalle {
+    width: 75%;
+    border: solid 1px #070B80;
+    border-radius: 12px;
+
+}
+
+
+
+.nombre-descripcion{display: flex;
+    width: 95%;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: rgb(201, 201, 201);
+    margin-top: 3rem;
+    border-radius: 12px;
+    padding: 1.5rem;
+    
+    
+
+}
+
+.nombreproduct {
     font-size: 2rem;
     font-family: 'relaway';
     margin-top: 1rem;
     color: #070B80;
+    border-bottom:#9D1B6F 1.5px solid;
+    padding-bottom: 1rem;
 }
+.descripcion-producto{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+   
+}
+.precio{
+    color: #9D1B6F;;
+    background-color: white;
+    padding: 3px;
+border: #9D1B6F solid 1px;
+border-radius: 5px;
 
+}
+.editar{
+
+    font-size: 3rem;
+    margin-left: 8rem;
+    color: #070B80; ;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: white;
+    border: #9D1B6F solid 2px;
+
+}
+.borrar{
+    font-size: 3rem;
+    padding: 0.5rem;
+    color: #9D1B6F;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 2px  #070B80; 
+
+}
