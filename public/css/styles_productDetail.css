@@ -91,6 +91,7 @@ border-radius: 5px;
     border-radius: 5px;
     background-color: white;
     border: #9D1B6F solid 2px;
+    transition: all 0.5s;
 
 }
 .borrar{
@@ -100,5 +101,16 @@ border-radius: 5px;
     background-color: white;
     border-radius: 5px;
     border: solid 2px  #070B80; 
+    transition: all 0.5s;
 
+}
+
+.borrar:hover{
+    background-color: #9D1B6F;
+    color: white;
+}
+
+.editar:hover{
+    background-color: #070B80;
+    color: white;
 }

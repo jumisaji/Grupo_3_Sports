@@ -1,51 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--    **************************************************  HEAD  ****************************************************  -->
-<!--head-->
-<%- include('../includes/head') %>
-<script src="https://unpkg.com/validator@latest/validator.min.js"></script>
-<script defer src ="/scripts/productCreate.js"></script>
-    <!--/head-->
-    <!--    **************************************************  BODY  ****************************************************  -->
+  <!--    **************************************************  HEAD  ****************************************************  -->
+  <!--head-->
+  <%- include('../includes/head') %>
+  <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+  <script defer src="/scripts/productCreate.js"></script>
+  <!--/head-->
+  <!--    **************************************************  BODY  ****************************************************  -->
 
-    <body>
-        <!--    **************************************************  HEADER  **************************************************  -->
-        <!--header-->
-        <%- include('../includes/header') %>
-            <!--/header-->
-            <!--    **************************************************  MAIN   **************************************************** -->
-            <main id="maincreate">
-                <img class="logocreate" src="/images/logos/logo_go_bike_cart_y log.png" alt="">
-            
-               
-            
-                    <form action="/products/save" method="post" enctype="multipart/form-data" id="createForm">
-                        <input class="formcreacion" type="text" name="name" id="name" placeholder="nombre del producto" autocomplete="off">
-                        <input class="formcreacion" type="number" name="price" id="price" placeholder="Precio" autocomplete="off">
-                       <br>
-                        <label class="label" for="image">imagen del producto</label>
-                        <br>
-                        <input class="imagencreacion" type="file" name="image" id="image" autocomplete="off">
-                        
-                        <textarea class="formcreacion" name="description" id="description" autocomplete="off"></textarea>
-                        <div class="errores">
-                            <ul class="styleerror">
-                              
-                            </ul>
-                        </div>
-                        <button id="botoncrear" type="submit">crear</button>
-                    </form>
-                
-               
+  <body>
+    <!--    **************************************************  HEADER  **************************************************  -->
+    <!--header-->
+    <%- include('../includes/header') %>
+    <!--/header-->
+    <!--    **************************************************  MAIN   **************************************************** -->
+    <main id="maincreate">
+      <img
+        class="logocreate"
+        src="/images/logos/logo_go_bike_cart_y log.png"
+        alt=""
+      />
 
+      <form
+        action="/products/save"
+        method="post"
+        enctype="multipart/form-data"
+        id="createForm"
+      >
+        <input
+          class="formcreacion"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="nombre del producto"
+          autocomplete="off"
+        />
+        <input
+          class="formcreacion"
+          type="number"
+          name="price"
+          id="price"
+          placeholder="Precio"
+          autocomplete="off"
+        />
+        <br />
+        <label class="label" for="image">imagen del producto</label>
+        <br />
+        <input
+          class="imagencreacion"
+          type="file"
+          name="image"
+          id="image"
+          autocomplete="off"
+        />
 
-            </main>
-            <!--    **************************************************  CHAT WHATSAPP   **************************************  -->
-            <%- include('../includes/bodywhapp') %>
-                <!--    **************************************************  FOOTER   *********************************************  -->
-                <!--footer-->
-                <%- include('../includes/footer') %>
-                    <!--/footer-->
-    </body>
-
+        <textarea
+          class="formcreacion"
+          name="description"
+          id="description"
+          autocomplete="off"
+        ></textarea>
+        <div class="errores">
+          <ul class="styleerror"></ul>
+        </div>
+        <button id="botoncrear" type="submit">crear</button>
+      </form>
+    </main>
+    <!--    **************************************************  CHAT WHATSAPP   **************************************  -->
+    <%- include('../includes/bodywhapp') %>
+    <!--    **************************************************  FOOTER   *********************************************  -->
+    <!--footer-->
+    <%- include('../includes/footer') %>
+    <!--/footer-->
+  </body>
 </html>
