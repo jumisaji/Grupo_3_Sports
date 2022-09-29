@@ -28,9 +28,16 @@ RETROSPECTIVA DEL SEXTO SPRINT
         4. Tener horarios de trabajo desincronizados, pese a ser la única disponibilidad las horas de la magrugada o muy en la noche, siento que la carga de trabajo se incrementa por el agotamiento físico y mental y obvio rinde menos.
         5. NO Complicar tareas sencillas. 
 
+        Guadalupe Martinez Piquera
+        1. Preocuparme más sobre las tareas asignadas y participar más.
+        2. Verificar que todo funciona antes de hacer un commit y pedir ayuda en caso de no poder hacer algo.
+        3. Continuar teniendo un buen ritmo de trabajo y la organización.
+        4. Hacer menos procrastinación y tener la cabeza en otro lado a la hora de hacer las cosas.
+        5. Dejar todo a última hora.
 
 
-                            RETROSPECTIVA SOBRE EL quinto SPRINT
+
+                            RETROSPECTIVA SOBRE EL QUINTO SPRINT
 
         Mateo:
         1. Más organización.
