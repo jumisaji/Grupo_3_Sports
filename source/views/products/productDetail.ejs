@@ -16,18 +16,18 @@
                 <% if (!User) { %>
                     <section class="secciongeneral">
                         <section class="seccion-imagen">
-                            <picture><img class="imgdetalle" src="/products/<%= product.imageid  %>" alt=""></picture>
+                            <picture><img class="imgdetalle" src="/products/<%= products.imageid  %>" alt=""></picture>
                         </section>
 
 
 
                         <section class="nombre-descripcion">
                             <h2 class="nombreproduct">
-                                <%= product.name %> - <span class="precio">$<%= product.price %></span>
+                                <%= products.name %> - <span class="precio">$<%= products.price %></span>
                             </h2>
 
                             <p class="descripcion-producto">
-                                <%= product.description %>
+                                <%= products.description %>
                             </p>
                         </section>
                     </section>
@@ -40,24 +40,24 @@
                     <% } else if (User && User.isadmin) { %>
                         <section class="secciongeneral">
                             <section class="seccion-imagen">
-                                <picture><img class="imgdetalle" src="/products/<%= product.imageid  %>" alt="">
+                                <picture><img class="imgdetalle" src="/products/<%= products.imageid  %>" alt="">
                                 </picture>
                             </section>
                             <section class="nombre-descripcion">
                                 <h2 class="nombreproduct">
-                                    <%= product.name %> -
+                                    <%= products.name %> -
                                         <br>
-                                        <span class="precio">$<%= product.price %></span>
+                                        <span class="precio">$<%= products.price %></span>
                                 </h2>
                                 <p class="descripcion-producto">
-                                    <%= product.description %>
+                                    <%= products.description %>
                                 </p>
-                                <form action="/products/delete/<%= product.id %>?m=DELETE" method="post">
+                                <form action="/products/delete/<%= products.id %>?m=DELETE" method="post">
                                     <button class="borrar" type="submit">
                                         <i class="fa fa-trash"></i>
                                     </button>
                                 </form>
-                                <form action="/products/edit/<%= product.id %>" method="get">
+                                <form action="/products/edit/<%= products.id %>" method="get">
                                     <button class="editar" type="submit">
                                         <i class="fa-solid fa-pen-to-square"></i>
                                     </button>
@@ -67,16 +67,16 @@
                         <% } else { %>
                             <section class="secciongeneral">
                                 <section class="seccion-imagen">
-                                    <picture><img class="imgdetalle" src="/products/<%= product.imageid  %>" alt="">
+                                    <picture><img class="imgdetalle" src="/products/<%= products.imageid  %>" alt="">
                                     </picture>
                                 </section>
                                 <section class="nombre-descripcion">
 
                                     <h2 class="nombreproduct">
-                                        <%= product.name %> - <span class="precio">$<%= product.price %></span>
+                                        <%= products.name %> - <span class="precio">$<%= products.price %></span>
                                     </h2>
                                     <p class="descripcion-producto">
-                                        <%= product.description %>
+                                        <%= products.description %>
                                     </p>
                                 </section>
                             </section>

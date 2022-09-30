@@ -7,14 +7,15 @@ const {bikes, detalle, carrito, create, edit, save, modify, destroid} = require(
 const isLogged = require('../middlewares/isLogged');
 const isadmin = require('../middlewares/isAdmin');
 const middlewareProducts = require('../middlewares/products');
+//const { ValidationError } = require('sequelize/types');
 
 rutas.get('/',bikes);
 rutas.get('/productDetail/:id',detalle);
 rutas.get('/cart', [isLogged] ,carrito);
-rutas.get('/create',[isLogged, isadmin, middlewareProducts], create);
-rutas.post('/save',[upload.any()], save);
-rutas.get('/edit/:id',[isLogged, isadmin, middlewareProducts], edit);
-rutas.put('/edit/:id',[upload.any()], modify);
+rutas.get('/create',[isLogged, isadmin], create);
+rutas.post('/save',[upload.any(), middlewareProducts], save);
+rutas.get('/edit/:id',[isLogged, isadmin], edit);
+rutas.put('/edit/:id',[upload.any(), middlewareProducts], modify);
 rutas.delete('/delete/:id',destroid);
 
 

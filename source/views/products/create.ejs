@@ -3,8 +3,8 @@
   <!--    **************************************************  HEAD  ****************************************************  -->
   <!--head-->
   <%- include('../includes/head') %>
-  <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
-  <script defer src="/scripts/productCreate.js"></script>
+   <script src="https://unpkg.com/validator@latest/validator.min.js"></script> 
+   <script defer src="/scripts/productCreate.js"></script> 
   <!--/head-->
   <!--    **************************************************  BODY  ****************************************************  -->
 
@@ -34,7 +34,9 @@
           id="name"
           placeholder="nombre del producto"
           autocomplete="off"
+          value="<%= locals.oldData ? oldData.name : null %>"
         />
+        
         <input
           class="formcreacion"
           type="number"
@@ -42,7 +44,9 @@
           id="price"
           placeholder="Precio"
           autocomplete="off"
+          value="<%= locals.oldData ? oldData.price : null %>"
         />
+        
         <br />
         <label class="label" for="image">imagen del producto</label>
         <br />
@@ -52,16 +56,36 @@
           name="image"
           id="image"
           autocomplete="off"
+          value="<%= locals.oldData ? oldData.image : null %>"
         />
-
+          
         <textarea
           class="formcreacion"
           name="description"
           id="description"
           autocomplete="off"
-        ></textarea>
+          placeholder="Descripción"
+        ><%= locals.oldData ? oldData.description : null %></textarea>
+        
         <div class="errores">
-          <ul class="styleerror"></ul>
+          <ul class="styleerror">
+            <% if (locals.errors && errors.name) { %>                                                                                      <!--nombre-->
+              <p class="msg-error"> <%= errors.name.msg %> </p>
+    
+          <% } %>
+          <% if (locals.errors && errors.price) { %>                                                                                      <!--nombre-->
+            <p class="msg-error"> <%= errors.price.msg %> </p>
+  
+        <% } %>
+        <% if (locals.errors && errors.image) { %>                                                                                      <!--nombre-->
+          <p class="msg-error"> <%= errors.image.msg %> </p>
+
+      <% } %> 
+      <% if (locals.errors && errors.description) { %>                                                                                      <!--nombre-->
+        <p class="msg-error"> <%= errors.description.msg %> </p>
+
+    <% } %>
+          </ul>
         </div>
         <button id="botoncrear" type="submit">crear</button>
       </form>

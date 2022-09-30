@@ -27,15 +27,8 @@ module.exports = (sequelize, DataTypes) => {
       color:{
         type: DataTypes.TEXT,
       },
-      size:{
-        type: DataTypes.INTEGER,
-      },
       description:{
         type: DataTypes.STRING,
-      },
-      stock:{
-        type:DataTypes.BOOLEAN,
-        defaultValue: false
       }
    
 }

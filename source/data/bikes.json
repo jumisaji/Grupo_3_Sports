@@ -27,21 +27,12 @@
     "color": "Azul y negro"
   },
   {
-    "name": "bici5",
-    "id": 5,
-    "category": "BMX",
-    "price": 1234,
-    "imageid": "bmx-1.png",
-    "description": "lorem ipsum",
-    "color": "Negro"
-  },
-  {
     "name": "bici6",
     "id": 6,
     "category": "BMX",
     "price": 1234,
     "imageid": "bmx-2.png",
-    "description": "lorem ipsum",
+    "description": "descripcion prueba 3333333333333333333333",
     "color": "Negro"
   },
   {

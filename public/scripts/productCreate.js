@@ -20,8 +20,10 @@
         if (price.value == "" || price.value == null){
             errores.push("el campo del precio debe estar completo")
            }
-        if (image.value == null){
+        if (!image.value){
             errores.push("Debe subir una imagen")
+        }else if(locals.errors && errors.image){
+            return errors.image.msg
         }
         if (description.value == "" || description.value == null){
             errores.push("el campo de la descripcion debe estar completo")
