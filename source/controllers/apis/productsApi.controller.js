@@ -6,11 +6,7 @@ module.exports = {
         try {
             let filters = {}
             let page = 0
-            if(req.query.price){
-                filters.price = {
-                    [Op.lte]: req.query.price
-                }
-            }
+            
             if(req.query.page){
                 page = parseInt(req.query.page)
             }
@@ -21,14 +17,27 @@ module.exports = {
                 offset: page
             })
 
+            let allProducts = await products.findAll() 
+            let countByCategories = {}
+            countByCategories.all = {name:"All the products", count:allProducts.length}
+            countByCategories.ruta = {name:"Ruta", count:allProducts.filter(product => product.category == "Ruta").length}
+            countByCategories.mtb = {name:"MTB", count:allProducts.filter(product => product.category == "MTB").length}
+            countByCategories.bmx = {name:"BMX", count:allProducts.filter(product => product.category == "BMX").length}
+            countByCategories.urban = {name:"Urban", count:allProducts.filter(product => product.category == "Urban").length}
+            countByCategories.all = {name:"All the products", count:allProducts.length}
+
             let data = productsApi.map(product => Object({
                     id:product.id,
                     name: product.name,
+                    category: product.category,
+                    price: product.price,
+                    imageid: product.imageid,
+                    brand: product.brand,
+                    color: product.color,
                     description: product.description
                 })
             )
-
-            return res.status(200).json({data})
+            return res.status(200).json({data, countByCategories})
         } catch (error) {
             return res.status(500).json(error)
         }
@@ -38,6 +47,16 @@ module.exports = {
             let result  = await products.findByPk(req.params.id,{
                 include:{all:true}
             })
+            let data = {}
+            data.id = result.id
+            data.name = result.name
+            data.category = result.category
+            data.price = result.price
+            data.imageid = result.imageid
+            data.brand = result.brand
+            data.color = result.color
+            data.description = result.description
+
             return res.status(200).json(result)
         } catch (error) {
             return res.status(500).json(error)
