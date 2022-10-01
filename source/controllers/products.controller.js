@@ -14,19 +14,6 @@ module.exports = {
       products: productDB
     })
   },
-
- /* (req, res) => {
-    let product = one(parseInt(req.params.id))
-
-    if(!product){
-      return res.redirect('/products/')
-    }
-    return res.render('products/productDetail', {
-      title: 'Detail of products',
-      product: product,
-      styles: ["styles_body",'styles_productDetail', 'animations_productDetail', 'media_queries_productDetail']
-    })
-  }, */
   bikes: async ( req , res ) =>{
 
     let product = await products.findAll({include:{all:true}});
