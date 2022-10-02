@@ -43,6 +43,6 @@ server.use('/users',require('./routes/users.routes'))
 
 //APIs
 server.use('/api/products', require('./routes/apis/productsApi.routes'));
-
+server.use('/api/users', require('./routes/apis/usersApi.routes'));
 
 server.get('/', (req,res) => res.send('Bienvenid@ a Go Bike'));
