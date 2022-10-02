@@ -10,7 +10,11 @@ module.exports = {
                     all: true
                 }
             });
-            return res.status(200).json(users);
+            let allUsers = await User.findAll()
+            let count = {}
+            count.all = {name:"All the users", count:allUsers.length}
+
+            return res.status(200).json({users, count});
 
         } catch (error) {
             return res.status(500).json(error);
