@@ -1,6 +1,7 @@
 const { body } = require('express-validator');
 const {extname,resolve} = require('path')
 const {unlinkSync} = require('fs')
+const { User } = require('../database/models/index');
 
 module.exports = [
     body('name').notEmpty().withMessage('el campo del nombre debe estar completo').bail().
