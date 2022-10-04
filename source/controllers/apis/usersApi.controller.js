@@ -11,8 +11,8 @@ module.exports = {
                 }
             });
             let allUsers = await User.findAll()
-            let count = {}
-            count.all = {name:"All the users", count:allUsers.length}
+            let count = []
+            count.push({name:"All the users", count:allUsers.length})
 
             return res.status(200).json({users, count});
 

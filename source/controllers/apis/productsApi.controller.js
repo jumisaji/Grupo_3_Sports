@@ -18,13 +18,14 @@ module.exports = {
             })
 
             let allProducts = await products.findAll() 
-            let countByCategories = {}
-            countByCategories.all = {name:"All the products", count:allProducts.length}
-            countByCategories.ruta = {name:"Ruta", count:allProducts.filter(product => product.category == "Ruta").length}
-            countByCategories.mtb = {name:"MTB", count:allProducts.filter(product => product.category == "MTB").length}
-            countByCategories.bmx = {name:"BMX", count:allProducts.filter(product => product.category == "BMX").length}
-            countByCategories.urban = {name:"Urban", count:allProducts.filter(product => product.category == "Urban").length}
-            countByCategories.all = {name:"All the products", count:allProducts.length}
+            let countByCategories = []
+          
+            countByCategories.push({name:"All the products", count:allProducts.length})
+            countByCategories.push({name:"Ruta", count:allProducts.filter(product => product.category == "Ruta").length}) 
+            countByCategories.push({name:"MTB", count:allProducts.filter(product => product.category == "MTB").length}) 
+            countByCategories.push({name:"BMX", count:allProducts.filter(product => product.category == "BMX").length}) 
+            countByCategories.push({name:"Urban", count:allProducts.filter(product => product.category == "Urban").length}) 
+            
 
             let data = productsApi.map(product => Object({
                     id:product.id,
