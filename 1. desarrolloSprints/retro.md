@@ -35,7 +35,7 @@ RETROSPECTIVA DEL SEXTO SPRINT
         4. Hacer menos procrastinación y tener la cabeza en otro lado a la hora de hacer las cosas.
         5. Dejar todo a última hora.
 
-
+        Mate:
 
                             RETROSPECTIVA SOBRE EL QUINTO SPRINT
 
