@@ -49,26 +49,10 @@ module.exports = {
         errors: validaciones.mapped()
       });
     }
+    if(req.files && req.files.length > 0){
+      req.body.imageid = req.files[0].filename
+    }
     let nuevoProducto = await products.create(req.body)
-
-    //if(req.files && req.files.length > 0){
-
-      //let images = await Promise.all(req.files.map( file => {
-      //  return image.create({
-       //   path: file.filename
-      //  })
-    //  }))
-
-     // let addProductImages = await Promise.all(images.map(image => {
-      //  return imagesProducts.create({
-       //   product: nuevoProducto.id,
-       //   image: image.id
-       // })
-     // }))
-
-   // }
-    
-    // req.body.image = req.files[0].filename
     return res.redirect('/products/')
   },
   edit: async ( req , res ) => {

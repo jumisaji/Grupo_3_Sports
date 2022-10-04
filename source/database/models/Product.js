@@ -19,7 +19,6 @@ module.exports = (sequelize, DataTypes) => {
       },
       imageid:{
         type: DataTypes.STRING,
-        primaryKey:true
       },
       brand:{
         type: DataTypes.STRING,
