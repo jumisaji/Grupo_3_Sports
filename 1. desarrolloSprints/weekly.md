@@ -1,4 +1,7 @@
 Weekly del equipo.
+** 8vo sprint :
+Durante este sprint dividimos las tareas  por grupos e implementamos al final en un conjunto las tareas asignadas. Las fallas presentadas se procuraron reuniones para resolverlas, y/o quien tuviera disponibilidad consultar con los docentes. Se corrigieron algunos temas pendientes y se procuró dar cumplimiento a lo consignado para el sprint8. Se creo una rama final para react en donde se buscaba integrar Apis y Dashboard, sin embargo consideramos alguna acción errada en la integración de los fetch.
+
 
 ** 7mo sprint :
 Durante este sprint debimos dedicar bastante tiempo, gran parte de los integrantes a volver a ver temas y a completar faltantes de temas vistos, lo cual nos retraso y a la fecha aún no se culmina, pero para el desarrolo del sprint se culminaron los temas. Se desarrollo  durante trabajo en dos reuniones grupales y durante trabajo personal. Nos apoyamos bastante del material de video de las clases y sobre las dudas se designaba a quien tuviese la disponibilidad para solicitar asesoría. Los requerimientos del sprint7 se cumplieron, pero aún hay cosas por corregir que estan pendientes, más no corresponden a la entrega de este sprint.
