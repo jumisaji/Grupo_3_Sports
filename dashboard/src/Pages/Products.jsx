@@ -1,10 +1,13 @@
 import React from "react";
+import {useState} from 'react';
 import { Link } from "react-router-dom";
 import { getAllProducts } from "../Service/Products";
 import './Products.css'
 const data = await getAllProducts();
 
 export default function Products() {
+    const [list, setList]= useState([])
+    const [page, setPage]= useState(1)
     return (
         <div className='main'>
             <div className="prod-cont">
