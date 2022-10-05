@@ -2,6 +2,31 @@ Este Documento permite mejorar y afianzar el trabajo y desempeño en equipo.
 
 Dinámica de estrella de Mar https://proyectosagiles.org/2009/06/14/retrospectiva-estrella-mar-starfish-retrospective-scrum/:
 
+RETROSPECTIVA DEL SÉPTIMO SPRINT
+
+1. COMENZAR A HACER
+2. HACER MÁS
+3. CONTINUAR HACIENDO
+4. HACER MENOS
+5. DEJAR DE HACER
+
+                            RETROSPECTIVA SOBRE EL SÉPTIMO SPRINT
+Mateo
+        1. Trabajo más organizado.
+        2. Reuniones e intercambio de ideas. 
+        3. Seguir consultando dudas e inquietudes.
+        4. Dejar cosas para últimos horarios. 
+        5. Dejar de posponer errores.
+
+Julie
+        1. Hacer más pruebas y acercamiento con prácticas de los conceptos.
+        2. Conservar la calma en situaciónes adversas.
+        3. El apoyo de equipo.
+        4. Avanzar más rápido, aveces por querer dar solución por nuestra cuenta, nos quedamos mucho tiempo en el error y evitamos preguntar.
+        5. No repasar lo que ya se a aprendido.
+
+
+
 RETROSPECTIVA DEL SEXTO SPRINT
 
 1. COMENZAR A HACER
