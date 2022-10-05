@@ -19,7 +19,7 @@ export default function Home() {
                  </div>
                  <div className="div-cont">
                      <p className='top-p'>Total de usuarios:</p>
-                      <p className="bottom-p">{users.count}</p> 
+                      <p className="bottom-p">{Users.count}</p> 
                  </div>
              </div>
         </div>
