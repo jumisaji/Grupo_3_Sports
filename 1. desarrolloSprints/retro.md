@@ -24,6 +24,12 @@ Julie
         3. El apoyo de equipo.
         4. Avanzar más rápido, aveces por querer dar solución por nuestra cuenta, nos quedamos mucho tiempo en el error y evitamos preguntar.
         5. No repasar lo que ya se a aprendido.
+Guadalupe
+        1. Hacer más aportaciones y pedir ayuda cunado algo no me salga.
+        2. Participar más.
+        3. La organización y comunicación con el equipo.
+        4. Dejar pasar mucho tiempo para hacer las cosas y tener menos miedo de preguntar cuando no sé algo.
+        5. No repasar, complicar las cosas cuando son sencillas y dejar las cosas para último segundo.
 
 
 
