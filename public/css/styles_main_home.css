@@ -16,6 +16,8 @@ main{
     margin: 10px;
     padding: 20px;
     width: 100%;
+    border-top: #070B80 solid 3px;
+    width: 80%;
 }
 
 .bikeof img{
@@ -65,14 +67,19 @@ main{
 
 #carousel{
     width: 90vw;
-    height: 90vh;
+    height: 90vw;
     overflow: hidden; 
     position: relative;
+    background-color: black;
+    border-radius: 0.5rem;
+    border: black solid 3px;
+    margin-bottom: 1rem;
+    
 }
 
 #track {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     position: relative;
     transition: all 950ms;
     /*display: flex;
