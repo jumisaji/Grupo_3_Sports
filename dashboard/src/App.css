@@ -1,16 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anek+Gujarati:wght@100;200;300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    font-family: 'Montserrat', sans-serif;
+*{
+    font-family: "Rubik", sans-serif;
+    box-sizing:border-box;
+    padding:0;
+    margin:0
 }
-h1 {
+:root{
+    --Fondo-total:#070B80;
+    --Card-Color:#9D1B6F;
+    --Card-Lighter:#9D1B6F;
+    --Azul-Menta:#0BA8A8;
+    --Azul-Menta2:#0BA8A9;
+    --Dark-Green: #070B80;    
+    --Gworld-Green:#C0C0C0;
+}
+
+.mainPage{
+    background-color: var(--Fondo-total);
+    padding: 50px 20px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+/*ACA ABAJO VA A IR LA PARTE QUE SE VE EN TODAS LAS VISTAS*/
+.navSection{
+    background-color:var(--Card-Color);
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    width:100%
+}
+.info-bar{
+    padding: 30px 15px;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:var(--Card-Lighter);
+    border-radius: 20px;
+    gap:10px;
+    justify-content: center;
+    align-items:center;
+}
+.info-bar p{
+    color:white;
+    margin: 10px 0 10px 0;
+    font-size: 0.9em;
+    font-weight:400       
+}
+
+.navBar{
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+    padding:20px
+}
+.navBar a{
+    text-decoration:none;
+    color:#C0C0C0;
+    font-size: 0.9em;
+    opacity: 0.7;
+    font-weight: 300;
+    transition: all 300ms
+}
+.navBar a:hover{
+    opacity:1
+}
+
+/*ACA EMPEZAMOS CON EL HOME*/
+
+/*PRODUCTOS Y USUARIOS*/
+
+
+.listaUserProds{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0 25px 0;
+    list-style: none;
+    border-radius:20px;
+    background-color: var(--Card-Color);
+    width:100%;
+    gap: 5px
+}
+
+.green-title{
+    padding: 5px 0;
+    font-size: 1.5rem;
+    font-family: "Abel";
+    font-weight: 500;
+    list-style: none;
     text-align: center;
-    margin: 20px;
-    color: rgba(7, 11,128,1);
+    color: #C0C0C0;
+}
+.green-title a{
+    font-size: 1.5rem;
+    font-family: "Abel";
+    font-weight: 500;
+    list-style: none;
+    text-align: center;
+    color: #C0C0C0;
+    text-decoration:none;
+    transition: all .2s ease
+}
+.green-title a:hover{
+    font-size: 1.6rem
+}
+
+.categoria{
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.precio{
+    text-align: center;
+    color: #0BA8A8
+
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    gap:20px
 }
