@@ -12,33 +12,21 @@
         <%- include('../includes/header') %>
             <!--/header-->
             <!--    **************************************************   MAIN  ****************************************************    -->
-
-            <main>
-        <!--SECCIÓN DETALLE DEL PRODUCTO-->
-        <% if (!User) { %>
-            <section class="contenedor-padre">
-                <section class="contenedor-detalle-producto-1">
-                    <h2 class="ingresotexto0"><%= products.name %> </h2>
-                    <article class="productoDetalle1">
-                        <form method="get">
-                            <a href="/cart"><button type="submit" class="boton-heart3" name="heartdeproductos"><i class="fa-solid fa-heart heart3"></i></button></a>
-                        </form>
-                        <section>
+            <main id="maindetalle">
+                <% if (!User) { %>
+                    <section class="secciongeneral">
+                        <section class="seccion-imagen">
                             <picture><img class="imgdetalle" src="/products/<%= products.imageid  %>" alt=""></picture>
                         </section>
-                        <section class="minis">
-                            <figure class="mini1"><img src="/products/<%= products.imageid  %>" alt="miniatura1 bici1"></figure>
-                            <figure class="mini2"><img src="/products/<%= products.imageid  %>" alt="miniatura2 bici1"> </figure>
-                            <figure class="mini3"><img src="/products/<%= products.imageid  %>" alt="miniatura3 bici1" ></figure>
+                        <section class="nombre-descripcion">
+                            <h2 class="nombreproduct">
+                                <%= products.name %> - <span class="precio">$<%= products.price %></span>
+                            </h2>
+                            <p class="descripcion-producto">
+                                <%= products.description %>
+                            </p>
                         </section>
-<<<<<<< HEAD
                     </section>
-
-
-
-
-
-
                     <% } else if (User && User.isadmin) { %>
                         <section class="secciongeneral">
                             <section class="seccion-imagen">
@@ -49,7 +37,7 @@
                                 <h2 class="nombreproduct">
                                     <%= products.name %> -
                                   
-                                        <span class="precio"> $<%= products.price %></span>
+                                        <span class="precio">$<%= products.price %></span>
                                        
                                 </h2>
                                 <p class="descripcion-producto">
@@ -66,204 +54,30 @@
                                     </button>
                                 </form>
                             </section>
-=======
-           
-                    </article>
-                </section>
-                <section class="contenedor-detalle-producto-2">
-                    <article class="detalle-del-poducto-2-1">
-                        <h2 class="ingresotexto1"><b><%= products.name %></b></h2>
-                        <h5 class="ingresotexto2"><b><span class="precio">$<%= products.price %></span></b></h5>
-                    </article>
-                    <article class="detalle-del-poducto-2-2">
-                        <h3 class="ingresotexto3">DESCRIPCIÓN Y CARACTERÍSTICAS </h3>
-                        <br/>
-                        <p class="parrafoDescrip1">
-                            <%= products.description %>
-                        </p>
-        <% } else if (User && User.isadmin) { %>
-            <section class="contenedor-padre">
-                <section class="contenedor-detalle-producto-1">
-                    <h2 class="ingresotexto0"><%= products.name %> </h2>
-                    <article class="productoDetalle1">
-                        <form method="get">
-                            <a href="/cart"><button type="submit" class="boton-heart3" name="heartdeproductos"><i class="fa-solid fa-heart heart3"></i></button></a>
-                        </form>
-                        <section>
-                            <picture><img class="imgdetalle" src="/products/<%= products.imageid  %>" alt=""></picture>
->>>>>>> d7be57da52823a528684ff0022fda15bbcd7ce8c
                         </section>
-                        <section class="minis">
-                            <figure class="mini1"><img src="/products/<%= products.imageid  %>" alt="miniatura1 bici1"></figure>
-                            <figure class="mini2"><img src="/products/<%= products.imageid  %>" alt="miniatura2 bici1"> </figure>
-                            <figure class="mini3"><img src="/products/<%= products.imageid  %>" alt="miniatura3 bici1" ></figure>
-                        </section>
-                        <form method="get">
-                            <button type="button" class="stars">
-                                <i class="fa-solid fa-star star1"></i>
-                                <i class="fa-solid fa-star star2"></i>
-                                <i class="fa-solid fa-star star3"></i>
-                                <i class="fa-solid fa-star star4"></i>
-                                <i class="fa-solid fa-star star5"></i>
-                            </button>
-                        </form>     
-                    </article>
-                </section>
-                <section class="contenedor-detalle-producto-2">
-                    <article class="detalle-del-poducto-2-1">
-                        <h2 class="ingresotexto1"><b><%= products.name %></b></h2>
-                        <h5 class="ingresotexto2"><b><span class="precio">$<%= products.price %></span></b></h5>
-                    </article>
-                    <article class="detalle-del-poducto-2-2">
-                        <h3 class="ingresotexto3">DESCRIPCIÓN Y CARACTERÍSTICAS </h3>
-                        <br/>
-                        <p class="parrafoDescrip1">
-                            <%= products.description %>
-                        </p>
-                        <br/>
-                        <p class="parrafoDescrip2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
-                        </p>
-                    </article>
-                    <article class="detalle-del-poducto-2-3">
-                        <h4 class="ingresotexto4">GARANTÍA DE CALIDAD</h4>
-                        <p class="garantiaDescrip">
-                            GO BIKE garantiza sus productos durante el lapso de dos años directamente comprando con nosotros.
-                            <br/>* Esta garantía corresponde a la compra realizada con factura o ticket de compra debidamente endosado.
-                            <br/>* Go BIKE solo respaldará las BICICLETAS que llegaren a tener fallas de fábrica o que se hayan producido por el uso adecuado y ordenado del aparato dentro del tiempo de la garantía.
-                            <br/>* La garantía no tiene valor alguno en el caso de que la falla producida sea por causas naturales, como humedad, uso inapropiado, o accidentes.
-                            <br/>* En caso de ser requerida la reposición ésta podrá realizarse directamente con GO BIKE, centro autorizado, donde se adquiere el producto.
-                            <br/>**La misión de GO BIKE es conseguir la plena satisfacción de todos sus clientes y mejorar la experiencia de los ciclistas.**
-                            <p>Atte. <br/>Equipo GO BIKE.</p>
-                        </p>
-                        <form class="desplegables">
-                            <select class="sizeBike" id="size" name="opcionesTalla">
-                                <option class="tallaje" value="0">SIZE:</option>
-                                <option class="tallaje" value="1">S</option>
-                                <option class="tallaje" value="2">M</option>
-                                <option class="tallaje" value="3">L</option>
-                              </select>
-                              <select class="cantidadesCar" id="cantDetalle" name="opCant">
-                                <option class="cantD" value="0">UND:</option>
-                                <option class="cantD" value="1">1</option>
-                                <option class="cantD" value="2">2</option>
-                                <option class="cantD" value="3">3</option>
-                                <option class="cantD" value="4">4</option>
-                                <option class="cantD" value="5">5</option>
-                              </select>
-                              <select class="optionColor" id="colorBike" name="color">
-                                <option class="opColorBike0" value="0">COLOR:</option>
-                                <option class="opColorBike1" value="1">Negro</option>
-                                <option class="opColorBike2" value="2">Rojo</option>
-                                <option class="opColorBike3" value="3">Azul</option>
-                                <option class="opColorBike4" value="4">Silver</option>
-                                <option class="opColorBike5" value="5">Neón</option>
-                                <option class="opColorBike6" value="6">Blanco</option>
-                              </select>
-                              <a href="/cart"><button type="submit" class="boton-canasta" name="agregaralarrito">Agregar al carrito</button></a>
-                        </form>
-                    </article>
-                </section>
-                <section class="btnsAdmin">
-                    <form action="/products/delete/<%= products.id %>?m=DELETE" method="post">
-                        <button class="borrar" type="submit">
-                            <i class="fa fa-trash"></i>
-                        </button>
-                    </form>
-                    <form action="/products/edit/<%= products.id %>" method="get">
-                        <button class="editar" type="submit">
-                            <i class="fa-solid fa-pen-to-square"></i>
-                        </button>
-                    </form>
-            </section>
-        </section>
-<% } else { %>
-    <section class="contenedor-padre">
-        <section class="contenedor-detalle-producto-1">
-            <h2 class="ingresotexto0"><%= products.name %> </h2>
-            <article class="productoDetalle1">
-                <form method="get">
-                    <a href="/cart"><button type="submit" class="boton-heart3" name="heartdeproductos"><i class="fa-solid fa-heart heart3"></i></button></a>
-                </form>
-                <section>
-                    <picture><img class="imgdetalle" src="/products/<%= products.imageid  %>" alt=""></picture>
-                </section>
-                <section class="minis">
-                    <figure class="mini1"><img src="/products/<%= products.imageid  %>" alt="miniatura1 bici1"></figure>
-                    <figure class="mini2"><img src="/products/<%= products.imageid  %>" alt="miniatura2 bici1"> </figure>
-                    <figure class="mini3"><img src="/products/<%= products.imageid  %>" alt="miniatura3 bici1" ></figure>
-                </section>
-                <form method="get">
-                    <button type="button" class="stars">
-                        <i class="fa-solid fa-star star1"></i>
-                        <i class="fa-solid fa-star star2"></i>
-                        <i class="fa-solid fa-star star3"></i>
-                        <i class="fa-solid fa-star star4"></i>
-                        <i class="fa-solid fa-star star5"></i>
-                    </button>
-                </form>     
-            </article>
-        </section>
-        <section class="contenedor-detalle-producto-2">
-            <article class="detalle-del-poducto-2-1">
-                <h2 class="ingresotexto1"><b><%= products.name %></b></h2>
-                <h5 class="ingresotexto2"><b><span class="precio">$<%= products.price %></span></b></h5>
-            </article>
-            <article class="detalle-del-poducto-2-2">
-                <h3 class="ingresotexto3">DESCRIPCIÓN Y CARACTERÍSTICAS </h3>
-                <br/>
-                <p class="parrafoDescrip1">
-                    <%= products.description %>
-                </p>
-                <br/>
-                <p class="parrafoDescrip2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque voluptates inventore qui maiores consequuntur, repudiandae non? Quos officia corporis doloremque eum magni delectus aliquam minus error, modi similique cum.
-                </p>
-            </article>
-            <article class="detalle-del-poducto-2-3">
-                <h4 class="ingresotexto4">GARANTÍA DE CALIDAD</h4>
-                <p class="garantiaDescrip">
-                    GO BIKE garantiza sus productos durante el lapso de dos años directamente comprando con nosotros.
-                    <br/>* Esta garantía corresponde a la compra realizada con factura o ticket de compra debidamente endosado.
-                    <br/>* Go BIKE solo respaldará las BICICLETAS que llegaren a tener fallas de fábrica o que se hayan producido por el uso adecuado y ordenado del aparato dentro del tiempo de la garantía.
-                    <br/>* La garantía no tiene valor alguno en el caso de que la falla producida sea por causas naturales, como humedad, uso inapropiado, o accidentes.
-                    <br/>* En caso de ser requerida la reposición ésta podrá realizarse directamente con GO BIKE, centro autorizado, donde se adquiere el producto.
-                    <br/>**La misión de GO BIKE es conseguir la plena satisfacción de todos sus clientes y mejorar la experiencia de los ciclistas.**
-                    <p>Atte. <br/>Equipo GO BIKE.</p>
-                </p>
-                <form class="desplegables">
-                    <select class="sizeBike" id="size" name="opcionesTalla">
-                        <option class="tallaje" value="0">SIZE:</option>
-                        <option class="tallaje" value="1">S</option>
-                        <option class="tallaje" value="2">M</option>
-                        <option class="tallaje" value="3">L</option>
-                      </select>
-                      <select class="cantidadesCar" id="cantDetalle" name="opCant">
-                        <option class="cantD" value="0">UND:</option>
-                        <option class="cantD" value="1">1</option>
-                        <option class="cantD" value="2">2</option>
-                        <option class="cantD" value="3">3</option>
-                        <option class="cantD" value="4">4</option>
-                        <option class="cantD" value="5">5</option>
-                      </select>
-                      <select class="optionColor" id="colorBike" name="color">
-                        <option class="opColorBike0" value="0">COLOR:</option>
-                        <option class="opColorBike1" value="1">Negro</option>
-                        <option class="opColorBike2" value="2">Rojo</option>
-                        <option class="opColorBike3" value="3">Azul</option>
-                        <option class="opColorBike4" value="4">Silver</option>
-                        <option class="opColorBike5" value="5">Neón</option>
-                        <option class="opColorBike6" value="6">Blanco</option>
-                      </select>
-                      <a href="/cart"><button type="submit" class="boton-canasta" name="agregaralarrito">Agregar al carrito</button></a>
-                </form>
-            </article>
-        </section>
-    </section>
-    <% } %>
+                        <% } else { %>
+                            <section class="secciongeneral">
+                                <section class="seccion-imagen">
+                                    <picture><img class="imgdetalle" src="/products/<%= products.imageid  %>" alt="">
+                                    </picture>
+                                </section>
+                                <section class="nombre-descripcion">
+                                    <h2 class="nombreproduct">
+                                        <%= products.name %> - <span class="precio">$<%= products.price %></span>
+                                    </h2>
+                                    <p class="descripcion-producto">
+                                        <%= products.description %>
+                                    </p>
+                                </section>
+                            </section>
+                            <% } %>
 
-    </main>
-    
+
+
+
+
+
+            </main>
             <!--    **************************************************  CHAT WHATSAPP   ********************************************  -->
             <%- include('../includes/bodywhapp') %>
                 <!--    **************************************************  FOOTER   ****************************************************  -->
