@@ -1,4 +1,4 @@
-import './App.css'
+//import './App.css'
 import { Routes, Route, Link} from "react-router-dom"
 import Home from "./Pages/Home.jsx"
 import Products from "./Pages/Products"
@@ -13,14 +13,14 @@ function App() {
       <section className="navSection">
         <nav className="navBar">
           <Link to="/">Home</Link>
-          {/* <Link to="/users">Usuarios</Link>
-          <Link to="/products">Productos</Link> */}
+          <Link to="/Users">Usuarios</Link>
+          <Link to="/Products">Productos</Link> 
         </nav>
       </section>
       <Routes>
       <Route path = "/" element={<Home/>}></Route>
-      <Route path = "/Products/:id" element={<Products/>}></Route>
-      <Route path = "/Users/:id" element={<Users/>}></Route>
+      <Route path = "/Products" element={<Products/>}></Route>
+      <Route path = "/Users" element={<Users/>}></Route>
       <Route path = "*" element={<Error/>}></Route>
       </Routes> 
     </div>
