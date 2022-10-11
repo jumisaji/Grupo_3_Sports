@@ -13,7 +13,7 @@ module.exports = {
             let productsApi = await products.findAll({
                 include:{all:true},
                 where: filters,
-                limit: 10,
+                limit: page&& page>0 ?10:null,
                 offset: page
             })
 
