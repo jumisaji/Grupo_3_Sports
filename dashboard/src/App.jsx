@@ -13,8 +13,8 @@ function App() {
       <section className="navSection">
         <nav className="navBar">
           <Link to="/">Home</Link>
-          <Link to="/users">Usuarios</Link>
-          <Link to="/products">Productos</Link>
+          {/* <Link to="/users">Usuarios</Link>
+          <Link to="/products">Productos</Link> */}
         </nav>
       </section>
       <Routes>
