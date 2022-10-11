@@ -3,6 +3,7 @@ let slides = Array.from(track.children)
 let widthSlide = slides[0].getBoundingClientRect().width
 
 slides.forEach((slide, index) => slide.style.left = `${widthSlide * index}px`)
+//track.style.transform= `translatex(-${slides[1].style.left})`
 
 slides[0].classList.add("active")
 document.querySelector("#btn-next").addEventListener("click", function(e) {
