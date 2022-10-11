@@ -13,13 +13,3 @@ export async function getAllUsers(page){
     }
 }
 
-export async function oneUser(id) {
-    try {
-        let endpoint = `${baseURL}/${id}`
-        let query = await fetch(endpoint)
-        let data = await query.json();
-        return data
-    } catch (error) {
-        console.log(error)
-    }
-}
