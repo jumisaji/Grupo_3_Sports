@@ -9,10 +9,30 @@
     <!--    **************************************************   HEADER   ****************************************************    -->
     <!--header-->
     <%- include('./includes/header') %>
+    <script defer src="/scripts/carousel.js"></script>
     <!--/header-->
     <!--    **************************************************   MAIN   ****************************************************    -->
-    <main class="ofertas">         
-        <!--SECCIÓN PRINCIPAL HOME OFERTAS-->
+    <main class="ofertas">  
+        <section id="carousel">
+            <ul id="track">
+                <% for( let index = 1; index <= 8; index++ ) { %>
+                    <li class="slide">
+                        <picture>
+                            <a href="./products"><img id="imgsCarrusel" src="/images/carrusel/<%= index %>-Go.jpg" alt="carruselImg <%= index %>"></a>
+                        </picture>
+                    </li>
+                <% } %>
+            </ul>
+            <nav id="btns">
+                <a id="btn-prev" href="#">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </a>
+                <a id="btn-next" href="#">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </nav>
+        </section>       
+        <!--SECCIÓN PRINCIPAL HOME OFERTAS-->       
         <h1 id="offers">  ¡¡ GRANDES OFERTAS!!  </h1>
         <article class="bikeof">
             <a href="./products"><figure><img src="/images/products/urbana-4.png" alt ="BiKe ruta en oferta"></figure></a>
