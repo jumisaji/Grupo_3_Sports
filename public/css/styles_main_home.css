@@ -9,6 +9,7 @@ main{
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
+    width: 100vw;
 }
 
 #offers{
@@ -63,8 +64,8 @@ main{
  }
 
 #carousel{
-    width: 80vw;
-    height: 60vw;
+    width: 90vw;
+    height: 90vh;
     overflow: hidden; 
     position: relative;
 }
