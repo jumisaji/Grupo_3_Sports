@@ -63,8 +63,8 @@ main{
  }
 
 #carousel{
-    width: 90vw;
-    height: 90vh;
+    width: 80vw;
+    height: 60vw;
     overflow: hidden; 
     position: relative;
 }

@@ -3,6 +3,7 @@
 /*  **************************  */
 /*  ********* TABLET *********  */
 /*  **************************  */
+
 @media screen and (min-width: 700px){
     /* MAIN HOME Tablet */
 
@@ -15,6 +16,10 @@
     .heart1{
         font-size: 5vw;
         right:2vw;
+    }
+    #carousel{
+        width: 90vw;
+        height: 90vh;
     }
     
 }
@@ -37,5 +42,9 @@
     .precioff{
         display: flex;
         justify-content: center;
+    }
+    #carousel{
+        width: 100vw;
+        height: 100vh;
     }
 }
